@@ -16,3 +16,7 @@ Se creo la rama partiendo de develop, la estructura propuesta
 
 ### Reto 2: Commit colaborativo
 **Evidencia** 
+
+### Reto 3: Primer reto culiminado
+**Evidencia**
+![alt text](image.png)
