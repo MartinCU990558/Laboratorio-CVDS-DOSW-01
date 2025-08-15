@@ -1,12 +1,12 @@
 public class Estudiante{
     private String name;
-    private String semester;
-    private String edad;
+    private int semester;
+    private int edad;
     private String email;
 
     public Estudiante(){
     }
-    public Estudiante(String name, String semester, String edad, String email) {
+    public Estudiante(String name, int semester, int edad, String email) {
         this.name = name;
         this.semester = semester;
         this.edad = edad;
@@ -20,23 +20,30 @@ public class Estudiante{
         this.name = name;
     }
 
-    public String getSemester() {
+    public int getSemester() {
         return semester;
     }
-    public void setSemester(String semester) {
+    public void setSemester(int semester) {
         this.semester = semester;
     }
 
-    public String getEdad() {
+    public int getEdad() {
         return edad;
     }
-    public void setEdad(String edad) {
+    public void setEdad(int edad) {
         this.edad = edad;
     }
 
     public String getEmail() {
         return email;
     }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return nombre + " estudiante de la escuela de " + semestre + " semestre de " + edad + " años, " +
+                "nuestro correo institucional es " + correo;
+    }
+
     public void setEmail(String email) {
         this.email = email;
     }
