@@ -8,15 +8,6 @@
 
 ---
 
-## Retos completados
-### Reto 1: configuracion y cracion de la rama
-**Evidencia** 
-
-Se creo la rama partiendo de develop, la estructura propuesta 
-
-### Reto 2: Commit colaborativo
-**Evidencia** 
-
-### Reto 3: Primer reto culiminado
+### Reto 1: Primer reto culiminado
 **Evidencia**
 ![alt text](image.png)
