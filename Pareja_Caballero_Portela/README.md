@@ -13,5 +13,6 @@
 
 ### Reto 1: Configuración y creación de rama
 **Evidencia:**
-
+![Captura](imagenes/reto1_config.png)
 Descripción:
+El código define una clase que nos representa como estudiantes con nuestro nombre, edad, correo y semestre. Toma nuestros datos y genera un mensaje de bienvenida usando una lista de estudiantes, mostrando sus datos básicos y los correos institucionales.
