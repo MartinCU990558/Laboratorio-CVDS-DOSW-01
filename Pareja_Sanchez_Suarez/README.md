@@ -12,7 +12,7 @@
 
 ### Reto 1: Configuración y creación de rama
 **Evidencia:**
-![Captura](imagenes/reto1_config.png)
+![Captura](imagenes/reto1.png)
 
 Descripción breve de lo que hicieron:  
 Configuramos el correo institucional en Git, creamos la rama desde `develop` y confirmamos que se reflejó en el repositorio remoto.
@@ -21,7 +21,7 @@ Configuramos el correo institucional en Git, creamos la rama desde `develop` y c
 
 ### Reto 2: Commit colaborativo
 **Evidencia:**
-![Captura](imagenes/reto2_log.png)
+![Captura](imagenes/reto2.png)
 
 Descripción breve de lo que hicieron:  
 Ambos integrantes realizamos cambios para practicar commits colaborativos y resolver conflictos en Git.
