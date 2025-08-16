@@ -10,6 +10,7 @@ public class Estudiante {
         this.nombre = nombre;
         this.estrategia = estrategia;
     }
+
     public void enviarMensaje(String mensaje) {
         String eco= estrategia.apply(mensaje);
         System.out.println(nombre + " dice: " + mensaje);
