@@ -27,3 +27,11 @@ Descripción breve de lo que hicieron:
 Ambos integrantes realizamos cambios para practicar commits colaborativos y resolver conflictos en Git.
 
 ---
+### Reto 3: Commit colaborativo
+**Evidencia:**
+![Captura](imagenes/reto3.png)
+
+Descripción breve de lo que hicieron:  
+Se hicieron 2 ramas, una para implementar el mensaje builder y otra para implementar el mensaje buffer. Luego se
+combinaron las ramas y se creo un metodo que implementa los dos mensajes en uno.
+---
