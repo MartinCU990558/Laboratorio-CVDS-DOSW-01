@@ -13,5 +13,5 @@
 
 ### Reto 1: Configuración y creación de rama
 **Evidencia:**
-¡[Captura](imagenes/reto1_config.png)
+
 Descripción:
