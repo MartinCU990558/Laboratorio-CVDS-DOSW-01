@@ -12,6 +12,12 @@ public class CarreraParalela {
         return (max % 2 == 0) ? (max + " es múltiplo de 2") : (max + " no es múltiplo de 2"); // Segunda vuelta carril 1.
     }  
 
+    public static String evenSize(List<Integer> lista) {
+        int size = getSize.apply(lista);
+        return (size % 2 == 0) ? "The amount of data (" + size + ") es EVEN" 
+                               : "The amount of data (" + size + ") is NOT EVEN"; // Tercer choque carril 1.
+    }
+
     static Function<List<Integer>, Integer> getMin = list -> list.stream().min(Integer::compare).orElse(null); // Primer choque carril 2.
 
     static Function<List<Integer>, Integer>  getSize = list -> list.size(); // Primer choque carril 2.
@@ -24,9 +30,11 @@ public class CarreraParalela {
         String max2 = maxWithTernary(numbers); // Segunda vuelta carril 1.
         int min = getMin.apply(numbers); // Primer choque carril 2.
         int size = getSize.apply(numbers); // Primer choque carril 2.
+        String evenSize = evenSize(numbers); // Tercer choque carril 1.
 
         System.out.println("Maximum number: " + max); // Primer choque carril 1.
         System.out.println("Maximum number (ternary): " + max2); // Segunda vuelta carril 1.
+        System.out.println(evenSize); // Tercer choque carril 1.
         System.out.println("Minimum number: " + min); // Primer choque carril 2.
         System.out.println("Size of numbers: " + size); // Primer choque carril 2.
     }
