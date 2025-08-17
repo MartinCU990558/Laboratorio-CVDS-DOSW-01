@@ -14,18 +14,24 @@ public class CarreraParalela {
 
     static Function<Integer, String> isDivisor = num -> (num % 2 == 0) ? "divisible" : "No divisible"; 
 
+    //Tercera Vuelta Choque de Carriles - Comprobando si el temaño de la lista es impar
+    static Function<Integer, String> isOdd = size -> (size % 2 != 0) ? "odd" : "even"; 
+
+
 
     public static void main(String[] args) {
     List<Integer> numbers = List.of(3, 17, 2, 9, 25);
     int min = getMin.apply(numbers); //Primer choque carril 2.
     int size = getSize.apply(numbers); //Primer choque carril 1.
-    int max = getMax.apply(numbers); //Segunda  vuelba choque carril 1
-    String div = isDivisor.apply(max); //Segunda  vuelba choque carril 1
+    int max = getMax.apply(numbers); //Segunda  vuelta choque carril 1
+    String div = isDivisor.apply(max); //Segunda  vuelta choque carril 1
+    String oddCheck = isOdd.apply(size); //Tercera vuelta choque carriles
 
     System.out.println("List: " + numbers);  //Primer choque carril 2.
     System.out.println("Minimum number: " + min); //Primer choque carril 1.
     System.out.println("Size of numbers: " + size); //Primer choque carril 1
     System.out.println("Maximum number" + max); //Segunda  vuelba choque carril 1
     System.out.println("The maximum number (" + max + ") is: " + div); // Segunda vueltac hoque carril 1
+    System.out.println("The size of the list is " + size + " and  is: " + oddCheck);
     }
 } 
