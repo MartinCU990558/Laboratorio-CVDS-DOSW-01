@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/Reto1.iml" filepath="$PROJECT_DIR$/.idea/Reto1.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/reto1.iml" filepath="$PROJECT_DIR$/.idea/reto1.iml" />
+>>>>>>> feature/reto_numero_3/SanchezOscar_SuarezSantiago
     </modules>
   </component>
 </project>
