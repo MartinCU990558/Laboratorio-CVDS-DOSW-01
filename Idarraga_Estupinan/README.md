@@ -10,4 +10,7 @@
 ---
 ##Retos Completados
 
-### Reto 1:Configuracion y creacion de rama
+### Reto 1:La Bienvenida
+![alt text](<Captura de pantalla de 2025-08-17 12-14-07-1.png>)
+
+Realizamos tres clases (Estudiante, Mensaje y Reto1) y, apoyándonos en herramientas tecnológicas, utilizamos stream y map para la ejecución de este primer reto, con el fin de comprender mejor su funcionamiento.
