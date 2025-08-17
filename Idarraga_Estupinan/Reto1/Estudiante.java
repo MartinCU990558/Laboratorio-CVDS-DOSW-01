@@ -7,10 +7,10 @@ public class Estudiante {
     public String nombre;
     public String correo;
     public Integer edad;
-    public String semestre;
+    public Integer semestre;
 
 
-    public Estudiante(String nombre, String correo, Integer edad, String semestre) {
+    public Estudiante(String nombre, String correo, Integer edad, Integer semestre) {
         this.nombre = nombre;
         this.correo = correo;
         this.edad = edad;
@@ -19,7 +19,7 @@ public class Estudiante {
 
     public Integer getEdad() {return edad;}
 
-    public String getSemestre() {return semestre;}
+    public Integer getSemestre() {return semestre;}
 
     public String getCorreo() {return correo;}
 
