@@ -12,7 +12,6 @@ public class Reto3{
         
         String message = "Ciclos";
         String result = fun.apply(message);
-
         System.out.println("Reverse message: " + result);
     }
 }
