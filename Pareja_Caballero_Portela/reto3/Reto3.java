@@ -18,7 +18,6 @@ public class Reto3{
     }
 
 
-
     public static void main(String[] args){
         String message = "Ciclos";
         Function<String, String> fun = msg -> Reto3.ecoMisterious(msg);

@@ -25,3 +25,17 @@ El código define una clase que nos representa como estudiantes con nuestro nomb
 
 **Descripción:**
 Se renombro reto2, luego se crearon las subramas con el fin de hacer 2 carriles en los cuales se fueron competian en una carrera pero se chocaban y cuando lo hacian se juntaban sus tareas. 
+
+## Reto 3: El eco misterioso
+**Evidencia:**
+![Captura evidencia](imagenes/reto3_final.jpg)
+![Captura evidencia](imagenes/reto3_merge.jpg)
+![Captura evidencia](imagenes/reto3_concat.png)
+![Captura evidencia](imagenes/reto3_invert.jpg)
+
+**Descripción:**
+Los estudiantes A y B trabajan con un String. El A debe dar una concatencación con un espacio para el string usando StringBuilder y que se repita 3 veces, el estudiante B debe invertir el string finalmente se combinan los 2 metodos por medio de merch 
+
+
+
+
