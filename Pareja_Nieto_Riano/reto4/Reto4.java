@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.Hashtable;
+import java.util.stream.Stream;
 
 public class Reto4 {
 
@@ -44,9 +45,10 @@ public class Reto4 {
                 new AbstractMap.SimpleEntry<>("cuatro", 4),
                 new AbstractMap.SimpleEntry<>("cinco", 5),
                 new AbstractMap.SimpleEntry<>("seis", 6));
+
         System.out.println(almacen(numbers));
         System.out.println(almacenSeguro(numbers));
         System.out.println(almacenTodo(numbers, numbersTwo));
-
     }
+
 }
