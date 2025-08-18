@@ -34,8 +34,20 @@ Se renombro reto2, luego se crearon las subramas con el fin de hacer 2 carriles 
 ![Captura evidencia](imagenes/reto3_invert.jpg)
 
 **Descripción:**
-Los estudiantes A y B trabajan con un String. El A debe dar una concatencación con un espacio para el string usando StringBuilder y que se repita 3 veces, el estudiante B debe invertir el string finalmente se combinan los 2 metodos por medio de merch 
+Los estudiantes A y B trabajan con un String. El A debe dar una concatencación con un espacio para el string usando StringBuilder y que se repita 3 veces, el estudiante B debe invertir el string finalmente los 2 metodos chocan y deven ser solucionados por medio de merge
 
 
+## Reto 4: El tesoro de las Llaves duplicadas
+**Evidencia:**
+![Captura evidencia](imagenes/reto4_final.jpg)
+![Captura evidencia](imagenes/reto4_merge_1.jpg)
+![Captura evidencia](imagenes/reto4_merge_2.jpg)
+![Captura evidencia](imagenes/reto4_hashTable.jpg)
+![Captura evidencia](imagenes/reto4_hashMap.jpg)
+
+
+**Descripción:**
+El estudiante A tuvo que realizar un HashMap en el cual debia tomar una llave y su valor y que no fuera repetido.
+El estudiante B hizo lo mismo pero usando HashTable, luego cada uno hizo un metodo para combinar los hash y se realizo el primer merge para solucionar los conflictos. Continuo el estudiante A añadiendo un metodo para convertir las llaves a mayúsculas y el estudiante B hizo un metodo de orden ascendente para las llaves. Finalmente se hizo un segundo merge y se soluciono todo agrupando los métodos ya realizados para cumplir con el objetivo de la salida y darle prioridad al HashTable.
 
 
