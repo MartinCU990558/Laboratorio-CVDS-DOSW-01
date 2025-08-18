@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import java.util.Hashtable;
 
 public class Reto4 {
@@ -18,9 +19,19 @@ public class Reto4 {
                 .collect(Collectors.toMap(
                         k -> k.getKey(),
                         v -> v.getValue(),
-                        (y, nuevo) -> y, // conserva el primero
+                        (y, nuevo) -> y,
                         Hashtable::new));
         return mapa;
+    }
+
+    public static HashMap<String, Integer> almacenTodo(List<Map.Entry<String, Integer>> numbers,
+            List<Map.Entry<String, Integer>> numbersTwo) {
+        HashMap<String, Integer> unificacion = Stream
+                .concat(numbers.stream(), numbersTwo.stream())
+                .collect(Collectors.toMap(entry -> entry.getKey(), entry -> entry.getValue(), (y, nuevo) -> y,
+                        HashMap::new));
+
+        return unificacion;
     }
 
     public static void main(String args[]) {
@@ -29,8 +40,13 @@ public class Reto4 {
                 new AbstractMap.SimpleEntry<>("dos", 2),
                 new AbstractMap.SimpleEntry<>("tres", 3));
 
+        List<Map.Entry<String, Integer>> numbersTwo = List.of(
+                new AbstractMap.SimpleEntry<>("cuatro", 4),
+                new AbstractMap.SimpleEntry<>("cinco", 5),
+                new AbstractMap.SimpleEntry<>("seis", 6));
         System.out.println(almacen(numbers));
         System.out.println(almacenSeguro(numbers));
+        System.out.println(almacenTodo(numbers, numbersTwo));
 
     }
 }
