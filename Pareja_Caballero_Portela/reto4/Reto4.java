@@ -42,25 +42,23 @@ public class Reto4 {
      * @param table
      * @return
      */  
-    public static Map<String, Integer> splitHash(Map<String, Integer> map, Hashtable<String, Integer> table){
-        Map<String, Integer> combined = new HashMap<>(map);
-        
-        for (Map.Entry<String, Integer> entry : table.entrySet()) {
-            combined.put(entry.getKey(), entry.getValue());
-        }
-        return new TreeMap<>(combined);
+    public static void combinedFunction(Map<String, Integer> map, Hashtable<String, Integer> table){
+        Map<String, Integer> combined = map.entrySet().stream()
+                .collect(Collectors.toMap(
+                        e -> e.getKey().toUpperCase(), 
+                        Map.Entry::getValue,
+                        (v1, v2) -> v1, 
+                        HashMap::new
+                ));
+
+        table.forEach((k, v) -> combined.put(k.toUpperCase(), v));
+
+        combined.entrySet().stream()
+                .sorted(Map.Entry.comparingByKey())
+                .forEach(e -> System.out.println("Clave: " + e.getKey() + " | Valor: " + e.getValue()));
     }
 
-    /**
-     * Método que ordena un mapa con las claves de forma ascendente.
-    */
-    public static void printSortedByKey(Map<String, Integer> map) {
-        map.entrySet().stream()
-            .sorted(Map.Entry.comparingByKey())
-            .forEach(entry -> 
-                System.out.println("• Clave: " + entry.getKey() + " | Valor: " + entry.getValue())
-            );
-    }
+
 
     public static void main(String[] args) {
         List<AbstractMap.SimpleEntry<String, Integer>> listMap = List.of(
@@ -79,9 +77,6 @@ public class Reto4 {
 
         Map<String, Integer> map = hash(listMap);      
         Hashtable<String,Integer> table = createHashTable(listTable); 
-
-        Map<String,Integer> combined = splitHash(map, table);
-
-        printSortedByKey(combined);
+        combinedFunction(map, table);
     }
 }
