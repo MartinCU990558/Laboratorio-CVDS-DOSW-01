@@ -13,9 +13,9 @@ public class Reto5 {
                 .sorted()
                 .toList();
 
-        List<Integer> hashSet = numerosAleatorios.stream()
+        List<Integer> treeSet = numerosAleatorios.stream()
                 .filter(n -> n % 5 != 0)
                 .collect(Collectors.toUnmodifiableList());
-        System.out.println("HashSet:" + hashSet);
+        System.out.println("treeSet:" + treeSet);
     }
 }
