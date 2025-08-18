@@ -17,9 +17,17 @@ public class Reto3 {
     return sbf.reverse();
     }
 
+        
+
+    static void combinacion(String message) {
+        String repetido = repeticion(message).toString();
+        String resultado = invertir(repetido).toString();
+        System.out.println(resultado);
+    }
 
     public static void main(String args[]) {
         System.out.println(repeticion("hola"));
         System.out.println(invertir("hola"));
+        combinacion("hola");
     }
 }
