@@ -35,6 +35,13 @@ public class Reto4 {
         return combined;
     }
 
+    /**
+     * Metodo para volver en mayusculas las llaves
+     * @param map
+     */
+    public static void toUpperCaseKeys(Map<String, Integer> map){
+        map.forEach((k, v) -> System.out.println(k.toUpperCase() + " -> " + v));
+    }
 
 
     public static void main(String[] args) {
@@ -45,5 +52,7 @@ public class Reto4 {
             new AbstractMap.SimpleEntry<>("diamante", 10)
     
         );
+            Map<String, Integer> result = hash(list);
+            toUpperCaseKeys(result);
     }
 }
