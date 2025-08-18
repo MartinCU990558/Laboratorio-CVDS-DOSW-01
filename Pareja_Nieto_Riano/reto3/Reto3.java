@@ -12,7 +12,14 @@ public class Reto3 {
         return sb;
     }
 
+    static StringBuffer invertir(String message) {
+    StringBuffer sbf = new StringBuffer(message);
+    return sbf.reverse();
+    }
+
+
     public static void main(String args[]) {
         System.out.println(repeticion("hola"));
+        System.out.println(invertir("hola"));
     }
 }
