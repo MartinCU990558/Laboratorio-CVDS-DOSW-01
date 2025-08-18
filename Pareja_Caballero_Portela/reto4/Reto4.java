@@ -25,11 +25,11 @@ public class Reto4 {
      * @param table
      * @return
      */
-    public static Map<String, Integer> splitHash(Map<String, Integer> hashMap, Map<String, Integer> hashTable) {
+    public static Map<String, Integer> splitHash(Map<String, Integer> map, Map<String, Integer> table) {
         Map<String, Integer> combined = new Hashtable<>(hashTable);
 
-        for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
-            combined.putIfAbsent(entry.getKey(), entry.getValue());
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            combined.putIfAbsent(entry.getKey(), table.getValue());
         }
 
         return combined;
