@@ -53,6 +53,6 @@ public class CaarreraParalela {
         System.out.println(minimumNumber(numbers));
         System.out.println(amount(numbers));
         System.out.println(fusion(numbers));
-        System.out.println(fusionar(numbers,numberstwo));
+        System.out.println(fusionar(numbers, numberstwo));
     }
 }
