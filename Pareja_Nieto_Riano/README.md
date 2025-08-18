@@ -23,3 +23,10 @@ Se desarrollo de manera correcta el reto con los objetos estudiante y mensaje
 ![alt text](image-2.png)
 
 Mediante esta carrera paralela se crearon los diferentes objetos que iban a contener funcionalidades asociadas al reto, de la misma manera se resolvieron todo tipo de conflictos.
+
+### Reto 3: Tercer reto culminado
+
+**Evidencia**
+![alt text](image-3.png)
+
+Mediante este reto se aprendio la existencion de Function, como manipular los streams en string builder y lambda para invocar funciones.
