@@ -5,6 +5,7 @@ import java.util.AbstractMap;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
+
 public class Reto4 {
     public static Map<String, Integer> hash(List<Map.Entry<String, Integer>> pairs) {
 
@@ -16,6 +17,10 @@ public class Reto4 {
             ));
         return map;
     }
+
+ 
+
+
 
     public static void main(String[] args) {
         List<Map.Entry<String, Integer>> list = Arrays.asList(
