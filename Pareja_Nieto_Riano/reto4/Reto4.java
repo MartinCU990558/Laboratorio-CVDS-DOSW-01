@@ -45,6 +45,14 @@ public class Reto4 {
         return mayusculas;
     }
 
+   public static void imprimirOrdenado(HashMap<String, Integer> mapa) {
+        mapa.entrySet().stream()
+                .sorted(Map.Entry.comparingByKey()) 
+                .map(entry -> entry.getKey() + "=" + entry.getValue()) 
+                .forEach(System.out::println); 
+    }
+    
+
     public static void main(String args[]) {
         List<Map.Entry<String, Integer>> numbers = List.of(
                 new AbstractMap.SimpleEntry<>("uno", 1),
@@ -61,6 +69,9 @@ public class Reto4 {
         System.out.println(almacenTodo(numbers, numbersTwo));
 
         System.out.println(mayusculasClaves(almacenTodo(numbers, numbersTwo)));
+        imprimirOrdenado(almacenTodo(numbers, numbersTwo));
+     
+
     }
 
 }
