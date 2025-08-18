@@ -35,6 +35,16 @@ public class Reto4 {
         return unificacion;
     }
 
+    public static HashMap<String, Integer> mayusculasClaves(HashMap<String, Integer> numbers) {
+        HashMap<String, Integer> mayusculas = numbers.entrySet().stream()
+                .collect(Collectors.toMap(
+                        entry -> entry.getKey().toUpperCase(), entry -> entry.getValue(),
+                        (v1, v2) -> v1,
+                        HashMap::new));
+
+        return mayusculas;
+    }
+
     public static void main(String args[]) {
         List<Map.Entry<String, Integer>> numbers = List.of(
                 new AbstractMap.SimpleEntry<>("uno", 1),
@@ -49,6 +59,8 @@ public class Reto4 {
         System.out.println(almacen(numbers));
         System.out.println(almacenSeguro(numbers));
         System.out.println(almacenTodo(numbers, numbersTwo));
+
+        System.out.println(mayusculasClaves(almacenTodo(numbers, numbersTwo)));
     }
 
 }
