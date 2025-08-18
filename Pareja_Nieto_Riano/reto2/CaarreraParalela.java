@@ -22,6 +22,7 @@ public class CaarreraParalela {
         boolean divOfTwo = 2 % maximum == 0 ? true : false;
         Long amount = object.getAmount();
         boolean even = amount % 2 == 0 ? true : false;
+        boolean odd = amount % 2 != 0 ? true : false;
         return object;
     }
 
