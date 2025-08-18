@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
 import java.util.AbstractMap;
@@ -18,7 +19,21 @@ public class Reto4 {
         return map;
     }
 
- 
+    /**
+     * Método que combina ambos hash.
+     * @param map
+     * @param table
+     * @return
+     */
+    
+     public static Map<String, Integer> splitHash(HashMap<String, Integer> map, Hashtable<String, Integer> table){
+        Map<String, Integer> combined = new HashMap<>(map);
+        
+        for (Map.Entry<String, Integer> entry : table.entrySet()) {
+            combined.put(entry.getKey(), entry.getValue());
+        }
+        return combined;
+    }
 
 
 
@@ -30,8 +45,5 @@ public class Reto4 {
             new AbstractMap.SimpleEntry<>("diamante", 10)
     
         );
-
-        Map<String, Integer> result = hash(list);
-        System.out.println(result); 
     }
 }
