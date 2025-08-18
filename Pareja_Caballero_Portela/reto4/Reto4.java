@@ -25,7 +25,7 @@ public class Reto4 {
      * @param table
      * @return
      */
-    public static Map<String, Integer> spliHash(Map<String, Integer> hashMap, Map<String, Integer> hashTable) {
+    public static Map<String, Integer> splitHash(Map<String, Integer> hashMap, Map<String, Integer> hashTable) {
         Map<String, Integer> combined = new Hashtable<>(hashTable);
 
         for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
