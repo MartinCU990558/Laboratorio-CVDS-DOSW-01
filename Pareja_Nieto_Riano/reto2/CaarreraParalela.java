@@ -17,6 +17,10 @@ public class CaarreraParalela {
 
     static GeneralObject fusion(List<Integer> numbers) {
         GeneralObject object = new GeneralObject(minimumNumber(numbers), biggerNumber(numbers), amount(numbers));
+        int maximum = object.getMax();
+        boolean multipleOfTwo = maximum % 2 == 0 ? true : false;
+        boolean divOfTwo = 2 % maximum == 0 ? true : false;
+        
         return object;
     }
 
@@ -25,5 +29,6 @@ public class CaarreraParalela {
         System.out.println(biggerNumber(numbers));
         System.out.println(minimumNumber(numbers));
         System.out.println(amount(numbers));
+        System.out.println(fusion(numbers));
     }
 }
