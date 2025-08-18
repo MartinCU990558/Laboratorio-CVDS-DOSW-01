@@ -26,3 +26,16 @@ public class GeneralObject {
         return amount;
     }
 }
+
+    public int getMax() {
+        return maximum;
+    }
+
+    public int getMin() {
+        return minimum;
+    }
+
+    public Long getAmount() {
+        return amount;
+    }
+}

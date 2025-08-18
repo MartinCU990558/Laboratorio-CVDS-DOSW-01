@@ -19,6 +19,8 @@ public class CaarreraParalela {
         GeneralObject object = new GeneralObject(minimumNumber(numbers), biggerNumber(numbers), amount(numbers));
         int maximum = object.getMax();
         boolean multipleOfTwo = maximum % 2 == 0 ? true : false;
+        boolean divOfTwo = 2 % maximum == 0 ? true : false;
+        
         return object;
     }
 
