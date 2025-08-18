@@ -1,3 +1,5 @@
+import com.sun.source.tree.Tree;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -16,5 +18,10 @@ public class Reto5 {
                 .filter(n -> n % 3 != 0)
                 .collect(Collectors.toUnmodifiableList());
         System.out.println("HashSet:" + hashSet);
+
+        List<Integer> treeSet = numerosAleatorios.stream()
+                .filter(n -> n % 5 != 0)
+                .collect(Collectors.toUnmodifiableList());
+        System.out.println("TreeSet:" + treeSet);
     }
 }
