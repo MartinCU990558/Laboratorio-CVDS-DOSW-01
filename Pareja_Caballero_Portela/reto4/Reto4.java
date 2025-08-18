@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 
@@ -22,7 +23,6 @@ public class Reto4 {
         return table;
     }
     
-
     /**
      * Método que crea un hashMap.
      */
@@ -42,13 +42,24 @@ public class Reto4 {
      * @param table
      * @return
      */  
-     public static Map<String, Integer> splitHash(Map<String, Integer> map, Hashtable<String, Integer> table){
+    public static Map<String, Integer> splitHash(Map<String, Integer> map, Hashtable<String, Integer> table){
         Map<String, Integer> combined = new HashMap<>(map);
         
         for (Map.Entry<String, Integer> entry : table.entrySet()) {
             combined.put(entry.getKey(), entry.getValue());
         }
-        return combined;
+        return new TreeMap<>(combined);
+    }
+
+    /**
+     * Método que ordena un mapa con las claves de forma ascendente.
+    */
+    public static void printSortedByKey(Map<String, Integer> map) {
+        map.entrySet().stream()
+            .sorted(Map.Entry.comparingByKey())
+            .forEach(entry -> 
+                System.out.println("• Clave: " + entry.getKey() + " | Valor: " + entry.getValue())
+            );
     }
 
     public static void main(String[] args) {
@@ -71,6 +82,6 @@ public class Reto4 {
 
         Map<String,Integer> combined = splitHash(map, table);
 
-        System.out.println("Combined hash: " + combined);
+        printSortedByKey(combined);
     }
 }
