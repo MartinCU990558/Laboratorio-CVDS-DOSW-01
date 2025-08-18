@@ -25,17 +25,5 @@ public class GeneralObject {
     public Long getAmount() {
         return amount;
     }
-}
 
-    public int getMax() {
-        return maximum;
-    }
-
-    public int getMin() {
-        return minimum;
-    }
-
-    public Long getAmount() {
-        return amount;
-    }
 }
