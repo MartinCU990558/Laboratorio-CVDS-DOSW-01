@@ -14,4 +14,3 @@ public class GeneralObject {
         return this.minimum + " " + this.maximum + " " + this.amount;
     }
 }
-
