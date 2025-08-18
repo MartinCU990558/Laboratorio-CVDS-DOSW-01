@@ -51,3 +51,16 @@ El estudiante A tuvo que realizar un HashMap en el cual debia tomar una llave y 
 El estudiante B hizo lo mismo pero usando HashTable, luego cada uno hizo un metodo para combinar los hash y se realizo el primer merge para solucionar los conflictos. Continuo el estudiante A añadiendo un metodo para convertir las llaves a mayúsculas y el estudiante B hizo un metodo de orden ascendente para las llaves. Finalmente se hizo un segundo merge y se soluciono todo agrupando los métodos ya realizados para cumplir con el objetivo de la salida y darle prioridad al HashTable.
 
 
+## Reto 5: Batalla de Conjuntos
+**Evidencia:**
+
+![Captura evidencia](imagenes/reto5_final.jpg)
+![Captura evidencia](imagenes/reto5_salida.jpg)
+![Captura evidencia](imagenes/reto5_merge.jpg)
+![Captura evidencia](imagenes/reto5_sinMult_3.jpg)
+
+
+**Descripción:**
+El estudiante A realizo un método usando HashSet para generar números aleatorios pero quitando los que son multiplos de 3.
+El estudiante B hizo algo similar solo que uso TreeSet, que ordena los números ascendentemente y quito los multiplos de 5.
+Luego se realizo el merge, para solucionarlo se creo un metodo de unión para ambos tipos de set/conjunto, pero se conviritio en un TreeMap ya que este ordena los números ascendentemente para asi lograr la salida. 
