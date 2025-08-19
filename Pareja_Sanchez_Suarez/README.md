@@ -13,8 +13,9 @@
 ### Reto 1: Configuración y creación de rama
 **Evidencia:**
 ![Captura](imagenes/reto1.png)
-
-Descripción breve de lo que hicieron:  
+<h2> 
+  Descripción breve de lo que hicieron:  
+</h2>
 
 Configuramos el correo institucional en Git, creamos la rama desde `develop` y confirmamos que se reflejó en el repositorio remoto.
 
