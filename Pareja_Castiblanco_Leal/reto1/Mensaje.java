@@ -10,8 +10,7 @@ public class Mensaje{
                 new Estudiante("Juan Leal", 6, 19, "cosito@gmail.com"));
 
         String mensaje = estudiantes.stream()
-                .map(e -> "¡Hola Bienvenidos! Nosotros somos la pareja conformada por " +
-                        e.getName() + " " + e.toString())
+                .map(e -> "¡Hola Bienvenidos! Nosotros somos la pareja conformada por " + e.toString())
                 .collect(Collectors.joining(" y "));
 
         System.out.println(mensaje);
