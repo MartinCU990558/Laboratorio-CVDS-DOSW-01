@@ -11,7 +11,7 @@
 ## Retos Completados
 
 
-### Reto 1: Configuracion y creacion de rama
+### Reto 1: La Bienvenid
 **Evidencia**
 ![Captura](imagenes/reto1_config.png)
 
