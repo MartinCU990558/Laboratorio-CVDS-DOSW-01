@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="09d0b6b3-af32-44de-8b5e-ffd2a2ecaedb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
 
       <change beforePath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto2/Reto2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto2/Reto2.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto2/Reto2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto2/CarreraParalela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laboratorio-CVDS-DOSW-01/Pareja_Castiblanco_Leal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Laboratorio-CVDS-DOSW-01/Pareja_Castiblanco_Leal/README.md" afterDir="false" />
+>>>>>>> feature/reto_carril_dos_Castiblanco_Leal_2025-2
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +35,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CarreraParalela.executor": "Run",
     "Application.Mensaje.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
     "git-widget-placeholder": "feature/reto__carril__uno__Castiblanco__Leal__2025-2",
+=======
+    "git-widget-placeholder": "feature/reto__carril__dos__Castiblanco__Leal__2025-2",
+>>>>>>> feature/reto_carril_dos_Castiblanco_Leal_2025-2
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/juan.lcruz/Desktop/Laboratorio-CVDS-DOSW-01"
   },
