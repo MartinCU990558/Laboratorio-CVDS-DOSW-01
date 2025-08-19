@@ -64,3 +64,16 @@ El estudiante B hizo lo mismo pero usando HashTable, luego cada uno hizo un meto
 El estudiante A realizo un método usando HashSet para generar números aleatorios pero quitando los que son multiplos de 3.
 El estudiante B hizo algo similar solo que uso TreeSet, que ordena los números ascendentemente y quito los multiplos de 5.
 Luego se realizo el merge, para solucionarlo se creo un metodo de unión para ambos tipos de set/conjunto, pero se conviritio en un TreeMap ya que este ordena los números ascendentemente para asi lograr la salida. 
+
+
+
+## Reto 6: La máquina de decisiones
+**Evidencia:**
+![Captura evidencia](imagenes/reto6_final.jpg)
+![Captura evidencia](imagenes/reto6_salida.jpg)
+![Captura evidencia](imagenes/reto6_merge.jpg)
+![Captura evidencia](imagenes/reto6_prueba.jpg)
+
+**Descripción:**
+Ambos estudiantes A y B deben hacer uso de switch para que se ejecuten comandos para que impriman ciertas frases para cada uno.
+Luego se deben unir los comandos de los estudiantes A y B recibiendolos en listas.
