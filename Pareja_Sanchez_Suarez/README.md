@@ -52,7 +52,7 @@ Descripción breve de lo que hicieron:
 Se crearon ramas creando hash, y se solucionaron problemas con el merge.
 Se soluciono el problema gracias a los metodos del stream y sus colecciones.
 Se decicio crear una clase mapa del tesoro para los metodos de este y en la clase reto 4 
-se crean los mapas respectivos
+se crean los mapas respectivos. 
 
 ---
 ### Reto 5: Commit colaborativo
