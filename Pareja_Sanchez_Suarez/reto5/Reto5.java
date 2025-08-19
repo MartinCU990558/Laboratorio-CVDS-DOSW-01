@@ -3,6 +3,7 @@ import com.sun.source.tree.Tree;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -23,5 +24,11 @@ public class Reto5 {
                 .filter(n -> n % 5 != 0)
                 .collect(Collectors.toUnmodifiableList());
         System.out.println("TreeSet:" + treeSet);
+        List<Integer> Union = Stream.concat(hashSet.stream(), treeSet.stream())
+                .distinct()
+                .sorted()
+                .toList();
+        System.out.println("Union:" + Union);
+        Union.forEach(Elemento -> System.out.println("Número en arena: " + Elemento));
     }
 }
