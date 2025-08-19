@@ -18,5 +18,8 @@ public class CarreraParalela {
         System.out.println("El número más grande es: "+maxNum.get());
         String mensaje = (maxNum.get() % 2 == 0) ? "El número mayor es múltiplo de 2" : "El número mayor no es múltiplo de 2";
         System.out.println(mensaje);
+
+        String mensaje2 = (numberList.size() % 2 == 0)? "La longitud de la lista es par" : "La longitud de la lista es impar";
+        System.out.println(mensaje2);
     }
 }
