@@ -1,3 +1,5 @@
+package Pareja_Castiblanco_Leal.reto1;
+
 public class Estudiante{
     private String name;
     private int semester;
@@ -40,8 +42,8 @@ public class Estudiante{
 
     @java.lang.Override
     public java.lang.String toString() {
-        return nombre + " estudiante de la escuela de " + semestre + " semestre de " + edad + " años, " +
-                "nuestro correo institucional es " + correo;
+        return name + " estudiante de la escuela de " + semester + " semestre de " + edad + " años, " +
+                "nuestro correo institucional es " + email;
     }
 
     public void setEmail(String email) {
