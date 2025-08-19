@@ -1,7 +1,10 @@
 # Maraton git 2025-2
 
-**integrantes:**
-- Nicolas Duarte
+
+
+ <h1> **integrantes:**
+ </h1> 
+ - Nicolas Duarte
 - Juan Felipe Rangel
 
 **Nombre de la rama:** feature/DuarteNicolas_RangelJuan_2025-2'
