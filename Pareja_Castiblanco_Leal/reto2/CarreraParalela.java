@@ -19,5 +19,7 @@ public class CarreraParalela {
         System.out.println("El número más pequeño es: "+minNum.get()+" y la longitud de lista es: "+length);
         String mensaje = (minNum.get() % 2 == 0 && minNum.get() > 0) ? "El número menor es divisor de 2" : "El número menor no es divisor de 2";
         System.out.println(mensaje);
+        String mensaje2 = (numberList.size() % 2 != 0)? "La longitud de la lista es impar" : "La longitud de la lista es par";
+        System.out.println(mensaje2);
     }
 }
