@@ -1,6 +1,5 @@
 package Idarraga_Estupinan.Reto2;
 
-import java.security.DrbgParameters.Reseed;
 import java.util.List;
 
 public class CarreraParalela {
@@ -13,17 +12,14 @@ public class CarreraParalela {
     public static int calcularMinimo(List<Integer> numeros) {
         return numeros.stream().min(Integer::compare).get();
     }
-
-    public static ResumenLista analizar(List<Integer> numeros) {
-        int maximo = calcularMaximo(numeros);
+    
+    public static String analizar(List<Integer> numeros) {
+        int max = calcularMaximo(numeros);
         int minimo = calcularMinimo(numeros);
         int conteo = numeros.size();
-
-        ResumenLista r = new ResumenLista(maximo, minimo, conteo);
-        r.maximo_MultiploDe2 = maximo % 2 == 0 ? true : false;
-        return r;
         
+        boolean maxMultiploDeDos = (max % 2 == 0) ? true : false;
+
+        return "El número máximo es: " + max + ", el número mínimo es: " + minimo + ", la cantidad de números es: " + conteo + ", el máximo es múltiplo de 2: " + maxMultiploDeDos;
     }
-
-
 }
