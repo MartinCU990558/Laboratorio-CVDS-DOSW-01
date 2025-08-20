@@ -11,8 +11,15 @@
 
 
 ### Reto 1: La Bienvenida
-**Evidencia:**
-
+### Para este primer reto nos pedian crear dos objetos, el objeto estudiante y el objeto mensaje de bienvenida. Ademas nos decian que debiamos usar la estructura list y adicionalmente los comandos stream(), map() y collect().
+### Para esto primero decidimos crear la clase estudiante
+![alt text](image.png)
+### Como se puede observar en la imagen lo primero que hicimos fue definir los atributos de estudiante, realizando el respectivo constructor y los getters.
+### A continuacion creamos  La clase MensajeBienvenida:
+![alt text](image-1.png)
+### Para esta clase hicimos el constructor y usando collectors y el stream creamos el mensaje retornando ya el mensaje final.
+![alt text](image-2.png)
+### Una vez hecho esto ya podremos dirigirnos al main en donde guardamos en una lista los datos de los estudiantes que van a dar la bienvenida, en este caso nosotros los integrantes de este duo y llamamos a la funcion mensaje de bienvenida imprimiendo el mensaje solicitado.
 
 
 ### Reto 2: Carrera en Paralelo
