@@ -28,9 +28,9 @@ public class Reto6{
         map.put("CANTAR", () -> fragmento1("CANTAR"));
         map.put("DANZAR", () -> fragmento1("DANZAR"));
 
-        map.get("La maquina dice:").run();
-        map.get("La maquina dice:").run();
-        map.get("La maquina canta:").run();
-        map.get("La maquina gira y emite chispas:").run();
+        map.get("SALUDAR").run();
+        map.get("DESPEDIR").run();
+        map.get("CANTAR").run();
+        map.get("DANZAR").run();
     }
 }
