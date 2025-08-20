@@ -13,7 +13,6 @@ public class Estudiante {
         this.semestre = semestre;
     }
 
-    // Getters
     public String getNombre() { return nombre; }
     public int getEdad() { return edad; }
     public String getCorreo() { return correo; }
