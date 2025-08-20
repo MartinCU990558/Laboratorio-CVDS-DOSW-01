@@ -24,8 +24,12 @@ public class Reto4 {
         mapa.entrySet().stream().sorted(Map.Entry.comparingByKey()).map(entry -> entry.getKey() + " = " + entry.getValue()).forEach(System.out::println);
     }
 
+    public static void imprimirMapaMayusculas(Map<String, Integer> mapa) {
+        mapa.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(entry -> System.out.println(entry.getKey().toUpperCase() + " = " + entry.getValue()));
+    }
+
     public static void main(String[] args) {
-        List<String> claves = List.of("DOSW", "AYSR", "PTIA", "AYSR", "COMP");
+        List<String> claves = List.of("dosw", "aysr", "ptia", "aysr", "comp");
         List<Integer> valores = List.of(1, 3, 5, 7, 9);
 
         if (claves.size() != valores.size()) {
@@ -33,6 +37,7 @@ public class Reto4 {
         } else {
             Map<String, Integer> mapa = mapaSinDuplicados(claves, valores);
             imprimirMapa(mapa);
+            imprimirMapaMayusculas(mapa);
         }
     }
 }
