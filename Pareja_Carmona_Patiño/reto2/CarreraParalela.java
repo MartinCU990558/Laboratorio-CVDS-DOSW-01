@@ -4,15 +4,19 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CarreraParalela {
-    private static List<Integer> numeros = Arrays.asList(5, 12, 3, 8, 15, 1);
+    private List<Integer> numeros = Arrays.asList();
 
-    public static int encontrarNumMayor() {
+    public CarreraParalela(List<Integer> numeros) {
+        this.numeros = numeros;
+    }
+
+    public static int encontrarNumMayor(List<Integer> numeros){
         return numeros.stream()
                 .max((a, b) -> a.compareTo(b))
                 .get();
     }
 
-    public static int[] hallarMinimoYNumeroTotalDeDatos(){
+    public static int[] hallarMinimoYNumeroTotalDeDatos(List<Integer> numeros){
         int minimo = numeros.stream()
                 .min((a, b) -> a.compareTo(b))
                 .get();
@@ -22,8 +26,17 @@ public class CarreraParalela {
         int [] resultado = new int[2];
         resultado[0] = minimo;
         resultado[1] = (int) totalDatos;
-        
+
         return resultado;
+
+    }
+
+    public int[] obtenerDatosCarrera(){
+        int[] datos = new int[3];
+        datos[0] = encontrarNumMayor(numeros);
+        datos[1] = hallarMinimoYNumeroTotalDeDatos(numeros)[0];
+        datos[2] = hallarMinimoYNumeroTotalDeDatos(numeros)[1];
+        return datos;
 
     }
 }
