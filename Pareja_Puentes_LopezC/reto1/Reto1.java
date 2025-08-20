@@ -3,7 +3,7 @@ package reto1;
 import java.util.Arrays;
 import java.util.List;
 
-public class reto1 {
+public class Reto1 {
     public static void main(String[] args) {
         List<Estudiante> estudiantes = Arrays.asList(
             new Estudiante("Juan Puentes", 20, "juan.puentes@mail.escueling.edu.co", 6),
