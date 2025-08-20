@@ -12,5 +12,11 @@ public class CarreraParalela {
     public static int calcularMinimo(List<Integer> numeros) {
         return numeros.stream().min(Integer::compare).get();
     }
-    
+
+    public static ResumenLista analizar(List<Integer> numeros) {
+        int maximo = calcularMaximo(numeros);
+        int minimo = calcularMinimo(numeros);
+        int conteo = numeros.size();
+        return new ResumenLista(maximo, minimo, conteo);
+    }
 }
