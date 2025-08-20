@@ -42,8 +42,13 @@
 **Evidencia**
 
 ### Reto #6: La máquina de decisiones
-**Evidencia**
-
+**Para el reto 6 lo primero que vamos a hacer es crear las respectivas ramas creando el fragmento 1 y 2 y haciendo lo que este nos pide respetivamente**
+![alt text](image-7.png)
+## Luego vamos a combinarlos mediante el merge en la rama principal del reto 6, ahi vamos a solucionar los problemas y lo vamos a dejar funcional.
+![alt text](image-8.png)
+### Luego vamos a crear el metodo que fuciona ambos metodos.
+![alt text](image-9.png)
+### Y lo subimos todo a la rama principal donde tenemos las demas soluciones de los otros retos. Esto se hace mediante un merge.
 ## Preguntas teóricas
 **Evidencia**
 ---
