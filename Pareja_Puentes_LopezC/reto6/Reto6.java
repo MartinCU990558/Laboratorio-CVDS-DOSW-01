@@ -4,35 +4,33 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Reto6{
-    public static void fragmentoDos(String mensaje){
+    public static void fragmento1(String mensaje){
         switch (mensaje) {
-            case "BROMEAR":
-                System.out.println("¿Por qué la RAM rompió con la CPU? Porque necesitaba espacio...\"\r\n" + //
-                                        "");;
+            case "SALUDAR":
+                System.out.println("La máquina dice: ¡Saludos, viajero del tiempo y del código!");
                 break;
-        
-            case "GRITAR":
-                System.out.println("¡¡¡ALERTA DE STACK OVERFLOW!!!\"");
+            case "DESPEDIR":
+                System.out.println("La máquina dice: 'Que los bits te acompañen, hasta la próxima misión.'");
                 break;
-
-            case "SUSURRAR":
-                System.out.println("Shhh... los bugs están dormidos.\"\r\n" + //
-                                        "");
+            case "CANTAR":
+                System.out.println("La máquina canta: '01010101'");
                 break;
-            case "ANALIZAR":
-                System.out.println("Analizando datos... resultado: ¡Eres increíble programando!\"");                          
+            case "DANZAR":
+                System.out.println("La máquina gira y emite chispas: 'Girando en modo fiesta.'");
                 break;
-            }   
+        }
     }
-    public static void main(String args[]){
-        Map<String,Runnable> lista =new HashMap<>();
-        lista.put("La maquina rie", () -> fragmentoDos("BROMEAR"));
-        lista.put("La maquina grita", () -> fragmentoDos("GRITAR"));
-        lista.put("La maquina susurra", () -> fragmentoDos("SUSURRAR"));
-        lista.put("La maquina procesa", () -> fragmentoDos("ANALIZAR"));
-        lista.get("la maquina rie").run();
-        lista.get("La maquina grita").run();
-        lista.get("La maquina susurra").run();
-        lista.get("la maquina procesa").run();
+
+    public static void main(String[] args) {
+        Map<String, Runnable> map = new HashMap<>();
+        map.put("SALUDAR", () -> fragmento1("SALUDAR"));
+        map.put("DESPEDIR", () -> fragmento1("DESPEDIR"));
+        map.put("CANTAR", () -> fragmento1("CANTAR"));
+        map.put("DANZAR", () -> fragmento1("DANZAR"));
+
+        map.get("SALUDAR").run();
+        map.get("DESPEDIR").run();
+        map.get("CANTAR").run();
+        map.get("DANZAR").run();
     }
 }
