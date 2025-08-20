@@ -1,30 +1,29 @@
 # Laboratorio-CVDS-DOSW-01
 
-\# Maratón Git 2025-2
+# Maratón Git 2025-2
 
-\*\*Integrantes: \*\*
+**Integrantes:**
+- Diego Fernando Chavarro
+- Ana Gabriela Fiquitiva
 
-Diego Fernando Chavarro
+**Nombre de la rama:** feature/ChavarroDiego_FiquitivaAna-2025-2
 
-Ana Gabriela Fiquitiva
+---
 
-\*\*Nombre de la rama:\*feature/ChavarroDiego\_FiquitivaAna-2025-2
+## Retos Completados
 
-\_\_
+### Reto 1: La bienvenida
 
-\## Retos Completados
+**Evidencia:**
 
-\### Reto 1: Configuración y creación de rama
+![Captura](imagenes/reto1Sol.png)
 
-\*\*Evidencia: \*\*
+Creamos la rama feature/reto_numero_1_ChavarroDiego_FiquitivaAna_2025-2 a partir de nuestra rama principal feature/ChavarroDiego_FiquitivaAna_2025-2. En esta rama implementamos la clase Estudiante con los atributos nombre, edad, correo y semestre, y la clase MensajeBienvenida encargada de construir el saludo utilizando stream(), map() y collect() sobre una lista de estudiantes (List). Finalmente, en Reto1.java instanciamos los dos estudiantes de la pareja y generamos el mensaje de bienvenida, que se imprime en consola.
 
-\[Captura] (imagenes/ reto1\_config . png)
+### Reto 2: Carrera en paralelo
 
-Descripción breve de lo que hicieron.
+**Evidencia:**
 
-\### Reto 2:Commit colaborativo
-
-\*\*Evidencia : \*\*
-
+---
 
 
