@@ -21,6 +21,8 @@ public class Reto3{
     }
 
     public void combination(String message){
+        Function<String, String> repeat = msg -> repeatString(msg).toString();
+        Function<String, String> reverse = msg -> reverseString(msg).toString()
 
     }
 }
