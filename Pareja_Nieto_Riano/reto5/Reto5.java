@@ -15,6 +15,8 @@ public class Reto5 {
                 .collect(Collectors.toCollection(TreeSet::new));
     }
 
+    static void choque(HashSet<Integer> lista, TreeSet<Integer> listaN){}
+
     public static void main(String args[]) {
         Random random = new Random();
         HashSet<Integer> lista = new HashSet<>();
