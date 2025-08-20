@@ -11,15 +11,12 @@
 ## Retos completados
 
 
-### Reto 1: Configuracion y creación de la rama
+### Reto 1: RETO 1 COMPLETADO
 **Evidencia:** 
+![alt text](image.png)
 
-Se creo la rama feature mediante el comando dado, luego de configurar el git con nuestras credenciales.
 
-### Reto 2: Commit Colaborativo
-**Evidencia:**
-
-Luego del reto 1 el estudiante numero 1 creo los directorios con sus respectivos .java y depues se subio a repositorio con los comandos dados, el estudiante 2 realizo el pull y luego en la rama feature subio el readme y se edito con la respectiva informacion
+### Reto 2: 
 
 
 ### Preguntas Teoricas
