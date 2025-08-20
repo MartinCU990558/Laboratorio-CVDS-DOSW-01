@@ -6,16 +6,33 @@ public class Reto6 {
     public static void fragmentoUno(String mensaje) {
         switch (mensaje) {
             case "SALUDAR":
-                System.out.println("¡Saludos, viajero del tiempo y del código!");
+                System.out.println("Saludos, viajero del tiempo y del codigo!");
                 break;
             case "DESPEDIR":
-                System.out.println("Que los bits te acompañen, hasta la próxima misión.");
+                System.out.println("Que los bits te acompanen, hasta la proxima mision.");
                 break;
             case "CANTAR":
                 System.out.println("01010101");
                 break;
             case "DANZAR":
                 System.out.println("Girando en modo fiesta.");
+                break;
+        }
+    }
+
+    public static void fragmentoDos(String mensaje) {
+        switch (mensaje) {
+            case "BROMEAR":
+                System.out.println("Por que la RAM rompio con la CPU? Porque necesitaba espacio...");
+                break;
+            case "GRITAR":
+                System.out.println("!!!ALERTA DE STACK OVERFLOW!!!");
+                break;
+            case "SUSURRAR":
+                System.out.println("Shhh... los bugs estan dormidos.");
+                break;
+            case "ANALIZAR":
+                System.out.println("Analizando datos... resultado: Eres increible programando!");
                 break;
         }
     }

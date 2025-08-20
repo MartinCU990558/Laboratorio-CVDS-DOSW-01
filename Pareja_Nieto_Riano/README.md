@@ -56,4 +56,8 @@ Inicialmente el primer estudiante tiene que mediante un switch case hacer una co
 
 Por otra parte el segundo estudiante debe de utilizar nuevamente el switch case pero mediante otros comandos como bromear, gritar, susurrar y analizar.
 
+Por ultimo ocurre un choque en el codigo donde se unifican los comandos en un solo switch y se usa lambda para ejecutar la accion, tras esto se resolvieron los conflictos en el merge.
+
+![alt text](image-8.png)
+
 ### Parte 3 - Cuestionario:
