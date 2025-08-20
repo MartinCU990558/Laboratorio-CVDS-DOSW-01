@@ -1,5 +1,6 @@
 import java.util.HashSet;
 import java.util.Random;
+import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 public class Reto5 {
@@ -9,15 +10,24 @@ public class Reto5 {
                 .collect(Collectors.toCollection(HashSet::new));
     }
 
+    static TreeSet<Integer> multiplocinco(TreeSet<Integer> lista) {
+        return lista.stream().filter(x -> x % 5 != 0)
+                .collect(Collectors.toCollection(TreeSet::new));
+    }
+
     public static void main(String args[]) {
         Random random = new Random();
         HashSet<Integer> lista = new HashSet<>();
+        TreeSet<Integer> listaT = new TreeSet<>();
         for (int i = 0; i < 8; i++) {
-            int intRandom = random.nextInt(25);
+            int intRandom = random.nextInt(15);
+            int treeRandom = random.nextInt(15);
             lista.add(intRandom);
+            listaT.add(treeRandom);
         }
 
         System.out.println(multiplo(lista));
+        System.out.println(multiplocinco(listaT));
 
     }
 }
