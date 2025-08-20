@@ -22,14 +22,14 @@ public class Reto6 {
 
     public static void main(String args[]) {
         Map<String, Runnable> mapa = new HashMap<>();
-        mapa.put("SALUDAR", () -> fragmentoUno("SALUDAR"));
-        mapa.put("DESPEDIR", () -> fragmentoUno("DESPEDIR"));
-        mapa.put("CANTAR", () -> fragmentoUno("CANTAR"));
-        mapa.put("DANZAR", () -> fragmentoUno("DANZAR"));
-        mapa.get("SALUDAR").run();
-        mapa.get("DESPEDIR").run();
-        mapa.get("CANTAR").run();
-        mapa.get("DANZAR").run();
+        mapa.put("La maquina dice", () -> fragmentoUno("SALUDAR"));
+        mapa.put("La maquina dice", () -> fragmentoUno("DESPEDIR"));
+        mapa.put("La maquina canta", () -> fragmentoUno("CANTAR"));
+        mapa.put("La maquina gira y emite chispas", () -> fragmentoUno("DANZAR"));
+        mapa.get("La maquina dice").run();
+        mapa.get("La maquina dice").run();
+        mapa.get("La maquina canta").run();
+        mapa.get("La maquina gira y emite chispas").run();
 
     }
 }

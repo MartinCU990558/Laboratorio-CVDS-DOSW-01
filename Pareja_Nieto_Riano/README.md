@@ -48,7 +48,7 @@ Utilizando el objeto random se insertaron valores aleatorios y a cada uno se le 
 ### Reto 6: Sexto reto culminado
 
 **Evidencia**
-![alt text](image-6.png)
+![alt text](image-7.png)
 
 Inicialmente el primer estudiante tiene que mediante un switch case hacer una conversacion mediante el string correspondiente, en la funcion principal utilizando Map<String,Runnable> y el metodo de run, lambdas se invocan las funciones donde se evidencia los primeros resultados.
 
