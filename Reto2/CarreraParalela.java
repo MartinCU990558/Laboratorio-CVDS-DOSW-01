@@ -18,5 +18,7 @@ public class CarreraParalela {
         int minimo = calcularMinimo(numeros);
         int conteo = numeros.size();
         return new ResumenLista(maximo, minimo, conteo);
+
+        system.out.println("El máximo es: " + maximo);
     }
 }
