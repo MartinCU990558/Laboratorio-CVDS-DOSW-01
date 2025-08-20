@@ -15,14 +15,14 @@ public class CarreraParalela {
                 .max((a, b) -> a.compareTo(b))
                 .get();
     }
-
+    
     public static int[] hallarMinimoYNumeroTotalDeDatos(List<Integer> numeros){
         int minimo = numeros.stream()
                 .min((a, b) -> a.compareTo(b))
                 .get();
         long totalDatos = numeros.stream()
                 .count();
-
+        
         int [] resultado = new int[2];
         resultado[0] = minimo;
         resultado[1] = (int) totalDatos;
@@ -40,3 +40,4 @@ public class CarreraParalela {
 
     }
 }
+
