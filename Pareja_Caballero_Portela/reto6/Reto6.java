@@ -40,7 +40,6 @@ public class Reto6 {
     public static void main (String[] args){
         Reto6 machine = new Reto6();
 
-<<<<<<< Updated upstream
         // Fragmento 1.
         machine.executeCommand("SALUDAR");
         machine.executeCommand("DESPEDIR");
@@ -52,20 +51,6 @@ public class Reto6 {
         machine.executeCommand("GRITAR");
         machine.executeCommand("SUSURRAR");
         machine.executeCommand("ANALIZAR");
-
-        System.out.println("Example");
-        machine.executeCommand("SALUDAR");
-        machine.executeCommand("BROMEAR");
-        machine.executeCommand("ANALIZAR");
-        machine.executeCommand("DANZAR");
-=======
-            Reto6 machineA = new Reto6();
-            machineA.executeCommand("SALUDAR");
-            machineA.executeCommand("DESPEDIR");
-            machineA.executeCommand("CANTAR");
-            machineA.executeCommand("DANZAR");
->>>>>>> Stashed changes
-
     }
 }
 
