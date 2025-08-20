@@ -1,4 +1,7 @@
 package reto3;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Reto3 {
@@ -16,6 +19,7 @@ public class Reto3 {
         StringBuffer sb = new StringBuffer(mensaje);
         return sb.reverse();
     }
+<<<<<<< HEAD
     public static String combinacion(String mensaje) {
         StringBuilder msj = repeticion(mensaje);      
         StringBuffer ms = reverso(msj.toString());    
@@ -24,6 +28,20 @@ public class Reto3 {
 
     public static void main(String[] args) {
         System.out.println("");
+=======
+
+    public static String combinacion(String mensaje){
+        String repetido = IntStream.range(0, 3)
+                                   .mapToObj(i -> mensaje)
+                                   .collect(Collectors.joining(" "));
+        return reverso(repetido).toString();
+    }
+
+    public static void main(String[] args) {
+        Function<String, String> mensaje = (msg) -> combinacion(msg);
+        String resultado = mensaje.apply("Hola");
+        System.out.println(resultado);
+>>>>>>> f1172fb32250b6597ba8769a75f35dccf82cd3fc
     }
 
 }
