@@ -36,7 +36,7 @@ Al final, tuvimos que solucionar varios conflictos de merge quitando los caracte
 ***Evidencia***
 
 ![Captura](images/Reto3_rep.png)
-
+![Captura](images/Reto3_inv.png)
 ![Captura](images/Reto3_comp.png)
 
 En la primera imagen podemos observar el resultado de la primera parte del reto que era repetir tres veces un string dejando un espacio y haciendo uso de StringBuilder y stream, por lo cual para dar solución a ese problema trabajamos en una subrama aparte para el reto 3 e hicimos merge con nuestra rama original para dejar el código en el sitio correcto.
