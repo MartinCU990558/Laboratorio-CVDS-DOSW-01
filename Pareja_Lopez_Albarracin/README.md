@@ -26,6 +26,11 @@
 ![alt text](image-1.png)
 
 
+### Reto 6: RETO 6 COMPLETADO 
+
+**Evidencia:** 
+![alt text](image-3.png)
+
 
 ### Preguntas Teoricas
 
