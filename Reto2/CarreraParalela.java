@@ -19,7 +19,10 @@ public class CarreraParalela {
         int conteo = numeros.size();
         
         boolean maxMultiploDeDos = (max % 2 == 0) ? true : false;
+        boolean conteoImpar = (conteo % 2 != 0) ? true : false;
 
         return "El número máximo es: " + max + ", el número mínimo es: " + minimo + ", la cantidad de números es: " + conteo + ", el máximo es múltiplo de 2: " + maxMultiploDeDos;
+
+
     }
 }
