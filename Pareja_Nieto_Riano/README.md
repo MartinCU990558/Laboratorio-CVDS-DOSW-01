@@ -16,7 +16,7 @@
 
 Se desarrollo de manera correcta el reto con los objetos estudiante y mensaje
 
-### Reto 2: Carrera en paralelo
+### Reto 2: Segundo reto culminado
 
 **Evidencia**
 ![alt text](image-1.png)
@@ -30,3 +30,10 @@ Mediante esta carrera paralela se crearon los diferentes objetos que iban a cont
 ![alt text](image-3.png)
 
 Mediante este reto se aprendio la existencion de Function, como manipular los streams en string builder y lambda para invocar funciones.
+
+### Reto 4: Cuarto reto culminado
+
+**Evidencia**
+![alt text](image-4.png)
+
+Mediante streams y lambda desarrollamos los ejercicios que involucraban el uso de HashMap y Hashtable.
