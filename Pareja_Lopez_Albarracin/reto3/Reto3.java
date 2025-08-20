@@ -1,10 +1,11 @@
 package Pareja_Lopez_Albarracin.reto3;
+import java.util.function.Function;
 import java.util.stream.IntStream;
 public class Reto3{
     public static void main(String[] args){
-
         System.out.println(reverseString("Eco"));
         System.out.println(repeatString("Eco"));
+        combination("Eco");
     }
 
     public static StringBuffer reverseString(String message){
@@ -20,7 +21,15 @@ public class Reto3{
         return messageToRepeat;
     }
 
-    public void combination(String message){
+    public static void combination(String message){
+
+        Function<String, String> repeat = msg -> repeatString(msg).toString();
+        Function<String, String> reverse = msg -> reverseString(msg).toString();
+
+        String repeated = repeat.apply(message);
+        String reversed = reverse.apply(repeated);
+
+        System.out.println(repeated + reversed);
 
     }
 }
