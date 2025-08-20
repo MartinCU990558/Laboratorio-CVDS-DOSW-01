@@ -44,3 +44,12 @@ Mediante streams y lambda desarrollamos los ejercicios que involucraban el uso d
 ![alt text](image-5.png)
 
 Utilizando el objeto random se insertaron valores aleatorios y a cada uno se le creo una funcion que dependiendo el caso eliminaba los multiplos de 3 como los multiplos de 5, luego se unificaron eliminandos valores duplicados antes de imprimir
+
+### Reto 6: Sexto reto culminado
+
+**Evidencia**
+![alt text](image-6.png)
+
+Inicialmente el primer estudiante tiene que mediante un switch case hacer una conversacion mediante el string correspondiente, en la funcion principal utilizando Map<String,Runnable> y el metodo de run, lambdas se invocan las funciones donde se evidencia los primeros resultados.
+
+### Parte 3 - Cuestionario:
