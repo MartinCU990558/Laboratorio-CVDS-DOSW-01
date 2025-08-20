@@ -44,3 +44,57 @@ En la segunda foto observamos el resultado del otro programa que tocaba realizar
 
 Ahora bien, en la última foto, podemos ver el compendio de la unión de los dos códigos realizados en la rama principal, se nos presentaron conflictos de merge los cuales solucionamos de forma manual y al igual que en el reto anterior, borrando la carpeta .idea para poder realizar el commit y el push.
 
+### Reto 4:
+***Evidencia***
+
+### Reto 5:
+***Evidencia***
+
+### Reto 6:
+***Evidencia***
+
+---
+## Respuesta Preguntas
+
+***1. Cuál es la diferencia entre git merge y git rebase***
+
+La diferencia existente entre ambos comandos radica en el hecho de que merge ejecuta una operación no destructiva que evita la modificación de las ramas actuales y mantiene el historial de los commit. El comando rebase lo que hace es re-escribir el proyecto creando nuevos commits para cada uno de los originales en la rama Main, por lo cual, en el proceso, se pierde el historial de commits.
+
+***2. Si dos ramas modifican la misma línea de un archivo ¿Qué sucede al hacer merge?***
+
+Si se presenta el caso donde tratamos de modificar una misma parte de un mismo archivo se presenta un conflicto de Merge, donde Git no sabe cuál de las dos versiones usar. Debido a lo anterior, el merge solo se podrá completar hasta el momento en que se resuelva de forma manual el problema.
+
+***3. ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?***
+
+Esto se hace mediante el comando: git log --oneline --graph --all –decorate
+
+***4. Explica la diferencia entre un commit y un push***
+
+La diferencia radica en el entorno sobre el cual trabaja cada uno, commit se encarga de guardar los cambios en nuestro repositorio local y por otro lado push es lo que permite llevar estos cambios a un repositorio remoto.
+
+***5. ¿Para qué sirve git stash y git pop?***
+
+Git stash es un comando que se utiliza para guardar aquellos cambios que realizamos sobre el proyecto pero que todavía no están listos para publicar, siendo útil más que todo en contextos donde debemos cambiar de rama de trabajo antes d continuar, pero no queremos perder el progreso.
+
+Git stash pop es el comando que utilizamos para recuperar los cambios guardados  y poder aplicarlos a la rama actual de forma correcta.
+
+
+***6. ¿Qué diferencia hay entre HashMap y HashTable?***
+
+
+***7. ¿Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?***
+
+
+***8. Si usas List con objetos y luego aplicas stream().map() ¿Qué tipo de operación estas haciendo?***
+
+
+***9. ¿Qué hace el método stream().filter() y que retorna?***
+
+
+***10. Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.***
+
+
+***11. ¿Cuál es la diferencia entre crear una rama con git branch y con git checkout -b?***
+
+
+***12. ¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente?***
