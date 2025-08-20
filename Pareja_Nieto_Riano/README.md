@@ -37,3 +37,10 @@ Mediante este reto se aprendio la existencion de Function, como manipular los st
 ![alt text](image-4.png)
 
 Mediante streams y lambda desarrollamos los ejercicios que involucraban el uso de HashMap y Hashtable.
+
+### Reto 5: Quinto reto culminado
+
+**Evidencia**
+![alt text](image-5.png)
+
+Utilizando el objeto random se insertaron valores aleatorios y a cada uno se le creo una funcion que dependiendo el caso eliminaba los multiplos de 3 como los multiplos de 5, luego se unificaron eliminandos valores duplicados antes de imprimir
