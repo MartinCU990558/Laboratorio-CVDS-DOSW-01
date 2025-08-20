@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d6c327-359d-4306-bcbb-c83fc64f228b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto4/Reto4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto4/Reto4.java" afterDir="false" />
-    </list>
+    <list default="true" id="a6d6c327-359d-4306-bcbb-c83fc64f228b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +16,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="31ZRP5SqoQ6N8XB0wNNOkqGbvOy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +28,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/reto4__estudiante1__Leal",
+    "git-widget-placeholder": "feature/reto__4__Castiblanco__Leal__2025-2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/juan.lcruz/Desktop/Laboratorio-CVDS-DOSW-01"
   }
