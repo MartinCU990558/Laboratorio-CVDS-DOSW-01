@@ -68,9 +68,57 @@ Por ultimo ocurre un choque en el codigo donde se unifican los comandos en un so
 4. Explica la diferencia entre un commit y un push?
 5. Para que sirve git stash y git pop?
 6. Qué diferencia hay entre HashMap y HashTable?
-7. Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
-8. Si usas List con objetos y luego aplicas stream().map() que tipo de operación estas haciendo?
-9. Que hace el método stream().filter() y que retorna?
-10. Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.
-11. ¿Cuál es la diferencia entre crear una rama con git branch y con git checkout -b?
-12. ¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente?
+
+---
+
+### 7. Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
+- Permite construir mapas de forma **más declarativa y concisa** usando programación funcional.
+- Mejora la **legibilidad** del código al evitar bucles explícitos.
+- Se integra con el API de **Streams**, facilitando transformaciones y filtros antes de la inserción.
+- Reduce la posibilidad de errores manuales en la manipulación del mapa.
+- Facilita la paralelización de operaciones al trabajar con streams.
+
+---
+
+### 8. Si usas List con objetos y luego aplicas stream().map() que tipo de operación estas haciendo?
+- Se está realizando una **operación de transformación**.
+- Cada elemento del stream se convierte en otro valor según la función definida en `map()`.
+- El resultado es un **nuevo stream** con los valores transformados.
+
+---
+
+### 9. Qué hace el método stream().filter() y qué retorna?
+- `filter()` aplica una **condición lógica (predicado)** sobre los elementos del stream.
+- Mantiene únicamente los elementos que cumplen esa condición.
+- Retorna un **Stream filtrado**, que contiene solo los elementos válidos según el predicado.
+
+---
+
+### 10. Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.
+1. Estar en la rama `develop`:
+   
+   git checkout develop
+
+2. Actualizar la rama develop con los últimos cambios del remoto:
+
+git pull origin develop
+
+3. Crear y cambiarse a la nueva rama de funcionalidad:
+
+git checkout -b feature/nombre_funcionalidad
+
+4. Confirmar que estás en la nueva rama:
+
+git branch
+
+5. Subir la rama al remoto:
+
+git push -u origin feature/nombre_funcionalidad
+
+
+11. **¿Cuál es la diferencia entre crear una rama con `git branch` y con `git checkout -b`?**  
+
+- `git branch nombre_rama`: únicamente crea la rama, pero no cambia a ella. El desarrollador sigue estando en la rama actual.  
+- `git checkout -b nombre_rama`: crea la nueva rama y además cambia automáticamente a trabajar en ella.  
+
+
