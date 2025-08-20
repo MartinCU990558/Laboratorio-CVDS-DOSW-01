@@ -17,7 +17,7 @@ creamos la clase estudiante donde definimos los parametros y sus getters.
 Se creo la clase mensaje donde se implementaron las estructuras de stream() y collect junto a map(). donde
 a partir de map se filtran los datos de cada estudiante para crear el mensaje luego con collect se juntan los
 mensajes de ambos estudiantes.<br />
-**Reto 3**
+**Reto 3**<br />
 ![img.png](images/img_3.png)
 Se crean tanto un string builder como un string buffer, donde usamos el builder como la opcion mas rapida y
 el buffer como la opcion mas seguro, ya que esta tiene un manejo de hilos.
@@ -26,7 +26,7 @@ accion en el rango, luego forEach() donde hacemos que se repita el mensaje junto
 luego en el buffer usamos .reverse() el cual invierte el string dado.
 Por ultimo retornamos el stream con toString() para volverlo string y .trim() para eliminar espacion fuera
 de las palabras.<br />
-**Reto 5**
+**Reto 5**<br />
 ![img.png](images/img_5.png)
 Creamos un HashSet para numeros no ordenas ya que este set tiene esa caracteristica, y un TreeSet para los
 ordenados por esto mismo, luego mediante un .filter creamos las excepciones en ambos casos uno donde no 
