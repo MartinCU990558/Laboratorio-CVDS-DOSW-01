@@ -115,10 +115,21 @@ git branch
 
 git push -u origin feature/nombre_funcionalidad
 
+---
 
 11. **¿Cuál es la diferencia entre crear una rama con `git branch` y con `git checkout -b`?**  
 
 - `git branch nombre_rama`: únicamente crea la rama, pero no cambia a ella. El desarrollador sigue estando en la rama actual.  
 - `git checkout -b nombre_rama`: crea la nueva rama y además cambia automáticamente a trabajar en ella.  
 
+---
+
+12. **¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente?**  
+
+Es recomendable porque:  
+- Permite aislar el desarrollo de nuevas funcionalidades sin afectar la rama principal.  
+- Evita que errores o código en construcción se mezclen con la versión estable en `main`.  
+- Facilita el trabajo colaborativo, ya que cada desarrollador puede trabajar en su propia rama.  
+- Mejora el control de versiones y la trazabilidad de cambios.  
+- Permite integrar la funcionalidad mediante *pull requests* o *merge requests*, aplicando revisiones de código antes de llegar a `main`.  
 
