@@ -52,4 +52,8 @@ Utilizando el objeto random se insertaron valores aleatorios y a cada uno se le 
 
 Inicialmente el primer estudiante tiene que mediante un switch case hacer una conversacion mediante el string correspondiente, en la funcion principal utilizando Map<String,Runnable> y el metodo de run, lambdas se invocan las funciones donde se evidencia los primeros resultados.
 
+![alt text](Untitled.jpg)
+
+Por otra parte el segundo estudiante debe de utilizar nuevamente el switch case pero mediante otros comandos como bromear, gritar, susurrar y analizar.
+
 ### Parte 3 - Cuestionario:
