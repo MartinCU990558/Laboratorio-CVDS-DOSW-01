@@ -10,6 +10,8 @@
 
 # Retos Completados
 
+(si no se ve en este README ver el otro)
+
 Reto 1:
 
 Evidencia: ![Reto 1](images/image.png)
