@@ -22,11 +22,11 @@ public class reto4 {
         return t;
     }
 
-    public static Map<String, Integer> combinar(Map<String, Integer> hashMap,
-                                                Hashtable<String, Integer> hashTable) {
+    public static Map<String,Integer> combinar(Map<String,Integer> hashMap,
+                                               Hashtable<String,Integer> hashTable) {
 
-        Map<String, Integer> base = new HashMap<>(hashMap);
-        hashTable.forEach(base::put); // prioridad a Hashtable
+        Map<String,Integer> base = new HashMap<>(hashMap);
+        hashTable.forEach(base::put);
         return base;
     }
 
