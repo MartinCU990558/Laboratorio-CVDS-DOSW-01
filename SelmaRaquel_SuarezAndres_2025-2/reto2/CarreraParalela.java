@@ -32,8 +32,12 @@ public class CarreraParalela {
             boolean maxEsDivisorDe2  = (2 % Math.abs(max) == 0) ? true : false;
 
             boolean countPar  = (count % 2 == 0) ? true : false;
+            boolean countImpar= (count % 2 != 0) ? true : false;
 
-            return int;
+            return new Stats(max, min, count, maxEsMultiploDe2, maxEsDivisorDe2, countPar, countImpar);
+        }
+
+
 
 
         }
