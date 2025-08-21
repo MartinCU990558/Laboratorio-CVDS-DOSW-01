@@ -39,7 +39,12 @@
 **Evidencia**
 
 ### Reto 5: Batalla de Conjuntos
-**Evidencia**
+### En este reto lo primero que vamos a realizar son las respectivas ramas creando la rama de hash y de tree y craando los respectivos metodos###
+![alt text](image-10.png)
+### Una vez subidos realizamos el merge y solucionamos problemas podemos empezar a crear la funcion que una los dos Sets
+![alt text](image-11.png)
+### Asi nos va a imprimir el resultado esperado
+![alt text](image-12.png)
 
 ### Reto #6: La máquina de decisiones
 **Para el reto 6 lo primero que vamos a hacer es crear las respectivas ramas creando el fragmento 1 y 2 y haciendo lo que este nos pide respetivamente**
