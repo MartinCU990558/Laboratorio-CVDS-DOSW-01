@@ -14,4 +14,7 @@ public class reto5 {
     public static Set<Integer> treeSetSinMultiplosDe5(Collection<Integer> nums) {
         return nums.stream().filter(n -> n % 5 != 0).collect(Collectors.toCollection(TreeSet::new));
     }
+
+    public static SortedSet<Integer> unirOrdenado(Set<Integer> a, Set<Integer> b) {
+        SortedSet<Integer> res = new TreeSet<>();
 }
