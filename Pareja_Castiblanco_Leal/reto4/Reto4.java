@@ -50,20 +50,22 @@ public class Reto4 {
     }
 
     public static void main(String[] args) {
-        List<String> claves = List.of("dosw", "aysr", "ptia", "aysr", "comp");
-        List<Integer> valores = List.of(1, 3, 5, 7, 9);
+        List<String> clavesHashMap = List.of("oro", "plata", "oro", "diamante");
+        List<Integer> valoresHashMap = List.of(5, 3, 7, 10);
 
-        if (claves.size() != valores.size()) {
+        List<String> clavesHashTable = List.of("plata", "rubí", "oro", "esmeralda");
+        List<Integer> valoresHashTable = List.of(8, 4, 12, 6);
+
+        if (clavesHashMap.size() != valoresHashMap.size() || clavesHashTable.size() != valoresHashTable.size()) {
             System.out.println("La cantidad de claves no coincide con la cantidad de valores");
         } else {
-            Map<String, Integer> mapa = mapaSinDuplicados(claves, valores);
-            imprimirMapa(mapa);
-            imprimirMapaMayusculas(mapa);
+            Map<String, Integer> mapaHashMap = mapaSinDuplicados(clavesHashMap, valoresHashMap);
+            Hashtable<String, Integer> mapaHashTable = mapaSinDuplicados2(clavesHashTable, valoresHashTable);
 
-            System.out.println("-----------------------------------------------------------");
-
-            Hashtable<String, Integer> mapa2 = mapaSinDuplicados2(claves, valores);
-            imprimirMapa2(mapa2);
-            imprimirMapaMayusculas(mapa);
+            for (Map.Entry<String, Integer> entry : mapaHashTable.entrySet()) {
+                mapaHashMap.put(entry.getKey(), entry.getValue());
+            }
+            imprimirMapaMayusculas(mapaHashMap);
+        }
     }
-}}
+}

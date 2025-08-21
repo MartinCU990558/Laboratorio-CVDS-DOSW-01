@@ -46,9 +46,15 @@ Ahora bien, en la última foto, podemos ver el compendio de la unión de los dos
 
 ### Reto 4:
 ***Evidencia***
+![Captura](images/Reto4.png)
+
+En la imagen podemos evidenciar el resultado de imprimir el HashMap y el HashTahble bajo las indicaciones dadas, manteniendo como prioridad los valores del HashTable en caso de duplicados. De igual forma, vemos como las claves de cada una de las estructuras ahora se escriben con mayúscula gracias a la función que creamos usando stream para pasar solo las claves de mayúscula a minúscula.
 
 ### Reto 5:
 ***Evidencia***
+![Captura](images/Reto5.png)
+
+En la imagen vemos cual es el resultado final que e obtuvo al generar ambos "ejercitos" basados en ciertas como condiciones como que elimine los múltiplos de 3 del HashMap y los múltiplos de 5 del TreeMap, de igual forma luego vemos la unión de ambos "ejercitos" para la batalla organizados de forma ascendente. 
 
 ### Reto 6:
 ***Evidencia***
@@ -81,20 +87,47 @@ Git stash pop es el comando que utilizamos para recuperar los cambios guardados 
 
 ***6. ¿Qué diferencia hay entre HashMap y HashTable?***
 
+Las diferencias existentes son:
+* Mientras que un HashTable es thread – safe permitiendo que solo un hilo acceda a la información para así prevenir inconsistencias en los datos, los HashMap no lo son.
+* Un HashTable no permite llaves o valores nulos, mientras que un HashMap si.
+* La complejidad de búsqueda de un HashMap es mucho menor mientras que para un HashTable, la complejidad aumenta.
 
 ***7. ¿Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?***
 
+El utilizar el comando indicado lo que obtenemos es un código mucho más compacto y mejor visualmente que un típico bucle for, de igual forma, nos ayuda a manejar las colisiones en caso de que se encuentren repetidas claves dentro del mapa haciendo uso de una lógica simple. Este es un método que nos permite trabajar con streams, lo cual nos facilita mucho el proceso a la hora de trabajar con datos que se almacenan en colecciones de tal forma que convertimos esa estructura de datos en un mapa para así poderla manipular fácilmente.
 
 ***8. Si usas List con objetos y luego aplicas stream().map() ¿Qué tipo de operación estas haciendo?***
 
+Estamos realizando una operación de transformación donde stream() me permite trabajar con cada elemento de la lista de forma secuencial y map() se centra en aplicar una función a cada elemento del stream.
 
 ***9. ¿Qué hace el método stream().filter() y que retorna?***
+
+Retorna los elementos filtrados basado en una condición que se le indique de forma previa retornando un stream. Si por ejemplo yo tengo:
+
+list.stream().filter(lis -> lis.getSalary  > 5000)
+
+En este caso, comvertimos la lista a un stream y con filter, procesamos cada dato contenido dentro de la lista original y solo se retorna aquellos que cumplan la condición de tener un salario mayor a 5000.
 
 
 ***10. Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.***
 
+Seguimos el siguiente paso a paso:
+
+git checkout develop
+
+git pull
+
+git checkout -b feature/nueva_rama
+
 
 ***11. ¿Cuál es la diferencia entre crear una rama con git branch y con git checkout -b?***
 
+La diferencia radica en que el comando brach solo nos permite crear la rama, mientras que checkout -b nos deja crear la rama y manipularla.
 
 ***12. ¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente?***
+
+Esta práctica se realiza debido a lo siguiente: 
+* Evita que dañemos el código conforme lo vamos modificando. 
+* Se puede trabajar en conjunto con el equipo de trabajo.
+* Facilita las revisiones de los pull y logs
+* Mejoramos la gestión de desarrollo al seguir la estructura de Git Flow 

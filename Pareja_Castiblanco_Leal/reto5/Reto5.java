@@ -14,7 +14,7 @@ public class Reto5 {
             guerreros.add(random.nextInt(100));
         }
 
-        return guerreros.stream().filter(n -> n % 3 == 0).collect(Collectors.toSet());
+        return guerreros.stream().filter(n -> n % 3 != 0).collect(Collectors.toSet());
     }
     public static Set<Integer> generarGuerrerosTree(){
         Set<Integer> guerreros = new TreeSet<>();
