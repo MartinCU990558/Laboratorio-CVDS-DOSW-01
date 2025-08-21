@@ -63,6 +63,6 @@ public class Reto4 {
 
             Hashtable<String, Integer> mapa2 = mapaSinDuplicados2(claves, valores);
             imprimirMapa2(mapa2);
-            mprimirMapaMayusculas(mapa);
+            imprimirMapaMayusculas(mapa);
     }
 }
