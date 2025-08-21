@@ -29,7 +29,7 @@ public class CarreraParalela {
             int count = minYc.getValue();
 
             return int;
-            
+
 
         }
 
