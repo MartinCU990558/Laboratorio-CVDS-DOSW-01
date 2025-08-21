@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class CarreraParalela {
-    
+
     private int[] numeroPequeño(ArrayList<Integer> arry){
         int[] numeros = new int[2];
         int a = 0;
@@ -11,6 +11,9 @@ public class CarreraParalela {
         numeros[0] = a;
         numeros[1] = arry.size();
         return  numeros;
+    }
+    private boolean divisor2(int a){
+        return (2 % a == 0) ? true : false;
     }
     public static void main(String[] args) {
     }
