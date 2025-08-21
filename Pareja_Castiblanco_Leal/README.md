@@ -46,12 +46,14 @@ Ahora bien, en la última foto, podemos ver el compendio de la unión de los dos
 
 ### Reto 4:
 ***Evidencia***
+
 ![Captura](images/Reto4.png)
 
 En la imagen podemos evidenciar el resultado de imprimir el HashMap y el HashTahble bajo las indicaciones dadas, manteniendo como prioridad los valores del HashTable en caso de duplicados. De igual forma, vemos como las claves de cada una de las estructuras ahora se escriben con mayúscula gracias a la función que creamos usando stream para pasar solo las claves de mayúscula a minúscula.
 
 ### Reto 5:
 ***Evidencia***
+
 ![Captura](images/Reto5.png)
 
 En la imagen vemos cual es el resultado final que e obtuvo al generar ambos "ejercitos" basados en ciertas como condiciones como que elimine los múltiplos de 3 del HashMap y los múltiplos de 5 del TreeMap, de igual forma luego vemos la unión de ambos "ejercitos" para la batalla organizados de forma ascendente. 
