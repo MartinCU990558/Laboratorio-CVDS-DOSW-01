@@ -1,9 +1,9 @@
-package Idarraga_Estupinan.Reto_4;
+package Idarraga_Estupinan.Reto4;
 
 import java.util.*;
 
 
-public class Reto_4 {
+public class Reto4 {
 
     public static Map<String, Integer> crearMapaHashMap(List<Map.Entry<String, Integer>> entradas) {
         Map<String, Integer> mapa = new HashMap<>();
