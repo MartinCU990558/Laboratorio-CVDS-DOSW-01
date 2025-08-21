@@ -25,7 +25,10 @@ public class CarreraParalela {
     private boolean multiplo2(int a){
         return (a % 2 == 0) ? true : false;
     }
-    
+
+    private boolean datosPar(ArrayList<Integer> arry){
+        return multiplo2(arry.size());
+    }
 
     public static void main(String[] args) {
 
