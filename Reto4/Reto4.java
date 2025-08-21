@@ -24,15 +24,13 @@ public class Reto4 {
     }
 
     public static void main(String[] args) {
-        // Datos de ejemplo para HashMap (lo simula estudiante 1)
         List<Map.Entry<String, Integer>> entradasHash = Arrays.asList(
                 new AbstractMap.SimpleEntry<>("oro", 5),
                 new AbstractMap.SimpleEntry<>("plata", 3),
                 new AbstractMap.SimpleEntry<>("oro", 7),
                 new AbstractMap.SimpleEntry<>("diamante", 10)
         );
-
-        // Datos de ejemplo para Hashtable (lo hace este estudiante)
+        
         List<Map.Entry<String, Integer>> entradasTable = Arrays.asList(
                 new AbstractMap.SimpleEntry<>("plata", 8),
                 new AbstractMap.SimpleEntry<>("rubí", 4),
