@@ -14,21 +14,28 @@ public class reto4 {
         return m;
     }
 
-    public static Hashtable<String,Integer> mapFromPairsHashtable(List<Map.Entry<String,Integer>> pares) {
-        Hashtable<String,Integer> t = new Hashtable<>();
-        for (Map.Entry<String,Integer> e : pares) {
+    public static Hashtable<String, Integer> mapFromPairsHashtable(List<Map.Entry<String, Integer>> pares) {
+        Hashtable<String, Integer> t = new Hashtable<>();
+        for (Map.Entry<String, Integer> e : pares) {
             t.putIfAbsent(e.getKey(), e.getValue());
         }
         return t;
     }
 
-    public static Map<String,Integer> combinar(Map<String,Integer> hashMap,
-                                               Hashtable<String,Integer> hashTable) {
+    public static Map<String, Integer> combinar(Map<String, Integer> hashMap,
+                                                Hashtable<String, Integer> hashTable) {
 
-        Map<String,Integer> base = new HashMap<>(hashMap);
+        Map<String, Integer> base = new HashMap<>(hashMap);
         hashTable.forEach(base::put); // prioridad a Hashtable
         return base;
     }
 
+    public static Map<String, Integer> combinarFormatearImprimir(Map<String, Integer> hashMap,
+                                                                 Hashtable<String, Integer> hashTable) {
+        Map<String, Integer> combinado = combinar(hashMap, hashTable);
+
+
+        return combinado;
+    }
 
 }
