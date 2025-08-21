@@ -45,6 +45,7 @@ public class Reto5{
         System.out.println(numeros);
         System.err.println(numeros1);
 
+
         TreeSet<Integer> numerosUnidos = unificacion(numeros1, numeros);
         numerosUnidos.forEach(n -> System.out.println("Número en arena: " + n));
  
