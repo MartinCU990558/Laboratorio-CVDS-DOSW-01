@@ -9,7 +9,6 @@ public class CarreraParalela {
         int min = numeros.stream().min(Integer::compare).orElseThrow();
         int cantidad = numeros.size();
 
-        // Nueva lógica: múltiplo2 y divisor2
         List<Integer> multiplos2 = new ArrayList<>();
         List<Integer> divisores2 = new ArrayList<>();
 
@@ -22,12 +21,17 @@ public class CarreraParalela {
             }
         }
 
+        // Tercer choque: paridad (unimos par e impar en el mismo objeto final)
+        String paridad = (cantidad % 2 == 0) ? "Cantidad par" : "Cantidad impar";
+
         return "Maximo: " + max +
                ", Minimo: " + min +
                ", Cantidad: " + cantidad +
                ", Multiplos de 2: " + multiplos2 +
-               ", Divisores de 2: " + divisores2;
+               ", Divisores de 2: " + divisores2 +
+               ", Paridad: " + paridad;
     }
 }
+
 
 
