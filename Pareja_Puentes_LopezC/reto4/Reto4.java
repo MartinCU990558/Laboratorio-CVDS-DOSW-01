@@ -1,7 +1,6 @@
 package reto4;
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import java.util.stream.*;
 
 public class Reto4{
 
@@ -13,18 +12,28 @@ public class Reto4{
         return pares.stream().collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,
             (y, x) -> y,HashMap::new));
     }
-
-    static Map<String, Integer> combinado (HashMap<String, Integer> map, Hashtable<String, Integer> table) {
-
-    return Stream.concat(map.entrySet().stream(), table.entrySet().stream())
-        .collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(),(v1, v2) -> v2,HashMap::new));
-}
+    static HashMap<String,Integer> combinado (Hashtable<String,Integer> hash,HashMap<String,Integer> hash2){
+        return Stream.concat(hash.entrySet().stream(),hash2.entrySet().stream()).collect(Collectors.toMap(
+            Map.Entry::getKey,
+            Map.Entry::getValue,
+            (valor1, valor2) -> valor1, 
+            HashMap::new
+        ));
+    }
+     static HashMap<String, Integer> ordenarPorClaveAscendente(Map<String, Integer> mapa) {
+        return mapa.entrySet().stream().sorted(Map.Entry.comparingByKey()).collect(Collectors.toMap(
+                Map.Entry::getKey,
+                Map.Entry::getValue,
+                (existente, nuevo) -> existente,
+                LinkedHashMap::new
+            ));
+    }
 
     public static void main(String[] args) {
         
     }
-    
 }
+
 
 
 
