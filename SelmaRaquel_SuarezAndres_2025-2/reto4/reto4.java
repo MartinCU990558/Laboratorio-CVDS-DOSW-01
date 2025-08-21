@@ -41,7 +41,7 @@ public class reto4 {
                 .collect(Collectors.toMap(
                         e -> e.getKey().toUpperCase(),
                         Map.Entry::getValue,
-                        (a,b) -> a, 
+                        (a,b) -> a,
                         LinkedHashMap::new
                 ))
                 .entrySet().stream()
