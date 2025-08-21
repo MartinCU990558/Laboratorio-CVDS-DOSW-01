@@ -92,12 +92,42 @@ Por ultimo ocurre un choque en el codigo donde se unifican los comandos en un so
 
 ### Parte 3 - Cuestionario:
 
-1. Cuál es la diferencia entre git merge y git rebase
-2. Si dos ramas modifican la misma línea de un archivo ¿Qué sucede al hacer merge?
-3. ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
-4. Explica la diferencia entre un commit y un push?
-5. Para que sirve git stash y git pop?
-6. Qué diferencia hay entre HashMap y HashTable?
+---
+
+### 1. Cuál es la diferencia entre git merge y git rebase
+
+---
+
+### 2. Si dos ramas modifican la misma línea de un archivo ¿Qué sucede al hacer merge?
+
+---
+
+
+### 3. ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
+- Para ver gráficamente el historial de merges es mediante el comando git log y hay dos posibilidades --oneline muestra el historial sin ver que archivos se combinaron y stat que muestra que tipos de archivos se transmitieron y las ramas mediante git branch.
+---
+
+
+### 4. Explica la diferencia entre un commit y un push?
+- 
+
+---
+
+
+### 5. Para que sirve git stash y git pop?
+
+- git stash te permite guardar temporalmente los cambios almacenados al directorio actual y restable a como se encontraba anteriormente este repositorio.
+- Mientras que git pop lo que hace es en caso de que tengas guardados algunos cambios y quieras incluirlos en tu directorio de trabajo, esto aplicará cambios al directorio actual y los eliminará de la lista de cambios almacenados.
+
+---
+
+
+### 6. Qué diferencia hay entre HashMap y HashTable?
+
+Dentro de sus diferencias se encuentran:
+
+- HashMap permite una clave null y varios valores null, mientras que Hashtable no permite claves null ni valores null.
+- HashMap es no sincronizado, es decir, más rápido en entornos de un solo hilo, mientras que hashtable es sincronizado, es decir, seguro para multihilo, pero más lento.
 
 ---
 
