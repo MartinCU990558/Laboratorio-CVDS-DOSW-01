@@ -23,5 +23,14 @@ Tuvimos problemas para trabajar juntos despues del laboratorio, asi que intente 
 ![alt text](images/ImagenReto2Merge1Resuelto.png)
 ![git log](images/gitLog.png)
 
+
+Reto 3:
+
+Tambien lo realizo solo una persona, pero creando ambas ramas y solucionando el conflicto del merge
+
+funcionamiento del buffer antes del merge ![alt text](images/Buffer1.png)
+
+funcionamiento del builder antes del merge
+
 ...
 ---
