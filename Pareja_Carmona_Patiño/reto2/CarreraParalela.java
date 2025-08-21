@@ -15,7 +15,7 @@ public class CarreraParalela {
                 .max((a, b) -> a.compareTo(b))
                 .get();
     }
-    
+
     public static int[] hallarMinimoYNumeroTotalDeDatos(List<Integer> numeros){
         int minimo = numeros.stream()
                 .min((a, b) -> a.compareTo(b))
