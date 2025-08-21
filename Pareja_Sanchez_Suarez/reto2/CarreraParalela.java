@@ -22,7 +22,9 @@ public class CarreraParalela {
         return  numeros;
     }
 
-
+    private boolean multiplo2(int a){
+        return (a % 2 == 0) ? true : false;
+    }
     
 
     public static void main(String[] args) {
