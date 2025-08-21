@@ -1,6 +1,7 @@
 package Pareja_Castiblanco_Leal.reto4;
 
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
 
@@ -65,4 +66,4 @@ public class Reto4 {
             imprimirMapa2(mapa2);
             imprimirMapaMayusculas(mapa);
     }
-}
+}}
