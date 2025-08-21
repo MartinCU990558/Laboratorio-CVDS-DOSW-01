@@ -25,7 +25,7 @@ public class CarreraParalela {
     }
 
     private boolean multiplo2(int a){
-        return (a % 2 == 0);
+        return (a % 2 == 0) ? true : false;
     }
 
     private boolean datosPar(ArrayList<Integer> arry){
@@ -33,36 +33,36 @@ public class CarreraParalela {
     }
 
     private boolean divisor2(int a){
-        return (2 % a == 0);
+        return (a % 2 == 0) ? true : false;
     }
 
     private boolean datosImpar(ArrayList<Integer> arry){
         return !multiplo2(arry.size());
     }
 
-    private int[] ambosJuntos(ArrayList<Integer> arry){
-        int[] numeros = new int[3];
-        numeros[0] = numeroGrande(arry);
-        numeros[1] = numeroPequeño(arry)[0];
-        numeros[2] = numeroPequeño(arry)[1];
-        return  numeros;
-    }
-
-
-    private ArrayList<String> resultado(ArrayList<Integer> arry){
-        ArrayList<String> resultado = new ArrayList<>();
-        int[] numeros = ambosJuntos(arry);
-        int t = numeros[0];
-        for(int i : numeros){
-            resultado.add(String.valueOf(i));
+        private int[] ambosJuntos(ArrayList<Integer> arry){
+            int[] numeros = new int[3];
+            numeros[0] = numeroGrande(arry);
+            numeros[1] = numeroPequeño(arry)[0];
+            numeros[2] = numeroPequeño(arry)[1];
+            return  numeros;
         }
-        resultado.add(Boolean.toString(multiplo2(t)));
-        resultado.add(Boolean.toString(divisor2(t)));
-        resultado.add(Boolean.toString(datosPar(arry)));
 
 
-        return resultado;
-    }
+        private ArrayList<String> resultado(ArrayList<Integer> arry){
+            ArrayList<String> resultado = new ArrayList<>();
+            int[] numeros = ambosJuntos(arry);
+            int t = numeros[0];
+            for(int i : numeros){
+                resultado.add(String.valueOf(i));
+            }
+            resultado.add(Boolean.toString(multiplo2(t)));
+            resultado.add(Boolean.toString(divisor2(t)));
+            resultado.add(Boolean.toString(datosPar(arry)));
+
+
+            return resultado;
+        }
 
     private ArrayList<String> mensajes(){
         ArrayList<String> mensajes = new ArrayList<>();

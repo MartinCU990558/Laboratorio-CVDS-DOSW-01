@@ -24,10 +24,13 @@ Configuramos el correo institucional en Git, creamos la rama desde `develop` y c
 ### Reto 2: Commit colaborativo
 **Evidencia:**
 ![Captura](imagenes/reto2.png)
+![Captura](imagenes/)
 
 <h4>Descripción breve de lo que hicieron:  
 </h4>
 Ambos integrantes realizamos cambios para practicar commits colaborativos y resolver conflictos en Git.
+Se lograron resolver problemas en merge para combinar ramas
+y se aprendio un nuevo metodo de los streams para resolver el problema
 
 ---
 ### Reto 3: Commit colaborativo
