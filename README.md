@@ -14,16 +14,16 @@
 
 Reto 1:
 
-Evidencia: ![Reto 1](images/image.png)
+Evidencia: ![Reto 1](Pareja_Barros_Astudillo/images/image.png)
 
 Reto 2:
 
 Tuvimos problemas para trabajar juntos despues del laboratorio, asi que intente hacer la carrera por mi cuenta, en las imagenes se ve como resolvimos los conflictos.
 
-![alt text](images/ImagenReto2Merge.png.png)
-![alt text](images/ImagenReto2Merge1.png)
-![alt text](images/ImagenReto2Merge1Resuelto.png)
-![git log](images/gitLog.png)
+![alt text](Pareja_Barros_Astudillo/images/ImagenReto2Merge.png.png)
+![alt text](Pareja_Barros_Astudillo/images/ImagenReto2Merge1.png)
+![alt text](Pareja_Barros_Astudillo/images/ImagenReto2Merge1Resuelto.png)
+![git log](Pareja_Barros_Astudillo/images/gitLog.png)
 
 
 Reto 3:

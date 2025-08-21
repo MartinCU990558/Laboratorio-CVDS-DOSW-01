@@ -35,6 +35,6 @@ funcionamiento del builder antes del merge ![alt text](images/Builder1.png)
 conflicto en el merge ![alt text](images/Reto3MergeConflicto.png)
 
 
-solucion del conflicto merge ![alt text](images/respuestaReto3.png.png)
+solucion del conflicto merge ![alt text](images/respuestaReto3.png)
 ...
 ---
