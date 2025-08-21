@@ -30,7 +30,7 @@ Tambien lo realizo solo una persona, pero creando ambas ramas y solucionando el 
 
 funcionamiento del buffer antes del merge ![alt text](images/Buffer1.png)
 
-funcionamiento del builder antes del merge
+funcionamiento del builder antes del merge ![alt text](images/Builder1.png)
 
 ...
 ---
