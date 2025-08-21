@@ -13,37 +13,65 @@
 
 **Evidencia**
 ![alt text](image.png)
+### Clase Estudiante:
+**Evidencia**
+![alt text](image-9.png)
+### Clase Mensaje:
+**Evidencia**
+![alt text](image-10.png)
+### Descripción:
+Para la solución de este reto, creamos dos nuevos objetos Estudiante y Mensaje Bienvenida tras esto pasamos a la función principal Reto1 donde en la función principal creamos estos objetos y los almacenamos en una List para imprimir mediante streams un mensaje de bienvenida acorde, para esto utilizamos concat que une dos streams a uno solo.
 
-Se desarrollo de manera correcta el reto con los objetos estudiante y mensaje
+---
 
 ### Reto 2: Segundo reto culminado
 
 **Evidencia**
+**Creación Objeto General**
+![alt text](image-12.png)
+**Historial completo mediante git log--oneline**
 ![alt text](image-1.png)
+**Creacion Objeto Resultados**
+![alt text](image-11.png)
+**Resultados finales tras fusión**
+![alt text](image-13.png)
 ![alt text](image-2.png)
 
 Mediante esta carrera paralela se crearon los diferentes objetos que iban a contener funcionalidades asociadas al reto, de la misma manera se resolvieron todo tipo de conflictos.
 
+---
+
 ### Reto 3: Tercer reto culminado
 
 **Evidencia**
+![alt text](image-14.png)
 ![alt text](image-3.png)
 
 Mediante este reto se aprendio la existencion de Function, como manipular los streams en string builder y lambda para invocar funciones.
 
+---
+
 ### Reto 4: Cuarto reto culminado
 
 **Evidencia**
+![alt text](image-15.png)
+![alt text](image-17.png)
+**Resultados con el input propuesto**
 ![alt text](image-4.png)
 
-Mediante streams y lambda desarrollamos los ejercicios que involucraban el uso de HashMap y Hashtable.
+Para la solución de este punto utilizamos streams, map, sorted y distinct para poder manejar valores repetidos y ordenarlos. Al final en el feature combinamos todas las funciones realizadas y resolvimos todo tipo de conflictos.
+
+---
 
 ### Reto 5: Quinto reto culminado
 
 **Evidencia**
+![alt text](image-18.png)
 ![alt text](image-5.png)
 
-Utilizando el objeto random se insertaron valores aleatorios y a cada uno se le creo una funcion que dependiendo el caso eliminaba los multiplos de 3 como los multiplos de 5, luego se unificaron eliminandos valores duplicados antes de imprimir
+Utilizando el objeto random se insertaron valores aleatorios y a cada uno se le creo una funcion que dependiendo el caso eliminaba los multiplos de 3 como los multiplos de 5, luego se unificaron eliminandos valores duplicados antes de imprimir, nuevamente se resolvieron los conflictos de manera correcta.
+
+---
 
 ### Reto 6: Sexto reto culminado
 
@@ -119,7 +147,7 @@ git push -u origin feature/nombre_funcionalidad
 
 11. **¿Cuál es la diferencia entre crear una rama con `git branch` y con `git checkout -b`?**  
 
-- `git branch nombre_rama`: únicamente crea la rama, pero no cambia a ella. El desarrollador sigue estando en la rama actual.  
+- `git branch nombre_rama`: únicamente crea la rama, pero no cambia a ella. El usuario sigue estando en la rama actual.  
 - `git checkout -b nombre_rama`: crea la nueva rama y además cambia automáticamente a trabajar en ella.  
 
 ---
