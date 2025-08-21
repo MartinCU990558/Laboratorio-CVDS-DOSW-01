@@ -15,7 +15,7 @@ public class Reto4 {
     public static Map<String, Integer> crearMapaHashTable(List<Map.Entry<String, Integer>> entradas) {
         Map<String, Integer> tabla = new Hashtable<>();
         for (Map.Entry<String, Integer> entrada : entradas) {
-            tabla.putIfAbsent(entrada.getKey(), entrada.getValue()); // sincronizado, conserva el primero
+            tabla.putIfAbsent(entrada.getKey(), entrada.getValue()); 
         }
         return tabla;
     }
