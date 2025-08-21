@@ -29,6 +29,7 @@ public class CarreraParalela {
             int count = minYc.getValue();
 
             boolean maxEsMultiploDe2 = (max % 2 == 0) ? true : false;
+            boolean maxEsDivisorDe2  = (2 % Math.abs(max) == 0) ? true : false;
 
             return int;
 
