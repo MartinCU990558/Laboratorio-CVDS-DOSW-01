@@ -3,13 +3,13 @@ public class Estudiante {
     private String nombre;
     private String edad;
     private String semestre;
-    private String correo;
+    private String email;
 
     public Estudiante(String nombre, String edad, String semestre, String correo) {
         this.nombre = nombre;
         this.edad = edad;
         this.semestre = semestre;
-        this.correo = correo;
+        this.email = correo;
     }
 
     public String getNombre() {
@@ -25,6 +25,6 @@ public class Estudiante {
     }
 
     public String getCorreo() {
-        return correo;
+        return email;
     }
 }
