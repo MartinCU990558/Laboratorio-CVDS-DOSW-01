@@ -29,7 +29,10 @@ public class Reto4 {
     }
     public static void imprimirMapaMayusculasOrdenado(Map<String, Integer> mapa) {
         mapa.entrySet()
-                .stream().sorted(Map.Entry.comparingByKey());
+                .stream().sorted(Map.Entry.comparingByKey())
+                .map(e -> new AbstractMap.SimpleEntry<>(e.getKey().toUpperCase(), e.getValue()))
+                .forEach(e -> System.out.println("Clave: " + e.getKey() + " | Valor: " + e.getValue()));
+
 
     }
 
@@ -49,16 +52,18 @@ public class Reto4 {
                 new AbstractMap.SimpleEntry<>("esmeralda", 6)
         );
 
+
     
         Map<String, Integer> mapaHash = crearMapaHashMap(entradasHash);
-        System.out.println("HashMap: " + mapaHash);
 
         Map<String, Integer> mapaTable = crearMapaHashTable(entradasTable);
-        System.out.println("Hashtable: " + mapaTable);
 
 
         Map<String, Integer> mapaFinal = combinarMapas(mapaHash, mapaTable);
-        System.out.println("Combinado: " + mapaFinal);
-        System.out.println((mapaFinal));
+
+
+
+        imprimirMapaMayusculasOrdenado(mapaFinal);
+
     }
 }
