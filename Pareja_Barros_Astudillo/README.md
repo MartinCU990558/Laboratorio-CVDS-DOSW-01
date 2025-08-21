@@ -32,5 +32,7 @@ funcionamiento del buffer antes del merge ![alt text](images/Buffer1.png)
 
 funcionamiento del builder antes del merge ![alt text](images/Builder1.png)
 
+conflicto en el merge ![alt text](images/Reto3MergeConflicto.png)
+
 ...
 ---
