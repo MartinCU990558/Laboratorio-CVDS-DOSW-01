@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import static java.util.stream.Nodes.collect;
+
 
 public class reto4 {
 
@@ -41,7 +41,7 @@ public class reto4 {
                 .collect(Collectors.toMap(
                         e -> e.getKey().toUpperCase(),
                         Map.Entry::getValue,
-                        (a,b) -> a, // merge function (no debería chocar tras 'combinar')
+                        (a,b) -> a, 
                         LinkedHashMap::new
                 ))
                 .entrySet().stream()
@@ -52,9 +52,21 @@ public class reto4 {
                         (a,b) -> a,
                         LinkedHashMap::new
                 ));
-        return combinado;
+
+        ordenado.forEach((k,v) -> System.out.println("Clave: " + k + " | Valor: " + v));
+        return ordenado;
     }
 
+    public static void main(String[] args) {
+        List<Map.Entry<String,Integer>> A = List.of(
+                Map.entry("oro",5), Map.entry("plata",3), Map.entry("oro",7), Map.entry("diamante",10)
+        );
+        List<Map.Entry<String,Integer>> B = List.of(
+                Map.entry("plata",8), Map.entry("rubí",4), Map.entry("oro",12), Map.entry("esmeralda",6)
+        );
 
-
+        var hmap = mapFromPairsHashMap(A);
+        var htab = mapFromPairsHashtable(B);
+        combinarFormatearImprimir(hmap, htab);
+    }
 }
