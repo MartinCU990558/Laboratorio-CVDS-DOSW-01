@@ -22,7 +22,13 @@ public class CarreraParalela {
         }
 
 
+        public static Stats combinarBasico(List<Integer> datos) {
+            int max = maximo(datos);
+            Map.Entry<Integer, Integer> minYc = minimoYConteo(datos);
+            int min = minYc.getKey();
+            int count = minYc.getValue();
 
+        }
 
 
 
