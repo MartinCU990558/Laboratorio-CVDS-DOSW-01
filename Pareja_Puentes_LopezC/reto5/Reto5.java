@@ -1,10 +1,29 @@
 package reto5;
 import java.util.*;
-import java.util.stream.Collectors;
-public class Reto5 {
-     public static Set<Integer> ordenNatural(TreeSet<Integer> arbol) {
+import java.util.stream.*;
+
+
+public class Reto5{
+
+    static HashSet<Integer> ceroTres(HashSet<Integer> numeros){
+        return numeros.stream().filter(x -> x % 3 != 0)
+                .collect(Collectors.toCollection(HashSet::new));
+    }
+    public static Set<Integer> ordenNatural(TreeSet<Integer> arbol) {
         return arbol.stream()
             .filter(num -> num % 5 != 0)
             .collect(Collectors.toCollection(TreeSet::new));
     }
+
+    public static void main(String[] args) {
+
+        HashSet<Integer> numeros = new HashSet<>(Arrays.asList(4, 9, 15, 7, 18, 21, 10, 5));
+        
+        HashSet<Integer> ceroNumeros3 = ceroTres(numeros);
+
+        System.out.println(ceroNumeros3);
+
+        
+    }
+
 }
