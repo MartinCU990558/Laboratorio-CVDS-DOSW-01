@@ -36,7 +36,10 @@
 ### Y este seria el resultado esperado.
 
 ### Reto 4: El tesoro de las Llaves duplicadas 
-**Evidencia**
+**Para este reto lo primero que vamos a crear son las respectivas ramas y en ellas creamos los metodos pedidos, luego creamos la combinacion y comparamos los cambios, resolviendo problemas**
+![alt text](image-13.png)
+### Luego hacemos las funciones solicitados, volvemos a hacer merge y verificamos que nos de lo esperado.
+![alt text](image-14.png)
 
 ### Reto 5: Batalla de Conjuntos
 ### En este reto lo primero que vamos a realizar son las respectivas ramas creando la rama de hash y de tree y craando los respectivos metodos###
