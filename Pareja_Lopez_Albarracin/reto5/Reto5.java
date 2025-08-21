@@ -16,9 +16,6 @@ public  class Reto5{
 
     } 
 
-    public static void unifation(HashSet<Integer> numbers1,TreeSet<Integer> numbers2){
-        
-
-    }
+    
 
 }
