@@ -13,13 +13,21 @@
 
 **Evidencia**
 ![alt text](image.png)
+
 ### Clase Estudiante:
+
 **Evidencia**
+
 ![alt text](image-9.png)
+
 ### Clase Mensaje:
+
 **Evidencia**
+
 ![alt text](image-10.png)
+
 ### Descripción:
+
 Para la solución de este reto, creamos dos nuevos objetos Estudiante y Mensaje Bienvenida tras esto pasamos a la función principal Reto1 donde en la función principal creamos estos objetos y los almacenamos en una List para imprimir mediante streams un mensaje de bienvenida acorde, para esto utilizamos concat que une dos streams a uno solo.
 
 ---
@@ -31,13 +39,16 @@ Para la solución de este reto, creamos dos nuevos objetos Estudiante y Mensaje 
 
 ![alt text](image-12.png)
 
-**Historial completo mediante git log--oneline**
-![alt text](image-1.png)
 **Creacion Objeto Resultados**
 ![alt text](image-11.png)
 **Resultados finales tras fusión**
 ![alt text](image-13.png)
 ![alt text](image-2.png)
+
+**Historial completo mediante git log--oneline**
+![alt text](image-1.png)
+
+### Descripción:
 
 Mediante esta carrera paralela se crearon los diferentes objetos que iban a contener funcionalidades asociadas al reto, de la misma manera se resolvieron todo tipo de conflictos.
 
@@ -48,6 +59,8 @@ Mediante esta carrera paralela se crearon los diferentes objetos que iban a cont
 **Evidencia**
 ![alt text](image-14.png)
 ![alt text](image-3.png)
+
+### Descripción:
 
 Mediante este reto se aprendio la existencion de Function, como manipular los streams en string builder y lambda para invocar funciones.
 
@@ -61,6 +74,8 @@ Mediante este reto se aprendio la existencion de Function, como manipular los st
 **Resultados con el input propuesto**
 ![alt text](image-4.png)
 
+### Descripción:
+
 Para la solución de este punto utilizamos streams, map, sorted y distinct para poder manejar valores repetidos y ordenarlos. Al final en el feature combinamos todas las funciones realizadas y resolvimos todo tipo de conflictos.
 
 ---
@@ -68,8 +83,12 @@ Para la solución de este punto utilizamos streams, map, sorted y distinct para 
 ### Reto 5: Quinto reto culminado
 
 **Evidencia**
+
 ![alt text](image-18.png)
+
 ![alt text](image-5.png)
+
+### Descripción:
 
 Utilizando el objeto random se insertaron valores aleatorios y a cada uno se le creo una funcion que dependiendo el caso eliminaba los multiplos de 3 como los multiplos de 5, luego se unificaron eliminandos valores duplicados antes de imprimir, nuevamente se resolvieron los conflictos de manera correcta.
 
@@ -96,23 +115,27 @@ Por ultimo ocurre un choque en el codigo donde se unifican los comandos en un so
 
 ### 1. Cuál es la diferencia entre git merge y git rebase
 
+- Git merge lo que hace es integrar los cambios de una rama a otra, pero preservando el historial completo de la rama, mientras que rebase, sobreescribe el historial de confirmaciones para hacerlo lineal y limpio.
+
 ---
 
 ### 2. Si dos ramas modifican la misma línea de un archivo ¿Qué sucede al hacer merge?
 
----
+- Lo que va a ocurrir es que git no va a poder fusionarse "automaticamente" por lo que generar un conflicto y el proceso de git merge se detendra por lo que estaremos obligados a solucionar estos conflictos.
 
+---
 
 ### 3. ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
-- Para ver gráficamente el historial de merges es mediante el comando git log y hay dos posibilidades --oneline muestra el historial sin ver que archivos se combinaron y stat que muestra que tipos de archivos se transmitieron y las ramas mediante git branch.
----
 
+- Para ver gráficamente el historial de merges es mediante el comando git log y hay dos posibilidades --oneline muestra el historial sin ver que archivos se combinaron y stat que muestra que tipos de archivos se transmitieron y las ramas mediante git branch.
+
+---
 
 ### 4. Explica la diferencia entre un commit y un push?
-- 
+
+- Commit va a guardar los cambios en el repositorio local creando una instancia en el repositorio en este momento esperando realizar un push que lo que va a hacer es sincronziar el repositorio remoto para que todos los cambios se vean refleajados.
 
 ---
-
 
 ### 5. Para que sirve git stash y git pop?
 
@@ -120,7 +143,6 @@ Por ultimo ocurre un choque en el codigo donde se unifican los comandos en un so
 - Mientras que git pop lo que hace es en caso de que tengas guardados algunos cambios y quieras incluirlos en tu directorio de trabajo, esto aplicará cambios al directorio actual y los eliminará de la lista de cambios almacenados.
 
 ---
-
 
 ### 6. Qué diferencia hay entre HashMap y HashTable?
 
@@ -132,6 +154,7 @@ Dentro de sus diferencias se encuentran:
 ---
 
 ### 7. Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
+
 - Permite construir mapas de forma **más declarativa y concisa** usando programación funcional.
 - Mejora la **legibilidad** del código al evitar bucles explícitos.
 - Se integra con el API de **Streams**, facilitando transformaciones y filtros antes de la inserción.
@@ -141,6 +164,7 @@ Dentro de sus diferencias se encuentran:
 ---
 
 ### 8. Si usas List con objetos y luego aplicas stream().map() que tipo de operación estas haciendo?
+
 - Se está realizando una **operación de transformación**.
 - Cada elemento del stream se convierte en otro valor según la función definida en `map()`.
 - El resultado es un **nuevo stream** con los valores transformados.
@@ -148,6 +172,7 @@ Dentro de sus diferencias se encuentran:
 ---
 
 ### 9. Qué hace el método stream().filter() y qué retorna?
+
 - `filter()` aplica una **condición lógica (predicado)** sobre los elementos del stream.
 - Mantiene únicamente los elementos que cumplen esa condición.
 - Retorna un **Stream filtrado**, que contiene solo los elementos válidos según el predicado.
@@ -155,8 +180,9 @@ Dentro de sus diferencias se encuentran:
 ---
 
 ### 10. Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.
+
 1. Estar en la rama `develop`:
-   
+
    git checkout develop
 
 2. Actualizar la rama develop con los últimos cambios del remoto:
@@ -177,19 +203,19 @@ git push -u origin feature/nombre_funcionalidad
 
 ---
 
-11. **¿Cuál es la diferencia entre crear una rama con `git branch` y con `git checkout -b`?**  
+11. **¿Cuál es la diferencia entre crear una rama con `git branch` y con `git checkout -b`?**
 
-- `git branch nombre_rama`: únicamente crea la rama, pero no cambia a ella. El usuario sigue estando en la rama actual.  
-- `git checkout -b nombre_rama`: crea la nueva rama y además cambia automáticamente a trabajar en ella.  
+- `git branch nombre_rama`: únicamente crea la rama, pero no cambia a ella. El usuario sigue estando en la rama actual.
+- `git checkout -b nombre_rama`: crea la nueva rama y además cambia automáticamente a trabajar en ella.
 
 ---
 
-12. **¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente?**  
+12. **¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente?**
 
-Es recomendable porque:  
-- Permite aislar el desarrollo de nuevas funcionalidades sin afectar la rama principal.  
-- Evita que errores o código en construcción se mezclen con la versión estable en `main`.  
-- Facilita el trabajo colaborativo, ya que cada desarrollador puede trabajar en su propia rama.  
-- Mejora el control de versiones y la trazabilidad de cambios.  
-- Permite integrar la funcionalidad mediante *pull requests* o *merge requests*, aplicando revisiones de código antes de llegar a `main`.  
+Es recomendable porque:
 
+- Permite aislar el desarrollo de nuevas funcionalidades sin afectar la rama principal.
+- Evita que errores o código en construcción se mezclen con la versión estable en `main`.
+- Facilita el trabajo colaborativo, ya que cada desarrollador puede trabajar en su propia rama.
+- Mejora el control de versiones y la trazabilidad de cambios.
+- Permite integrar la funcionalidad mediante _pull requests_ o _merge requests_, aplicando revisiones de código antes de llegar a `main`.
