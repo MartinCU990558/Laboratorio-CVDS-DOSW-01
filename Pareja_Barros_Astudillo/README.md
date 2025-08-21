@@ -10,7 +10,9 @@
 
 # Retos Completados
 
-ninguno
+Reto 1:
+
+Evidencia: ![Reto 1](images/image.png)
 
 ...
 ---
