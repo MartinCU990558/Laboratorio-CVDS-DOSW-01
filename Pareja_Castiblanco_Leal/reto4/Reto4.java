@@ -1,12 +1,10 @@
 package Pareja_Castiblanco_Leal.reto4;
 
 import java.util.HashMap;
-import java.util.Hashtable; // Corregido
 import java.util.List;
 import java.util.Map;
 
 public class Reto4 {
-
     public static Map<String, Integer> mapaSinDuplicados(List<String> claves, List<Integer> valores) {
         Map<String, Integer> mapa = new HashMap<>();
         for (int i = 0; i < claves.size(); i++) {
@@ -46,6 +44,9 @@ public class Reto4 {
                 .map(entry -> entry.getKey() + " = " + entry.getValue())
                 .forEach(System.out::println);
     }
+    public static void imprimirMapaMayusculas(Map<String, Integer> mapa) {
+        mapa.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(entry -> System.out.println(entry.getKey().toUpperCase() + " = " + entry.getValue()));
+    }
 
     public static void main(String[] args) {
         List<String> claves = List.of("dosw", "aysr", "ptia", "aysr", "comp");
@@ -56,11 +57,12 @@ public class Reto4 {
         } else {
             Map<String, Integer> mapa = mapaSinDuplicados(claves, valores);
             imprimirMapa(mapa);
+            imprimirMapaMayusculas(mapa);
 
             System.out.println("-----------------------------------------------------------");
 
             Hashtable<String, Integer> mapa2 = mapaSinDuplicados2(claves, valores);
             imprimirMapa2(mapa2);
-        }
+            mprimirMapaMayusculas(mapa);
     }
 }
