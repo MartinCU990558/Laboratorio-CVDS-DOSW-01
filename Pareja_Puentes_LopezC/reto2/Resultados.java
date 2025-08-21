@@ -5,7 +5,7 @@ public class Resultados {
     private int minimo;
     private int cantidad;
 
-    public Resultados(int maximo, int minimo, int cantidad) {
+    public Resultados(int maximo, int cantidad) {
         this.maximo = maximo;
         this.minimo = minimo;
         this.cantidad = cantidad;
@@ -15,7 +15,6 @@ public class Resultados {
     public String toString() {
         return "Resultados:" +
                 "maximo =" + " " + maximo +
-                ", minimo =" + " " + minimo +
                 ", cantidad =" + " " + cantidad;
     }
 }
