@@ -23,4 +23,14 @@ public class reto5 {
      }
 
 
+    public static void main(String[] args) {
+        Set<Integer> A = new HashSet<>(Arrays.asList(4,9,15,7,18,21,10,5));
+        Set<Integer> B = new TreeSet<>(Arrays.asList(12,3,25,10,7,30,18,4));
+
+        var aFil = hashSetSinMultiplosDe3(A);
+        var bFil = treeSetSinMultiplosDe5(B);
+        var union = unirOrdenado(aFil, bFil);
+
+        union.forEach(n -> System.out.println("Número en arena: " + n));
+    }
 }
