@@ -3,6 +3,9 @@ import java.util.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+
+import static java.util.stream.Nodes.collect;
 
 public class reto4 {
 
@@ -30,12 +33,28 @@ public class reto4 {
         return base;
     }
 
-    public static Map<String, Integer> combinarFormatearImprimir(Map<String, Integer> hashMap,
-                                                                 Hashtable<String, Integer> hashTable) {
-        Map<String, Integer> combinado = combinar(hashMap, hashTable);
+    public static Map<String,Integer> combinarFormatearImprimir(Map<String,Integer> hashMap,
+                                                                Hashtable<String,Integer> hashTable) {
+        Map<String,Integer> combinado = combinar(hashMap, hashTable);
 
-
+        Map<String,Integer> ordenado = combinado.entrySet().stream()
+                .collect(Collectors.toMap(
+                        e -> e.getKey().toUpperCase(),
+                        Map.Entry::getValue,
+                        (a,b) -> a, // merge function (no debería chocar tras 'combinar')
+                        LinkedHashMap::new
+                ))
+                .entrySet().stream()
+                .sorted(Map.Entry.comparingByKey())
+                .collect(Collectors.toMap(
+                        Map.Entry::getKey,
+                        Map.Entry::getValue,
+                        (a,b) -> a,
+                        LinkedHashMap::new
+                ));
         return combinado;
     }
+
+
 
 }
