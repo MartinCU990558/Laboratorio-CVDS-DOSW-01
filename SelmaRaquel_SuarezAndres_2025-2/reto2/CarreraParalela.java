@@ -28,6 +28,8 @@ public class CarreraParalela {
             int min = minYc.getKey();
             int count = minYc.getValue();
 
+            boolean maxEsMultiploDe2 = (max % 2 == 0) ? true : false;
+
             return int;
 
 
