@@ -27,6 +27,12 @@ public class Reto4 {
         }
         return mapaFinal;
     }
+    public static void imprimirMapaMayusculasOrdenado(Map<String, Integer> mapa) {
+        mapa.entrySet()
+                .stream().sorted(Map.Entry.comparingByKey());
+
+    }
+
 
     public static void main(String[] args) {
         List<Map.Entry<String, Integer>> entradasHash = Arrays.asList(
@@ -53,5 +59,6 @@ public class Reto4 {
 
         Map<String, Integer> mapaFinal = combinarMapas(mapaHash, mapaTable);
         System.out.println("Combinado: " + mapaFinal);
+        System.out.println((mapaFinal));
     }
 }
