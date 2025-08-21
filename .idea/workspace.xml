@@ -13,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/reto5_estudiante2_Castiblanco" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -31,7 +36,7 @@
     "Application.Reto5.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/reto5__estudiante1__Leal",
+    "git-widget-placeholder": "feature/reto__5__Castiblanco__Leal__2025-2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/juan.lcruz/Desktop/Laboratorio-CVDS-DOSW-01"
   }
