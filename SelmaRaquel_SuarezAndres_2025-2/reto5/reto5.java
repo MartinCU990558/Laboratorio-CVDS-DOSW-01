@@ -17,4 +17,10 @@ public class reto5 {
 
     public static SortedSet<Integer> unirOrdenado(Set<Integer> a, Set<Integer> b) {
         SortedSet<Integer> res = new TreeSet<>();
+        res.addAll(a);
+        res.addAll(b);
+        return res;
+     }
+
+
 }
