@@ -19,7 +19,7 @@ public class reto3 {
 
     }
 
-    
+
     public static String ecoMisterioso(String msg) {
 
         Function<String,String> repetir3 = reto3::repetir3_Builder;
