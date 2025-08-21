@@ -77,3 +77,133 @@ Luego se realizo el merge, para solucionarlo se creo un metodo de unión para am
 **Descripción:**
 Ambos estudiantes A y B deben hacer uso de switch para que se ejecuten comandos para que impriman ciertas frases para cada uno.
 Luego se deben unir los comandos de los estudiantes A y B recibiendolos en listas.
+
+
+## PARTE 3 – Cuestionario
+
+Una vez finalizado el tiempo de la parte 2, es momento de resolver las siguientes preguntas en pareja, la idea es que se dividan las preguntas entre los dos participante del laboratorio, generen una rama donde agregan las respuestas a la sección previamente creada en el README y al finalizar realizan commit a la rama feature del laboratorio.
+
+
+1. Cuál es la diferencia entre git merge y git rebase
+
+- RTA:
+GIT MERGE
+-	Combina cambios de una rama a otra, crea un commit de fusión.
+GIT REBASE
+-	Toma los commits de una rama y los reaplica sobre otra, reescribe la historia de los commits.
+
+2. Si dos ramas modifican la misma línea de un archivo ¿Qué sucede al hacer merge?
+
+- RTA:
+Si sucede eso git no sabe cuál versión mantener entonces se interrumpirá el merge y pasará un conflicto en ese archivo, el cual se deberá corregir manualmente y mirar que mantener, combinar o eliminar. Luego se guardan los cambios se vuelve a subir y así se resolverá el conflicto.
+
+3. ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
+
+- RTA:
+El comando que me permite ver gráficamente el historial de merges y ramas es:
+git log --oneline --graph --all –decorate
+oneline: Muestra los commits.
+Graph: Dibuja el árbol con las líneas y ramas.
+All: Muestra todas las ramas.
+Decorate: Muestra nombres y etiquetas en conjunto de los commits.
+4. Explica la diferencia entre un commit y un push?
+
+- RTA:
+COMMIT 
+-	Guarda cambios en el repositorio local.
+-	Guarda el mensaje de los cambios que se hicieron.
+PUSH
+-	Envia los commits locales al repositorio remoto (GitHub).
+-	Envia los archivos con cambios que se realizaron al remoto (lo actualiza).
+
+5. Para que sirve git stash y git pop?
+
+- RTA:
+GIT STASH: Guarda temporalmente cambios los cuales no se han hecho su respectivo commit, con el fin de cambiar o actualizar una rama sin perder los cambios que se han hecho.
+
+GIT POP: Recupera los cambios guardados en el stash y los aplica a la rama en la que estas actualmente.
+
+6. Qué diferencia hay entre HashMap y HashTable?
+
+- RTA:
+HASHMAP
+-	No es thread-safe (al acceder al mismo hash map y lo modifican puede haber inconsistencias.
+-	Permite valores null y una clave null.
+-	Es más rápida sin sincronización.
+-	Hereda de AbstractMap.
+HASHTABLE
+-	Es thread-safe (solo un hilo puede acceder a sus métodos a la vez.
+-	No  permite claves o valores null.
+-	Mas lento por la sincronización.
+-	Hereda de Dictionary.
+
+7. Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
+
+- RTA Ventajas:
+
+ - En vez de estar iterando se puede usar un stream() y se puede transformar una colección a un mapa así podemos hacerlo más legible
+
+ - No es necesario a cada rato revisar si es NULL
+
+ - Maneja claves repetidas ya que es clave/valor
+
+ - Los más notorio es que reduce líneas de código
+
+8. Si usas List con objetos y luego aplicas stream().map() que tipo de operación estás haciendo?
+
+- RTA: Se estaría transformando, ya que cada elemento de la lista lo transformamos a otro valor, pero no cambia la lista original por lo que al mapear se crea un nuevo flujo de datos
+
+9. Que hace el método stream().filter() y que retorna?
+
+- RTA ¿Que hace?: Se está filtrando los elementos que cumplan cierta condición booleana de una expresión lambda y si no la cumple se eliminan.
+
+- RTA ¿Qué retorna?: Estaría retornando otro stream con los elementos que hayan pasado el filtro, si se quiere una lista tocaría con otros métodos como toList() y etc…
+
+10. Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.
+
+1.) Cámbiate a develop usando estos comandos:
+
+```bash
+   git checkout develop “Cambiamos a la rama develop”
+   git pull origin develop “Descarga últimos cambios”
+```
+
+
+2.) Creamos una nueva rama; con -b creamos la rama y nos movemos a ella
+
+```bash
+   git checkout -b feature/nueva_funcionalidad_portela
+```
+
+
+3.) Y para actualizar cambios y subirlos usamos
+
+```bash
+   git add .
+   git commit -m "Actualizando la nueva funcionalidad"
+```
+
+
+4.) Finalmente, para subirlo a GitHub usamos:
+
+```bash
+   git push origin feature/ nueva_funcionalidad_portela
+```
+
+11. ¿Cuál es la diferencia entre crear una rama con git branch y con git checkout -b?
+
+- RTA:
+ - Diferencia git branch: Solo estamos creando la rama mas no nos mueve hacia ella así que seguimos estando en la rama que se tenga actualmente.
+ - Diferencia git checkout -b nombre_rama: Igualmente estamos creando la rama, pero si nos cambiamos a ella automáticamente.
+
+12. ¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente?
+
+- RTA Ventajas:
+
+ - Como se pudo evidenciar trabajando con subramas es que solo afectan la rama en la que estemos trabajando mas no afecta la rama principal.
+
+ - Cuando se usa /feature nos quiere decir que se añadió una nueva funcionalidad mas no un bug o prueba.
+
+ - Es mas sencillo trabajar en equipo ya que no se esta chocando con los features de otros y se mantiene el flujo de trabajo.
+
+ - Cuando se hace merge o pull se revisa el código ante de llegar al main.Cuando se hace merge o pull se revisa el código ante de llegar al main.
