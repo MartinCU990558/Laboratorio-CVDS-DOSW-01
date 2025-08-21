@@ -17,4 +17,6 @@ public class Reto4 {
         return mapaParteRapida;
     }
 
+    //comentario de prueba
+
 }
