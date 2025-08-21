@@ -15,6 +15,9 @@ public class CarreraParalela {
         return numeros.stream().min(Integer::compare).get();
     }
 
+    static boolean numeroMayorEsDivisorDe2(int numero) {
+        return 2 % numero == 0 ? true : false;
+    }
 
     static Resultados combinacion(List<Integer> numeros) {
         int maximo = maximoNumero(numeros);
