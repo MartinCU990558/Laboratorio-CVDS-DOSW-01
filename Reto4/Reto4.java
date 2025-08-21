@@ -8,7 +8,7 @@ public class Reto4 {
     public static Map<String, Integer> crearMapaHashTable(List<Map.Entry<String, Integer>> entradas) {
         Map<String, Integer> tabla = new Hashtable<>();
         for (Map.Entry<String, Integer> entrada : entradas) {
-            tabla.putIfAbsent(entrada.getKey(), entrada.getValue()); 
+            tabla.putIfAbsent(entrada.getKey(), entrada.getValue());
         }
         return tabla;
     }
@@ -22,6 +22,12 @@ public class Reto4 {
 
         return mapaFinal;
     }
+    public static void imprimirMapaMayusculasOrdenado(Map<String, Integer> mapa) {
+        mapa.entrySet()
+                .stream().sorted(Map.Entry.comparingByKey());
+
+    }
+
 
     public static void main(String[] args) {
         List<Map.Entry<String, Integer>> entradasHash = Arrays.asList(
@@ -47,6 +53,7 @@ public class Reto4 {
 
         Map<String, Integer> mapaFinal = combinarMapas(mapaHash, mapaTable);
         System.out.println("Combinado: " + mapaFinal);
+        System.out.println((mapaFinal));
     }
 
 
