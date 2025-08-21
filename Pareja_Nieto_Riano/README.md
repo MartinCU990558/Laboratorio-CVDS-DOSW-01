@@ -28,7 +28,9 @@ Para la solución de este reto, creamos dos nuevos objetos Estudiante y Mensaje 
 
 **Evidencia**
 **Creación Objeto General**
+
 ![alt text](image-12.png)
+
 **Historial completo mediante git log--oneline**
 ![alt text](image-1.png)
 **Creacion Objeto Resultados**
