@@ -13,4 +13,10 @@ public class reto3 {
         return sb.toString();
     }
 
+    public static String invertir_Buffer(String msg) {
+        return new StringBuffer(msg).reverse().toString();
+
+
+    }
+
 }
