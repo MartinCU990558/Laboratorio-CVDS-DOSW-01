@@ -15,6 +15,11 @@ public class CarreraParalela {
     private boolean divisor2(int a){
         return (2 % a == 0) ? true : false;
     }
+
+    private boolean datosImpar(ArrayList<Integer> arry){
+        return !multiplo2(arry.size());
+
+    }
     public static void main(String[] args) {
     }
 }
