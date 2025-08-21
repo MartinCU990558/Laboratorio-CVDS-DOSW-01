@@ -26,7 +26,7 @@ public class reto4 {
                                                Hashtable<String,Integer> hashTable) {
 
         Map<String,Integer> base = new HashMap<>(hashMap);
-        hashTable.forEach(base::put); // prioridad a Hashtable
+        hashTable.forEach(base::put);
         return base;
     }
 
