@@ -14,14 +14,15 @@ public class Reto4{
             (y, x) -> y,HashMap::new));
     }
 
-    static Map<String, Integer> combinado (HashMap<String, Integer> map, Hashtable<String, Integer> table) {
+    static Map<String, Integer> combinado(HashMap<String, Integer> map, Hashtable<String, Integer> table) {
+        return Stream.concat(map.entrySet().stream(), table.entrySet().stream())
+            .collect(Collectors.toMap(
+                e -> e.getKey().toUpperCase(),Map.Entry::getValue,(v1, v2) -> v2,TreeMap::new));
+    }
 
-    return Stream.concat(map.entrySet().stream(), table.entrySet().stream())
-        .collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(),(v1, v2) -> v2,HashMap::new));
-}
 
     public static void main(String[] args) {
-        
+
     }
     
 }
