@@ -20,6 +20,20 @@ public class Reto4 {
         return tabla;
     }
 
+    public static Map<String, Integer> combinarMapas(Map<String, Integer> mapaHashMap, Map<String, Integer> mapaHashTable) {
+
+        Map<String, Integer> mapaFinal = new HashMap<>(mapaHashMap);
+
+        for (Map.Entry<String, Integer> entrada : mapaHashTable.entrySet()) {
+            mapaFinal.put(entrada.getKey(), entrada.getValue());
+        }
+
+        return mapaFinal;
+    }
+
+
+
+
     public static void main(String[] args) {
         List<Map.Entry<String, Integer>> entradasHash = Arrays.asList(
                 new AbstractMap.SimpleEntry<>("oro", 5),
@@ -35,9 +49,13 @@ public class Reto4 {
         );
 
         Map<String, Integer> mapaHash = crearMapaHashMap(entradasHash);
-        System.out.println(mapaHash);
+        System.out.println("HashMap: " + mapaHash);
 
         Map<String, Integer> mapaTable = crearMapaHashTable(entradasTable);
-        System.out.println(mapaTable);
+        System.out.println("Hashtable: " + mapaTable);
+
+        Map<String, Integer> mapaFinal = combinarMapas(mapaHash, mapaTable);
+        System.out.println("Mapa combinado: " + mapaFinal);
     }
+
 }
