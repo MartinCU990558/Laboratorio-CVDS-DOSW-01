@@ -1,4 +1,17 @@
+import java.util.ArrayList;
+
 public class CarreraParalela {
+    
+    private int[] numeroPequeño(ArrayList<Integer> arry){
+        int[] numeros = new int[2];
+        int a = 0;
+        if(arry.size() != 0){
+            a = arry.stream().min(Integer::compare).get();
+        }
+        numeros[0] = a;
+        numeros[1] = arry.size();
+        return  numeros;
+    }
     public static void main(String[] args) {
     }
 }
