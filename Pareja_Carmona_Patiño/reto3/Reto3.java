@@ -2,7 +2,9 @@ package reto3;
 
 public class Reto3 {
     public static void main(String[] args) {
-        StringBuilder message = MsgBuilder.buildMessage("Hello World");
-        System.out.println(message);
+        java.util.function.Function<String, String> repetirTresVeces = mensaje -> MsgBuilder.buildMessage(mensaje);
+        String resultado = repetirTresVeces.apply("Hello World");
+        System.out.println(resultado);
+
     }
 }
