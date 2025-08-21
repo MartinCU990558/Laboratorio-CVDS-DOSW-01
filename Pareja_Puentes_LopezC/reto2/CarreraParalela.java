@@ -15,10 +15,12 @@ public class CarreraParalela {
         return numeros.stream().min(Integer::compare).get();
     }
 
+
     static Resultados combinacion(List<Integer> numeros) {
         int maximo = maximoNumero(numeros);
+        int minimo = numeroMinimoCantidad(numeros);
         int cantidad = cantidadNumeros(numeros);
-        return new Resultados(maximo, cantidad);
+        return new Resultados(maximo, minimo, cantidad);
     }
     public static void main(String[] args) {
         System.out.println("");
