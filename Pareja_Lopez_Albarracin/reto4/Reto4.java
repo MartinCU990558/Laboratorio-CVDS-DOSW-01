@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class Reto4 {
+
+    public static Map<String, Integer> crearHashTable(List<Map.Entry<String, Integer>> lista) {
+        Map<String, Integer> tabla = new Hashtable<>();
+        for (Map.Entry<String, Integer> par : lista) {
+            tabla.putIfAbsent(par.getKey(), par.getValue());
+        }
+        return tabla;
+    }
+}
