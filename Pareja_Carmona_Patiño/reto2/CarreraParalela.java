@@ -4,11 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CarreraParalela {
-    private List<Integer> numeros = Arrays.asList();
-
-    public CarreraParalela(List<Integer> numeros) {
-        this.numeros = numeros;
-    }
 
     public static int encontrarNumMayor(List<Integer> numeros){
         return numeros.stream()
@@ -32,7 +27,7 @@ public class CarreraParalela {
 
     }
 
-    public int[] obtenerDatosCarrera(){
+    public static int[] obtenerDatosCarrera(List<Integer> numeros){
         int[] datos = new int[6];
         datos[0] = encontrarNumMayor(numeros);
         datos[1] = hallarMinimoYNumeroTotalDeDatos(numeros)[0];
