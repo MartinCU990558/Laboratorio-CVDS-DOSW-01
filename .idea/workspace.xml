@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36eea0e9-68b0-4eba-9545-028d608188c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Laboratorio-CVDS-DOSW-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Laboratorio-CVDS-DOSW-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pareja_Lopez_Albarracin/reto4/Reto4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pareja_Lopez_Albarracin/reto4/Reto4.java" afterDir="false" />
-    </list>
+    <list default="true" id="36eea0e9-68b0-4eba-9545-028d608188c0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +33,7 @@
     "Application.java.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Sebastian__Albarracin__Reto4",
+    "git-widget-placeholder": "reto__numero__4__LopezJulian__AlbarracinSebastian__2025-2",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
