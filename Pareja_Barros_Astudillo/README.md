@@ -38,6 +38,13 @@ conflicto en el merge ![alt text](images/Reto3MergeConflicto.png)
 solucion del conflicto merge ![alt text](images/respuestaReto3.png)
 
 
+Reto 4:
+
+Como venia deciendo mi compañero se nos dificulto porder organizarnos en los mismos tiempos para poder hacer los commits y merge en conjunto por ende nos dividimos las actividades, de todas formas se hizo paso a paso
+
+![alt text](image.png)
+
+
 
 Cuestionario:
 
