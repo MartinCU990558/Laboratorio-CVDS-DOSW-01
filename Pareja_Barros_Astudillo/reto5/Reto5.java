@@ -33,7 +33,7 @@ public class Reto5 {
         union.addAll(conjuntoA);
         union.addAll(conjuntoB);
 
-        // Mostrar usando lambda
+        
         union.forEach(n -> System.out.println("Número en arena: " + n));
     }
 
