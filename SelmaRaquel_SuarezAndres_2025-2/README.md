@@ -112,6 +112,19 @@
   
 **Evidencia:**
 
+![Imagen de WhatsApp 2025-08-21 a las 23 52 29_73ca53e2](https://github.com/user-attachments/assets/e6c66643-e862-4d10-ae27-dfc21995e740)
+
+- Código
+
+![Imagen de WhatsApp 2025-08-21 a las 23 51 35_a372225e](https://github.com/user-attachments/assets/31d0165e-4834-4fd9-b947-68e5cd85f489)
+
+![Imagen de WhatsApp 2025-08-21 a las 23 53 00_9a79a4a2](https://github.com/user-attachments/assets/89cb3188-e9a4-4f0d-855f-44a82b07036f)
+
+- Salida
+
+![Imagen de WhatsApp 2025-08-21 a las 23 54 29_18069609](https://github.com/user-attachments/assets/c8cff9d8-f652-48cb-8c36-b310f0a73c12)
+
+
 ## Respuestas Teóticas
 
 1. **Diferencia entre `git merge` y `git rebase`:**  
