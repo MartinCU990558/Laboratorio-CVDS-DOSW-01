@@ -26,6 +26,22 @@ Creamos la rama feature/reto_numero_1_ChavarroDiego_FiquitivaAna_2025-2 a partir
 
 ---
 
+### Reto 3: El eco misterioso
+
+**Evidencia:**
+
+![Captura](reto3_sol.jpg)
+
+Para este reto partimos desde la rama `feature/reto3_ChavarroDiego_FiquitivaAna_2025-2`.  
+- **Estudiante A** creó la rama `feature/reto3_builder_ChavarroDiego_FiquitivaAna_2025-2`, donde implementó un método que repite un mensaje 3 veces usando **StringBuilder** y **stream()** para las repeticiones.  
+- **Estudiante B** creó la rama `feature/reto3_buffer_ChavarroDiego_FiquitivaAna_2025-2`, donde implementó un método que invierte un mensaje usando **StringBuffer**.  
+- En el **primer choque**, ambos crearon la misma función `ecoMisterioso(String msg)`, que combina ambas transformaciones: repetir el mensaje 3 veces y luego invertirlo. Al unir cambios se produjo un conflicto de merge, el cual resolvimos integrando ambas soluciones en un solo método.  
+- La solución final utiliza **expresiones lambda** para invocar la función y cumplir los requisitos de seguridad en hilos y velocidad.  
+
+
+
+---
+
 ### Reto 4: El tesoro de las Llaves duplicadas
 
 **Evidencia:**
@@ -52,3 +68,5 @@ Este desafío involucró la colaboración para manipular y combinar colecciones 
 ![Captura](reto6_sol.jpg)
 
 Este reto se centró en la creación de un sistema de comandos interactivo en Java. Cada integrante del equipo implementó un conjunto de comandos en una rama separada usando la estructura switch-case. Posteriormente, las ramas fueron fusionadas para unificar los fragmentos de código. La solución final consolidó todos los comandos en una estructura **`Map<String, Runnable>`** que vincula cada comando (clave String) con una acción específica (valor Runnable) usando expresiones lambda. Esto permitió un manejo flexible y escalable de los comandos, donde cada acción se ejecutaba al llamar al método run(), demostrando una solución final cohesiva y funcional.
+
+---
