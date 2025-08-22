@@ -16,4 +16,8 @@ public class MsgBuilder {
 
         return sb.toString();
     }
+    public static String reverseMessage(String msg) {
+        StringBuffer sb = new StringBuffer(msg);
+        return sb.reverse().toString();
+    }
 }
