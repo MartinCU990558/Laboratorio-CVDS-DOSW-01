@@ -143,7 +143,7 @@ git checkout -b feature/nueva_rama
 
 ***11. ¿Cuál es la diferencia entre crear una rama con git branch y con git checkout -b?***
 
-La diferencia radica en que el comando brach solo nos permite crear la rama, mientras que checkout -b nos deja crear la rama y manipularla.
+La diferencia radica en que el comando branch solo nos permite crear la rama, mientras que checkout -b nos deja crear la rama y manipularla.
 
 ***12. ¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente?***
 
@@ -152,3 +152,16 @@ Esta práctica se realiza debido a lo siguiente:
 * Se puede trabajar en conjunto con el equipo de trabajo.
 * Facilita las revisiones de los pull y logs
 * Mejoramos la gestión de desarrollo al seguir la estructura de Git Flow 
+
+___
+## Bibliografía
+ * Atlassian. (s. f.). Merging vs. Rebasing | Atlassian Git Tutorial. https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+ * Atlassian. (s. f.-a). Git merge | Atlassian Git Tutorial. https://www.atlassian.com/es/git/tutorials/using-branches/git-merge#:~:text=Resoluci%C3%B3n%20de%20conflicto,podr%C3%A1%20averiguar%20qu%C3%A9%20versi%C3%B3n%20utilizar.
+ * How to see a merge history? (s. f.). Stack Overflow. https://stackoverflow.com/questions/33802490/how-to-see-a-merge-history
+ * Wisniowski, K. (2022, 21 noviembre). Git Commit vs Push – What’s the Difference ? (Tutorial). Cloud Infrastructure Services. https://cloudinfrastructureservices.co.uk/git-commit-vs-push-whats-the-difference-tutorial/
+ * Atlassian. (s. f.-b). git stash: Cómo guardar los cambios | Atlassian Git Tutorial. https://www.atlassian.com/es/git/tutorials/saving-changes/git-stash
+ * GeeksforGeeks. (2025, 23 julio). Differences between HashMap and HashTable in Java. GeeksforGeeks. https://www.geeksforgeeks.org/java/differences-between-hashmap-and-hashtable-in-java/
+ * Obregon, A. (2024, 20 octubre). Java’s Collectors.toMap() Method Explained. Medium. https://medium.com/@AlexanderObregon/javas-collectors-tomap-method-explained-f95999d4ebe6
+ * Maldonado, R. (2024, 11 diciembre). Stream.filter() en Java: ¿Qué es y cuándo usarlo? KeepCoding Bootcamps. https://keepcoding.io/blog/que-hace-stream-filter-en-java/
+ * W3Schools.com. (s. f.). https://www.w3schools.com/git/git_branch.asp
+ * Atlassian. (s. f.-a). Git Checkout | Atlassian Git Tutorial. https://www.atlassian.com/git/tutorials/using-branches/git-checkout
