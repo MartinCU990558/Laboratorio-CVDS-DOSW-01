@@ -11,3 +11,14 @@ public class Reto4 {
         }
         return mapa;
     }
+
+    // Método con Hashtable (segundo metodo pedido)
+    public static Map<String, Integer> crearHashTable(List<AbstractMap.SimpleEntry<String, Integer>> lista) {
+        Map<String, Integer> tabla = new Hashtable<>();
+        for (AbstractMap.SimpleEntry<String, Integer> par : lista) {
+            tabla.putIfAbsent(par.getKey(), par.getValue());
+        }
+        return tabla;
+    }
+
+}
