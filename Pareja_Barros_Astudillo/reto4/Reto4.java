@@ -37,7 +37,7 @@ public class Reto4 {
                         TreeMap::new 
                 ));
 
-        // Paso 3: imprimir
+        
         resultado.forEach((k, v) -> System.out.println("Clave: " + k + " | Valor: " + v));
     }
 
