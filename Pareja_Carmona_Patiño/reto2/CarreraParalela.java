@@ -33,11 +33,12 @@ public class CarreraParalela {
     }
 
     public int[] obtenerDatosCarrera(){
-        int[] datos = new int[4];
+        int[] datos = new int[5];
         datos[0] = encontrarNumMayor(numeros);
         datos[1] = hallarMinimoYNumeroTotalDeDatos(numeros)[0];
         datos[2] = hallarMinimoYNumeroTotalDeDatos(numeros)[1];
         datos[3] = (encontrarNumMayor(numeros) % 2 == 0) ? 1 : 0;
+        datos[4] = (2 % encontrarNumMayor(numeros) == 0) ? 1 : 0;
         return datos;
 
     }
