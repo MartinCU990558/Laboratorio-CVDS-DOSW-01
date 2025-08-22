@@ -1,6 +1,6 @@
 package reto2;
 import java.util.List;
-
+import reto2.Resultados;
 public class CarreraParalela {
 
     static int maximoNumero(List<Integer> numeros){
@@ -17,6 +17,15 @@ public class CarreraParalela {
 
     static boolean numeroMayorEsDivisorDe2(int numero) {
         return 2 % numero == 0 ? true : false;
+    }
+    static boolean multiplodedos(List<Integer> numeros){
+        int maximo = maximoNumero(numeros);
+        if (maximo % 2 == 0){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
     static Resultados combinacion(List<Integer> numeros) {
