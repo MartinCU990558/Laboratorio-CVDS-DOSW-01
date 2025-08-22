@@ -16,9 +16,13 @@
 ![alt text](image.png)
 
 
-### Reto 2: 
+### Reto 2: RETO 2 COMPLETADO
 **Evidencia:** 
-
+![alt text](image-8.png)
+---
+![alt text](image-9.png)
+---
+![alt text](image-11.png)
 ### Reto 3: RETO 3 COMPLETADO 
 **Evidencia Choque:** 
 ![alt text](image-2.png)
@@ -28,6 +32,7 @@
 ### Reto 4: RETO 4 COMPLETADO
 **Evidencia:** 
 ![alt text](image-6.png)
+---
 ![alt text](image-7.png)
 
 ### Reto 5: RETO 5 COMPLETADO 
