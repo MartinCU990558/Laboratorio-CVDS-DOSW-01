@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class MaquinaSecreta {
+public class Reto6 {
 
     private static final Map<String, Runnable> comandos = new HashMap<>();
 
