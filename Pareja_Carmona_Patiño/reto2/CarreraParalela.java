@@ -42,8 +42,5 @@ public class CarreraParalela {
 
     }
 
-    public boolean verificarSiNumeroMayorEsMultiploDeDos(List<Integer> numeros){
-        return (encontrarNumMayor(numeros) % 2 == 0) ? true : false;
-    }
 }
 
