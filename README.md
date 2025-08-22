@@ -30,7 +30,7 @@ Creamos la rama feature/reto_numero_1_ChavarroDiego_FiquitivaAna_2025-2 a partir
 
 **Evidencia:**
 
-![Captura](reto3_sol.jpg)
+![Captura](reto3_sol.png)
 
 Para este reto partimos desde la rama `feature/reto3_ChavarroDiego_FiquitivaAna_2025-2`.  
 - **Estudiante A** creó la rama `feature/reto3_builder_ChavarroDiego_FiquitivaAna_2025-2`, donde implementó un método que repite un mensaje 3 veces usando **StringBuilder** y **stream()** para las repeticiones.  
