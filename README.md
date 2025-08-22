@@ -15,9 +15,9 @@
 
 Realizamos tres clases (Estudiante, Mensaje y Reto1) y, apoyándonos en herramientas tecnológicas, utilizamos stream y map para la ejecución de este primer reto, con el fin de comprender mejor su funcionamiento.
 
-### Reto 2:  Carrera en paralelo
+## Reto 2:  Carrera en paralelo
 
-
+Creamos los metodos correspondientes (calcularMaximo, calcularMinimo y analizar)
 
 ## Reto 4: El tesoro de las llaves duplicadas
 ![alt text](<Captura de pantalla de 2025-08-21 00-30-44.png>)
