@@ -13,4 +13,10 @@ public class Reto_3 {
         return sb.toString();
     }
 
+    public static String estB_Buffer(String mensaje) {
+
+        StringBuffer sbf = new StringBuffer(mensaje);
+        return sbf.reverse().toString();
+    }
+
 }
