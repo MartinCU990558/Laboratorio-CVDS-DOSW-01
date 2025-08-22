@@ -24,15 +24,31 @@ public class CarreraParalela {
     static boolean cantidadEsPar(List<Integer> numeros) {
     return (numeros.size() % 2 == 0) ? true : false;
     }
-
+    
+    static boolean calcularCantidadImpar(int cantidad){
+        return cantidad % 2 != 0 ? true : false;
+    }
 
     static Resultados combinacion(List<Integer> numeros) {
         int maximo = maximoNumero(numeros);
         int minimo = numeroMinimoCantidad(numeros);
         int cantidad = cantidadNumeros(numeros);
-        return new Resultados(maximo, minimo, cantidad);
+        boolean esMultiplo = esMultiploDeDos(maximo);
+        boolean esDivisor = numeroMayorEsDivisorDe2(maximo);
+        boolean esPar = cantidadEsPar(numeros);
+        boolean esImpar = calcularCantidadImpar(cantidad);
+        return new Resultados(maximo, minimo, cantidad, esDivisor, esMultiplo, esPar, esImpar);
     }
+
     public static void main(String[] args) {
-        System.out.println("");
+    List<Integer> lista1 = List.of(10, 20, 30, 40);
+    List<Integer> lista2 = List.of(3, 5, 7, 9, 11);
+    Resultados resultadosLista1 = combinacion(lista1);
+    Resultados resultadosLista2 = combinacion(lista2);
+    System.out.println("Resultados de la Lista 1:");
+    System.out.println(resultadosLista1);
+    System.out.println("\nResultados de la Lista 2:");
+    System.out.println(resultadosLista2);
     }
+
 }
