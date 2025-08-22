@@ -2,6 +2,31 @@ import java.util.*;
 
 public class Reto4 {
 
+    public static void main(String[] args) {
+        List<Map.Entry<String, Integer>> listaHashMap = List.of(
+                Map.entry("oro", 5),
+                Map.entry("plata", 3),
+                Map.entry("oro", 7),
+                Map.entry("diamante", 10)
+        );
+
+        List<Map.Entry<String, Integer>> listaHashTable = List.of(
+                Map.entry("plata", 8),
+                Map.entry("rubí", 4),
+                Map.entry("oro", 12),
+                Map.entry("esmeralda", 6)
+        );
+
+        Map<String, Integer> hashMap = createHashMap(listaHashMap);
+        Map<String, Integer> hashTable = crearHashTable(listaHashTable);
+
+        Map<String, Integer> combinado = combinateStructures(hashMap, hashTable);
+
+        Map<String, Integer> combinadoMayus = convertToMayus(combinado);
+
+        imprimirOrdenado(combinadoMayus);
+    }
+
     public static Map<String, Integer> crearHashTable(List<Map.Entry<String, Integer>> lista) {
         Map<String, Integer> tabla = new Hashtable<>();
         for (Map.Entry<String, Integer> par : lista) {
