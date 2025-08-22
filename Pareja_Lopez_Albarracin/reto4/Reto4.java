@@ -9,4 +9,10 @@ public class Reto4 {
         }
         return tabla;
     }
+
+    public static Map<String, Integer> combinateStructures(Map<String, Integer> hashMap, Map<String, Integer> hashTable) {
+        Map<String, Integer> combinateMap = new HashMap<>(hashMap);
+        combinateMap.putAll(hashTable);
+        return combinateMap;
+    }
 }
