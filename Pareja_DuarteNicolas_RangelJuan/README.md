@@ -96,3 +96,41 @@ para esto se utiliza runnable lo que permite tratar el objeto como una accion qu
 
 pruebas de su resultado con valores dados en la main
 
+## preguntas teoricas
+
+1. Cuál es la diferencia entre git merge y git rebase
+R) la diferencia entre git merge y git rebase es que merge une dos ramas creando un commit adicional que conserva el historial de commits de ambas ramas, mientras que rebase muestra la combinacion final como si no hubiera tenido commits 
+
+2. Si dos ramas modifican la misma línea de un archivo ¿Qué sucede al hacer merge?
+R) si dos ramas modifican la misma línea de un archivo y luego se hace un merge, Git no puede decidir automáticamente qué cambio conservar, por lo que se produce un conflicto que debe resolverse manualmente  editando el archivo y eligiendo qué versión de la línea mantener
+
+3. ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
+R) para ver gráficamente el historial de merges y ramas en consola se utiliza el comando git log --graph --oneline --all, el cual muestra un árbol visual con las diferentes ramas y los commits de merge de forma organizada
+
+4. Explica la diferencia entre un commit y un push?
+R) un commit guarda cambios en el repositorio local como una versión del proyecto, mientras que un push envía esos commits al repositorio remoto lo que permite que alguien mas tengan acceso a los cambios realizados
+
+5. Para que sirve git stash y git pop?
+R) el comando git stash se usa para guardar temporalmente cambios a los que aun no se les quiere hacer commit, limpiando el área de trabajo sin perderlos, mientras que git stash pop recupera esos cambios guardados y los aplica nuevamente en el área de trabajo
+
+6. Qué diferencia hay entre HashMap y HashTable?
+R) la diferencia entre HashMap y HashTable es que HashMap nes más rápido pero no seguro en entornos multi-hilo, y permite claves y valores null, mientras que HashTable es  más lento pero seguro en entornos concurrentes, y no admite null
+
+7. Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
+R) la ventaja de usar Collectors.toMap() frente a un bucle tradicional es que el código resulta menos propenso a errores, además de que le
+es mas facil integrarse a streams , lo que facilita transformaciones y operaciones sobre colecciones
+
+9. Si usas List con objetos y luego aplicas stream().map() que tipo de operación estas haciendo?
+R) si se usa una lista de objetos y se aplica stream().map(), lo que hace es una operación de transformación en la que cada elemento de la lista se convierte en otro valor u objeto según la función que se pase al map
+
+10. Que hace el método stream().filter() y que retorna?
+R) el método stream().filter() se utiliza para aplicar una condición booleana sobre los elementos de un stream, dejando pasar solo aquellos que cumplen la condición; su resultado es un nuevo Stream compuesto únicamente por los elementos filtrados
+
+11. Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.
+R) primero se debe mover a la rama develop con git checkout develop, luego actualizarla con git pull, y finalmente crear y cambiarte a la nueva rama con git checkout -b feature/"nombre"
+
+12. ¿Cuál es la diferencia entre crear una rama con git branch y con git checkout -b?
+R) La diferencia entre git branch y git checkout -b es que git branch "nombre" únicamente crea la rama sin cambiar a ella, mientras que git checkout -b nombre-rama crea la rama y al mismo tiempo mueve el entorno de trabajo a esa rama recién creada
+
+13. ¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente?
+R) porque esto evita alterar el código estable, permite que varias personas trabajen en paralelo sin interferir con sus cambios, y facilita revisar, probar y aprobar nuevas funcionalidades antes de integrarlas a la rama principal.
