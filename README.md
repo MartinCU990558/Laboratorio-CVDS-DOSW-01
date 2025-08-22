@@ -18,6 +18,7 @@ Se implementó un programa en Java compuesto por tres clases: **Reto1**, **Stude
 ![Captura](imagenes/reto2_log.png)
 ...
 
+<<<<<<< HEAD
 ### Reto 3: Commit colaborativo
 **Evidencia:**
 Ese programa define una clase llamada MgBuilder que contiene un método llamado repetirMensaje, el cual recibe un texto y lo repite exactamente tres veces separado por espacios. Para lograrlo utiliza un objeto StringBuilder, que va concatenando el mensaje dentro de un ciclo for que se ejecuta tres veces, añadiendo un espacio únicamente entre las repeticiones para que el resultado no quede con un espacio final extra. En el método main se llama a repetirMensaje("Hola"), y al imprimir el resultado en consola se muestra la frase "Hola Hola Hola".
@@ -36,6 +37,8 @@ Ese programa define una clase llamada MgBuilder que contiene un método llamado 
 **Evidencia:**
 ![Captura](imagenes/reto2_log.png)
 ...
+=======
+>>>>>>> 2ff32989233b34fbea183566de4c22d28ed7ad5e
 
 ## Preguntas teoricas
 **1.	Cuál es la diferencia entre git merge y git rebase**
