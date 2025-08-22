@@ -5,4 +5,5 @@ public class CarreraParalela{
     public static int biggerNumber(List<Integer> numbers) {
         return numbers.stream().max(Integer::compare).get();
     }
+    
 }
