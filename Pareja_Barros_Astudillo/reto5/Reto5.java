@@ -27,4 +27,14 @@ public class Reto5 {
                 .collect(Collectors.toCollection(TreeSet::new));
     }
 
+    // Union ambos conjuntos y mostrar resultados
+    public static void unirYMostrar(Set<Integer> conjuntoA, Set<Integer> conjuntoB) {
+        TreeSet<Integer> union = new TreeSet<>();
+        union.addAll(conjuntoA);
+        union.addAll(conjuntoB);
+
+        // Mostrar usando lambda
+        union.forEach(n -> System.out.println("Número en arena: " + n));
+    }
+
 }
