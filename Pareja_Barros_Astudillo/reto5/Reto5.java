@@ -16,6 +16,15 @@ public class Reto5 {
                 .collect(Collectors.toSet());
     }
 
-    
+    // Eliminar multiplos de 5
+    public static Set<Integer> crearTreeSet(int[] numeros) {
+        TreeSet<Integer> treeSet = new TreeSet<>();
+        for (int n : numeros) {
+            treeSet.add(n);
+        }
+        return treeSet.stream()
+                .filter(n -> n % 5 != 0)
+                .collect(Collectors.toCollection(TreeSet::new));
+    }
 
 }
