@@ -27,12 +27,15 @@
 
 **Evidencia:**
 
+![Imagen de WhatsApp 2025-08-21 a las 16 39 05_76622fa6](https://github.com/user-attachments/assets/9a3c2552-430a-464e-b8b3-4e02aae694c6)
+
 
 ### RETO #3: El eco misterioso
 - Se implementaron métodos usando `StringBuilder` y `StringBuffer`.
 - Se generó un choque de merge y se resolvió combinando repeticiones + inversión del texto.
 
 **Evidencia:**
+![Imagen de WhatsApp 2025-08-21 a las 17 14 47_e12bf08f](https://github.com/user-attachments/assets/370785bd-8987-4b25-ba1d-f7ef3ebff4fb)
 
 ### RETO #4: El tesoro de las Llaves duplicadas
 - Se usaron `HashMap` y `Hashtable`.
@@ -40,6 +43,7 @@
 - Se integraron funciones para **mayúsculas y orden ascendente* con `Collectors.toMap()` y `stream().sorted()`.
 
 **Evidencia:**
+![Imagen de WhatsApp 2025-08-21 a las 18 18 12_a8868bd6](https://github.com/user-attachments/assets/58f141c3-94bf-4bfd-96fb-2b94a4362959)
 
 
 ### RETO #5: Batalla de Conjuntos
@@ -48,6 +52,7 @@
 - Se unieron resultados sin duplicados.
 
 **Evidencia:**
+![Imagen de WhatsApp 2025-08-21 a las 18 42 37_9745e1a4](https://github.com/user-attachments/assets/d57c7365-9f94-4764-adcf-808f957921fd)
 
 ### RETO #6: La máquina de decisiones
 - Se implementó un `switch-case` con distintos comandos.
