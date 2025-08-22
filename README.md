@@ -26,3 +26,14 @@ Creamos la rama feature/reto_numero_1_ChavarroDiego_FiquitivaAna_2025-2 a partir
 
 ---
 
+### Reto 4: El tesoro de las Llaves duplicadas
+
+**Evidencia:**
+
+![Captura](imagenes/reto4_sol.jpg)
+
+Este reto se centró en la colaboración y resolución de conflictos al fusionar dos implementaciones de mapas, una usando `HashMap` y otra usando `Hashtable`. 
+
+El primer estudiante implementó un método que almacena pares clave-valor en un `HashMap`, ignorando claves duplicadas. El segundo estudiante hizo lo mismo, pero con un `Hashtable` sincronizado. Ambas ramas fueron fusionadas, resolviendo un conflicto para priorizar los valores del `Hashtable`. Finalmente, una función unificada combina ambos mapas, prioriza los valores del `Hashtable`, convierte las claves a mayúsculas y las ordena alfabéticamente antes de imprimir, utilizando `stream()`, `map()` y `sorted()`.
+
+
