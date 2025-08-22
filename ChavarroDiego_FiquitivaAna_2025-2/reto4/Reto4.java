@@ -1,29 +1,55 @@
 
+
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Reto4 {
 
     public static Map<String,Integer> crearMapaHashMap(List<AbstractMap.SimpleEntry<String,Integer>> lista) {
         Map<String,Integer> mapa = new HashMap<>();
         for (AbstractMap.SimpleEntry<String,Integer> par : lista) {
-            mapa.putIfAbsent(par.getKey(), par.getValue()); // conserva el primer valor encontrado
+            mapa.putIfAbsent(par.getKey(), par.getValue());
         }
         return mapa;
     }
 
-    // Estudiante A: combina y convierte claves a MAYÚSCULAS
-    public static Map<String,Integer> combinarMapas(Map<String,Integer> hashMap, Map<String,Integer> hashTable) {
-        Map<String,Integer> combinado = new HashMap<>(hashMap);
-        combinado.putAll(hashTable); // prioriza valores del Hashtable
+    
+    public static Map<String,Integer> crearMapaHashTable(List<AbstractMap.SimpleEntry<String,Integer>> lista) {
+        Map<String,Integer> mapa = new Hashtable<>();
+        for (AbstractMap.SimpleEntry<String,Integer> par : lista) {
+            mapa.putIfAbsent(par.getKey(), par.getValue());
+        }
+        return mapa;
+    }
 
-        return combinado.entrySet().stream()
+   
+    public static Map<String,Integer> combinarMapas(Map<String,Integer> hashMap, Map<String,Integer> hashTable) {
+        
+        Map<String,Integer> combinadoUpper =
+            Stream.concat(hashMap.entrySet().stream(), hashTable.entrySet().stream())
+                  .collect(Collectors.toMap(
+                      e -> e.getKey().toUpperCase(),  
+                      Map.Entry::getValue,
+                      (v1, v2) -> v2                 
+                  ));
+
+        // Paso 2: ordenar ascendente
+        return combinadoUpper.entrySet().stream()
+                .sorted(Map.Entry.comparingByKey())
                 .collect(Collectors.toMap(
-                        e -> e.getKey().toUpperCase(),
-                        Map.Entry::getValue,
-                        (v1, v2) -> v2, // en conflicto gana el Hashtable
-                        LinkedHashMap::new
+                    Map.Entry::getKey,
+                    Map.Entry::getValue,
+                    (v1, v2) -> v2,
+                    LinkedHashMap::new
                 ));
+    }
+
+  
+    public static void imprimirMapa(Map<String,Integer> mapa) {
+        mapa.entrySet().stream()
+            .map(e -> String.format("Clave: %s | Valor: %d", e.getKey(), e.getValue()))
+            .forEach(System.out::println);
     }
 
     public static void main(String[] args) {
@@ -42,9 +68,10 @@ public class Reto4 {
         );
 
         Map<String,Integer> mapaHashMap = crearMapaHashMap(listaHashMap);
-        Map<String,Integer> mapaHashTable = new HashMap<>(hashTable); // placeholder, B hará el suyo
+        Map<String,Integer> mapaHashTable = crearMapaHashTable(listaHashTable);
+
         Map<String,Integer> mapaFinal = combinarMapas(mapaHashMap, mapaHashTable);
 
-        mapaFinal.forEach((k, v) -> System.out.println("Clave: " + k + " | Valor: " + v));
+        imprimirMapa(mapaFinal);
     }
 }
