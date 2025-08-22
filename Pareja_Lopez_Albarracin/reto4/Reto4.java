@@ -19,4 +19,12 @@ public class Reto4 {
         combinateMap.putAll(hashTable);
         return combinateMap;
     }
+
+    public static Map<String, Integer> convertToMayus(Map<String, Integer> mapa) {
+        Map<String, Integer> mapMayus = new HashMap<>();
+        for (Map.Entry<String, Integer> e : mapa.entrySet()) {
+            mapMayus.put(e.getKey().toUpperCase(), e.getValue());
+        }
+        return mapMayus;
+    }
 }
