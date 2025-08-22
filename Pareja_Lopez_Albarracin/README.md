@@ -14,7 +14,8 @@
 ### Reto 1: `RETO 1 COMPLETADO`
 **Evidencia:** 
 ![alt text](image.png)
-
+**Descripcion:**
+Se agrego la clase Estudiante y Mensaje para luego en la clase principal juntarlo todo con el mensaje requerido para esto usamos una Lista con los estudiantes
 
 ### Reto 2: `RETO 2 COMPLETADO`
 **Evidencia:** 
@@ -23,31 +24,40 @@
 ![alt text](image-9.png)
 ---
 ![alt text](image-11.png)
+**Descripcion:**
+Con la carrera se crearon las clases carrera paralela y resultados que iban a contener las funcionalidades que poco a poco nos iba pidiendo , solucionando todo tipo de conflictos cuando pasaban.
 ### Reto 3: `RETO 3 COMPLETADO `
 **Evidencia Choque:** 
 ![alt text](image-2.png)
+---
 **Evidencia:** 
 ![alt text](image-1.png)
+**Descripcion:**
+Se hizo uso de lambda y de StringsBuffers y StringBuilders para tener lo que se pedia en las cadenas con ayuda de unas funciones mas
 
 ### Reto 4: `RETO 4 COMPLETADO`
 **Evidencia:** 
 ![alt text](image-6.png)
 ---
 ![alt text](image-7.png)
+**Descripcion:**
+Se usaron HashMaps , Hash tables para almacenar y para cumplir lo que se requeria nos apoyamos de las funciones de stream()
 
 ### Reto 5: `RETO 5 COMPLETADO `
 **Evidencia Choque:**
 ![alt text](image-5.png)
 **Evidencia:** 
 ![alt text](image-4.png)
-
+**Descripcion:**
+En base a la entrada de ejemplo que pedia el reto dependiendo de los numeros que entraran ya fueran multiplos de 3 o multiplos de 5, luego se unificaron eliminandos valores duplicados antes de imprimir.
+Se solucionaron diversos choques
 
 
 ### Reto 6: `RETO 6 COMPLETADO `
 
 **Evidencia:** 
 ![alt text](image-3.png)
-
+Gracias a la pista que se daba de lo que podia hacer Runnable luego de hacer los respectivos switch/case invocamos a las funciones con run() y para la salida usamos lambda.
 
 ### Preguntas Teoricas
 
