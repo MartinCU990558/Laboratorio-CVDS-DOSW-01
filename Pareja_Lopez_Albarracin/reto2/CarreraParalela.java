@@ -10,11 +10,15 @@ public class CarreraParalela {
         return numbers.stream().max(Integer::compare).get();
     }
 
-    public static Resultados combineResults(List<Integer> numbers) {
+    public static Resultados combineResults(List<Integer> numbers){
         int max = biggerNumber(numbers);
         int min = minimumNumber(numbers);
-        int cantidad = numbers.size();
-        return new Resultados(max, min, cantidad);
+        int n   = numbers.size();
+
+        boolean esDivisor = (2 % max == 0) ? true : false;
+
+        return new Resultados(max, min, n, esDivisor);
     }
+
 }
 
