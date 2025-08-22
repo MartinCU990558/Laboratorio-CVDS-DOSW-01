@@ -11,31 +11,31 @@
 ## Retos completados
 
 
-### Reto 1: RETO 1 COMPLETADO
+### Reto 1: `RETO 1 COMPLETADO`
 **Evidencia:** 
 ![alt text](image.png)
 
 
-### Reto 2: RETO 2 COMPLETADO
+### Reto 2: `RETO 2 COMPLETADO`
 **Evidencia:** 
 ![alt text](image-8.png)
 ---
 ![alt text](image-9.png)
 ---
 ![alt text](image-11.png)
-### Reto 3: RETO 3 COMPLETADO 
+### Reto 3: `RETO 3 COMPLETADO `
 **Evidencia Choque:** 
 ![alt text](image-2.png)
 **Evidencia:** 
 ![alt text](image-1.png)
 
-### Reto 4: RETO 4 COMPLETADO
+### Reto 4: `RETO 4 COMPLETADO`
 **Evidencia:** 
 ![alt text](image-6.png)
 ---
 ![alt text](image-7.png)
 
-### Reto 5: RETO 5 COMPLETADO 
+### Reto 5: `RETO 5 COMPLETADO `
 **Evidencia Choque:**
 ![alt text](image-5.png)
 **Evidencia:** 
@@ -43,7 +43,7 @@
 
 
 
-### Reto 6: RETO 6 COMPLETADO 
+### Reto 6: `RETO 6 COMPLETADO `
 
 **Evidencia:** 
 ![alt text](image-3.png)
@@ -81,8 +81,8 @@
 ---
 
 ### 5. ¿Para qué sirve git stash y git stash pop?
-- **git stash:** 
-- **git stash pop:** 
+- **git stash:** sirve para guardar temoralmente cambios en el directorio actual 
+- **git stash pop:** sirve para una vez guardados los cambios y si queremos incluirlos aplica los cambios almacenados y los elimina de la lista de cambios almacenados
 
 ---
 ### 6. ¿Qué diferencia hay entre HashMap y HashTable?
@@ -92,12 +92,12 @@
 ---
 
 ### 7. ¿Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
-- 
+- La ventaja que tiene en cuanto a los ciclos es mas versátil puesto que los flujos de datos pueden venir de cualquier fuente de datos y este los transforma fácilmente a lo que se quiera
 
 ---
 
 ### 8. Si usas List con objetos y luego aplicas stream().map(), ¿qué tipo de operación estás haciendo?
-- 
+- Se esta realizando una transformación que genera en la lista "nuevos" elementos
 
 ---
 
@@ -123,7 +123,7 @@
 ---
 
 ### 12. ¿Por qué es recomendable crear ramas `feature/` para nuevas funcionalidades en lugar de trabajar en `main` directamente?
-- 
+- Feature se usa para no generar conflictos de trabajo con nuestro equipo debido a que en estas lo que hacemos es desarrollar nuevas características de lo que queramos sin interferir en develop que es la rama principal en la que se integra todo lo desarrollado en feature.
 
 ---
 
