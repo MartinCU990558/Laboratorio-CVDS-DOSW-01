@@ -6,12 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="031174d9-955a-44a4-8f64-160c97711843" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Pareja_Lopez_Albarracin/reto2/CarreraParalela.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pareja_Lopez_Albarracin/reto2/CarreraParalela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pareja_Lopez_Albarracin/reto2/Resultados.java" beforeDir="false" />
+=======
+>>>>>>> feature/reto_carril_dos_Lopez_Albarracin_2025-2
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +40,11 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/reto__carril__dos__Lopez__Albarracin__2025-2",
+<<<<<<< HEAD
+    "git-widget-placeholder": "Merging feature/reto__numero__2__LopezJulian__AlbarracinSebastian__2025-2",
+=======
+    "git-widget-placeholder": "feature/reto__numero__2__LopezJulian__AlbarracinSebastian__2025-2",
+>>>>>>> feature/reto_carril_dos_Lopez_Albarracin_2025-2
     "kotlin-language-version-configured": "true"
   }
 }]]></component>

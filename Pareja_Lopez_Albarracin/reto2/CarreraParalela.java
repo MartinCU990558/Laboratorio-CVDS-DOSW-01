@@ -1,8 +1,18 @@
-
 package Pareja_Lopez_Albarracin.reto2;
+
+import java.util.Arrays;
 import java.util.List;
 
-public class CarreraParalela{
+public class CarreraParalela {
+    public class Main {
+    public static void main(String[] args) {
+        List<Integer> lista = Arrays.asList(5, 10, 2, 8, 20);
+
+        Resultados r = CarreraParalela.combineResults(lista);
+
+        System.out.println(r);
+    }
+}
     public static int biggerNumber(List<Integer> numbers) {
         return numbers.stream().max(Integer::compare).get();
     }
@@ -12,12 +22,16 @@ public class CarreraParalela{
     }
 
     public static Resultados combineResults(List<Integer> numbers){
-    int max = biggerNumber(numbers);
-    int min = minimumNumber(numbers);
-    int n   = numbers.size();
-    boolean esMultiplo = (max % 2 == 0) ? true : false;
+        int max = biggerNumber(numbers);
+        int min = minimumNumber(numbers);
+        int n   = numbers.size();
 
-    return new Resultados(max, min, n,esMultiplo);
-}
+        // Carril 1: verificar si el mayor es múltiplo de 2 (ternario)
+        boolean esMultiplo = (max % 2 == 0) ? true : false;
 
+        // Carril 2: verificar si el mayor es divisor de 2 (ternario)
+        boolean esDivisor = (2 % max == 0) ? true : false;
+
+        return new Resultados(max, min, n, esMultiplo, esDivisor);
+    }
 }
