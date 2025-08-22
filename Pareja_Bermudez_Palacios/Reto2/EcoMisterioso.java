@@ -1,4 +1,4 @@
-package Pareja_Bermudez_Palacios.Reto2;
+package Pareja_Bermudez_Palacios.Reto3;
 
 import java.util.function.Function;
 
