@@ -118,17 +118,15 @@ Finalmente, realizamos un `merge` de la rama principal del reto 6 con la rama pr
 ---
 
 ### ⦁ ¿Cuál es la diferencia entre `git merge` y `git rebase`?
-La diferencia principal que podemos encontrar es que `git rebase` nos va a dejar un historial más limpio y cuenta con capacidades de iteración rápida. Por otro lado, el `merge` sirve más para evidenciar, y es más útil cuando se necesita colaboración, transparencia y registros de auditoría.
-
+La diferencia principal que podemos encontrar es que el git rebase nos va a dejar un historial mas limpio y cuenta con capacidades de iteracion rapida. Por otro lado el merge sirve mas para evidenciar y es ma spara cuando se necesita colaboración, transparencia y los registros de auditoría
 ---
 
 ### ⦁ Si dos ramas modifican la misma línea de un archivo, ¿qué sucede al hacer `merge`?
-El principal problema que se va a presentar cuando sucede esto es que Git no puede determinar cuál de los dos cambios aceptar, por lo que va a generar un conflicto, el cual debe resolverse para luego hacer el `merge`.
-
+El principal problema que se va a presentar cuando suceda esto es que git no puede determinar cual de los dos cambios aceptar por lo que va a generar un conflicto, el cual debe resolverse para luego ahi si hacer el merge.
 ---
 
 ### ⦁ ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
-Para poder ver el historial de merge en la consola vamos a usar el comando: git log
+Para poder ver el historial de merge en la consola vamos a usar el comando git log y para ver el historial de ramas en consola usamos git log o en algunos casos git branchlog
 
 ---
 
@@ -136,19 +134,17 @@ Para poder ver el historial de merge en la consola vamos a usar el comando: git 
 ---
 
 ### ⦁ Explica la diferencia entre un `commit` y un `push`
-La diferencia principal es que `commit` trabaja en el repositorio local mientras que `push` lo hace con el repositorio remoto.
+La diferencia principal que podemos ver entre commit y push es que commit trabaja en el repositorio local mientras que mientras que el push lo hace con el repositorio remoto.
 
 ---
 
 ### ⦁ ¿Para qué sirve `git stash` y `git stash pop`?
-`git stash` almacena temporalmente los cambios no confirmados en el directorio de trabajo.  
-`git stash pop` aplica los cambios guardados en el stash y los elimina automáticamente.
+El git stash almacena los cambios temporalmente los cambios no confirmados en el directorio de trabajo y el pop lo que va a hacer es aplicar los cambios guardados en el stash y lo elimina automaticamente
 
 ---
 
 ### ⦁ ¿Qué diferencia hay entre `HashMap` y `HashTable`?
-- `HashTable` es mejor para aplicaciones multihilo ya que ofrece sincronización en sus métodos de acceso y modificación.
-- `HashTable` no permite llaves ni valores `null`, mientras que `HashMap` permite una llave `null` y múltiples valores `null`.
+La principal diferencia que podemos encontrar es que el HashTable es mejor para aplicaciones multihilo ya que esta es mejor por que ofrece sincronización en los métodos de acceso y mutación, que impedirán que dos hilos diferentes agreguen o eliminen de manera concurrente de la lista. Otra diferencia importante es que Hashtable no permite llaves o valores null, mientras que HashMap permite una llave y cualquier vantidad de valores null.
 
 ---
 
@@ -161,36 +157,26 @@ Las ventajas incluyen:
 ---
 
 ### ⦁ Si usas `List` con objetos y luego aplicas `stream().map()`, ¿qué tipo de operación estás haciendo?
-Estás haciendo una **operación de transformación**, aplicando una función que convierte cada elemento del stream original en otro elemento, posiblemente de otro tipo.
+Al hacer esto vamos a realizar una operacion de transformacion al tomar una función que transforma cada elemento del stream original en otro elemento, posiblemente de otro tipo.
 
 ---
 
 ### ⦁ ¿Qué hace el método `stream().filter()` y qué retorna?
-Este método **filtra** elementos de un stream según una condición lógica (`Predicate`).  
-Retorna un `Stream<T>` con solo los elementos que cumplen la condición.
+Este metodo lo que hace es filtrar elementos de un stream segun una condicion logica.
 
 ---
 
 ### ⦁ Describe el paso a paso de cómo crear una rama desde `develop` si es una funcionalidad nueva.
-1. Acceder al repositorio local.
-2. Ejecutar `git fetch` para traer los últimos cambios.
-3. Cambiar a la rama `develop`: `git checkout develop`
-4. Actualizarla: `git pull origin develop`
-5. Crear y cambiar a una nueva rama: `git checkout -b feature/nueva-funcionalidad`
+Primero vamos a acceder al repositorio local y lo actualizamos, luego cambiamos a la rama develop, la actualizamos con los cambios.
 
 ---
 
 ### ⦁ ¿Cuál es la diferencia entre crear una rama con `git branch` y con `git checkout -b`?
-- `git branch` **solo crea** la rama.
-- `git checkout -b` **crea y cambia automáticamente** a esa rama.
-
+La diferencia entre crear la rama con git brach y con git checkout -b es que al usar la segunda nos va a mover de manera inmediata a la rama una vez sea creada
 ---
 
 ### ⦁ ¿Por qué es recomendable crear ramas `feature/` para nuevas funcionalidades en lugar de trabajar en `main` directamente?
-Es recomendable para:
-- Evitar errores que puedan dañar la rama principal
-- Aislar cambios experimentales o en desarrollo
-- Facilitar la colaboración y revisión antes de integrarlos a `main`
+Es recomendable crear las ramas para evitar errores que pueden arruinar el main, esto se hace para generar garantias de que no se pierda trabajo avanzado o se dañe por cambios erroneos o cambios. Es mejor que si se hace un cambio sea en la rama, por si el cambio puede ser perjudicial
 
 ---
 
