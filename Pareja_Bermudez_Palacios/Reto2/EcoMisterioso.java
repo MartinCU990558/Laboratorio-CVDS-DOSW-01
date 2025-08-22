@@ -4,6 +4,7 @@ import java.util.function.Function;
 
 public class EcoMisterioso {
 
+
     public static String ecoMisterioso(String mensaje) {
         StringBuilder sb = new StringBuilder();
 
@@ -23,4 +24,5 @@ public class EcoMisterioso {
 
         String resultado = ecoLambda.apply("Hola");
         System.out.println(resultado); 
+    }
 }
