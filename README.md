@@ -21,17 +21,21 @@ Se implementó un programa en Java compuesto por tres clases: **Reto1**, **Stude
 <<<<<<< HEAD
 ### Reto 3: Commit colaborativo
 **Evidencia:**
-Ese programa define una clase llamada MgBuilder que contiene un método llamado repetirMensaje, el cual recibe un texto y lo repite exactamente tres veces separado por espacios. Para lograrlo utiliza un objeto StringBuilder, que va concatenando el mensaje dentro de un ciclo for que se ejecuta tres veces, añadiendo un espacio únicamente entre las repeticiones para que el resultado no quede con un espacio final extra. En el método main se llama a repetirMensaje("Hola"), y al imprimir el resultado en consola se muestra la frase "Hola Hola Hola".
+En este código se creó la clase EcoMisterioso, que define un método estático ecoMisterioso encargado de recibir un mensaje, repetirlo tres veces separado por espacios y luego invertir completamente la cadena resultante. Para ello, se utiliza un StringBuilder para concatenar las repeticiones y un StringBuffer para realizar la inversión. En el método main, se aprovecha una expresión lambda con Function<String, String> que apunta al método ecoMisterioso, y al aplicarla con el texto "Hola", se imprime en consola la cadena "aloH aloH aloH" invertida.
 ...
 
 ### Reto 4: Commit colaborativo
 **Evidencia:**
-![Captura](imagenes/reto2_log.png)
+En este código se implementa la clase `CofreTesoro`, la cual simula la unión de dos estructuras de datos diferentes (`HashMap` y `Hashtable`) para resolver el reto de las llaves duplicadas. El método **`construirHashMap`** recibe una lista de pares clave-valor y los guarda en un `HashMap`, ignorando claves repetidas conservando el primer valor encontrado; lo mismo hace **`construirHashTable`** pero con un `Hashtable`. Luego, **`unirMapas`** combina ambos mapas usando `Stream.concat`, y en caso de conflicto en las claves se priorizan los valores del `Hashtable`. Finalmente, el método **`mostrarTesoro`** transforma todas las claves a mayúsculas, ordena alfabéticamente los resultados y los imprime en consola. En el `main` se cargan listas de ejemplo y se ejecuta todo el proceso, mostrando el contenido final del “tesoro”.
+
 ...
 
 ### Reto 5: Commit colaborativo
 **Evidencia:**
-![Captura](imagenes/reto2_log.png)
+Este código implementa la clase BatallaConjuntos, donde se trabaja con dos tipos de conjuntos en Java: HashSet y TreeSet, para simular una "batalla".
+El método generarHashSet crea un conjunto con 10 números aleatorios entre 1 y 30, pero después filtra los que son múltiplos de 3.
+El método generarTreeSet hace lo mismo, pero usando un TreeSet y eliminando los múltiplos de 5.
+En el main, se generan ambos conjuntos, se combinan en un nuevo TreeSet llamado union (que garantiza el orden ascendente automático), y finalmente se imprimen los números resultantes, mostrando cada uno como si participara en una “arena de batalla”.
 ...
 ### Reto 6: Commit colaborativo
 **Evidencia:**
