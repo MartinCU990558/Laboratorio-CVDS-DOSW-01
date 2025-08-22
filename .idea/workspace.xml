@@ -4,60 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36eea0e9-68b0-4eba-9545-028d608188c0" name="Changes" comment="" />
+    <list default="true" id="031174d9-955a-44a4-8f64-160c97711843" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pareja_Lopez_Albarracin/reto2/CarreraParalela.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pareja_Lopez_Albarracin/reto2/CarreraParalela.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportToHTMLSettings">
-    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Laboratorio-CVDS-DOSW-01\exportToHTML" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="31X6etP0uK0jSpijWAM9beUhNhg" />
+  <component name="ProjectId" id="31ch2WjEx9Zd1RkVMYnJVKVRzee" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Reto1.executor": "Run",
-    "Application.Reto3.executor": "Run",
-    "Application.Reto5.executor": "Run",
-    "Application.java.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "reto__numero__4__LopezJulian__AlbarracinSebastian__2025-2",
+    "git-widget-placeholder": "feature/reto__carril__dos__Lopez__Albarracin__2025-2",
     "kotlin-language-version-configured": "true"
-=======
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Reto1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reto3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reto5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.java.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Sebastian__Albarracin__Reto4&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
->>>>>>> Sebastian_Albarracin_Reto4
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="36eea0e9-68b0-4eba-9545-028d608188c0" name="Changes" comment="" />
-      <created>1755658168722</created>
+      <changelist id="031174d9-955a-44a4-8f64-160c97711843" name="Changes" comment="" />
+      <created>1755829062187</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1755658168722</updated>
+      <updated>1755829062187</updated>
     </task>
     <servers />
   </component>
