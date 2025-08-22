@@ -40,7 +40,11 @@ public class CarreraParalela {
         int maximo = maximoNumero(numeros);
         int minimo = numeroMinimoCantidad(numeros);
         int cantidad = cantidadNumeros(numeros);
-        return new Resultados(maximo, minimo, cantidad);
+        boolean esMultiplo = esMultiploDeDos(maximo);
+        boolean esDivisor = numeroMayorEsDivisorDe2(maximo);
+        boolean esPar = cantidadEsPar(numeros);
+        boolean esImpar = calcularCantidadImpar(cantidad);
+        return new Resultados(maximo, minimo, cantidad, esDivisor, esMultiplo, esPar, esImpar);
     }
 
     static Resultados combinacion(List<Integer> lista1, List<Integer> lista2) {
@@ -80,4 +84,5 @@ public class CarreraParalela {
 
         System.out.println(resultados);
     }
+
 }
