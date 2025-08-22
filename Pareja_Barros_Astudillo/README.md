@@ -42,15 +42,19 @@ Reto 4:
 
 Como venia deciendo mi compañero se nos dificulto porder organizarnos en los mismos tiempos para poder hacer los commits y merge en conjunto por ende nos dividimos las actividades, de todas formas se hizo paso a paso
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 Reto 5:
 
 El orden en que estan los metodos son el orden en que se fue pidiendo cada requerimiento, el primero y el segundo son los metodos para eliminar mult de 3 y 5 y ya el tercer metodo es la union
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
+
+Reto 6:
 
 
+
+![alt text](images/image-2.png)
 
 
 Cuestionario:

@@ -10,34 +10,51 @@
 
 # Retos Completados
 
-(si no se ve en este README ver el otro)
-
 Reto 1:
 
-Evidencia: ![Reto 1](Pareja_Barros_Astudillo/images/image.png)
+Evidencia: ![Reto 1](images/image.png)
 
 Reto 2:
 
 Tuvimos problemas para trabajar juntos despues del laboratorio, asi que intente hacer la carrera por mi cuenta, en las imagenes se ve como resolvimos los conflictos.
 
-![alt text](Pareja_Barros_Astudillo/images/ImagenReto2Merge.png.png)
-![alt text](Pareja_Barros_Astudillo/images/ImagenReto2Merge1.png)
-![alt text](Pareja_Barros_Astudillo/images/ImagenReto2Merge1Resuelto.png)
-![git log](Pareja_Barros_Astudillo/images/gitLog.png)
+![alt text](images/ImagenReto2Merge.png.png)
+![alt text](images/ImagenReto2Merge1.png)
+![alt text](images/ImagenReto2Merge1Resuelto.png)
+![git log](images/gitLog.png)
 
 
 Reto 3:
 
 Tambien lo realizo solo una persona, pero creando ambas ramas y solucionando el conflicto del merge
 
-funcionamiento del buffer antes del merge ![alt text](Pareja_Barros_Astudillo/images/Buffer1.png)
+funcionamiento del buffer antes del merge ![alt text](images/Buffer1.png)
 
-funcionamiento del builder antes del merge ![alt text](Pareja_Barros_Astudillo/images/Builder1.png)
+funcionamiento del builder antes del merge ![alt text](images/Builder1.png)
 
-conflicto en el merge ![alt text](Pareja_Barros_Astudillo/images/Reto3MergeConflicto.png)
+conflicto en el merge ![alt text](images/Reto3MergeConflicto.png)
 
 
-solucion del conflicto merge ![alt text](Pareja_Barros_Astudillo/images/respuestaReto3.png.png)
+solucion del conflicto merge ![alt text](images/respuestaReto3.png)
+
+
+Reto 4:
+
+Como venia deciendo mi compañero se nos dificulto porder organizarnos en los mismos tiempos para poder hacer los commits y merge en conjunto por ende nos dividimos las actividades, de todas formas se hizo paso a paso
+
+![alt text](images/image.png)
+
+Reto 5:
+
+El orden en que estan los metodos son el orden en que se fue pidiendo cada requerimiento, el primero y el segundo son los metodos para eliminar mult de 3 y 5 y ya el tercer metodo es la union
+
+![alt text](images/image-1.png)
+
+Reto 6:
+
+
+
+![alt text](images/image-2.png)
 
 
 Cuestionario:
@@ -78,6 +95,7 @@ Con git branch solo se crea la rama nueva, no se cambia a la rama que acaba de c
 
 12.	¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente?
 Primero porque asi se evita arruinar el codigo principal asegurandome que el main siempre funciona, se pueden trabajar en multiples funcionalidades nuevas al tiempo, se puede hacer rollback si hay problemas
+
 
 ...
 ---
