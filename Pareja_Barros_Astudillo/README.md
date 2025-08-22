@@ -44,6 +44,13 @@ Como venia deciendo mi compañero se nos dificulto porder organizarnos en los mi
 
 ![alt text](image.png)
 
+Reto 5:
+
+El orden en que estan los metodos son el orden en que se fue pidiendo cada requerimiento, el primero y el segundo son los metodos para eliminar mult de 3 y 5 y ya el tercer metodo es la union
+
+![alt text](image-1.png)
+
+
 
 
 Cuestionario:
