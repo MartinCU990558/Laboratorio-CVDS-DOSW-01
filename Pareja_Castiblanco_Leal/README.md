@@ -23,6 +23,7 @@ Julian tuvo un problema con IntelliJ debido a que la carpeta del repositorio con
 En la imagen se observa el reto 1 finalizado, para ello lo que hicimos fue crear dos clases super sencillas que son Estudiante y Mensaje. En estudiante pusimos todos los datos que se necesitan para el problema junto con sus respectivos getters y setters al igual que un toString() para entregar el texto en un formato en específico. En la clase de Mensaje creamos un método main para poder ejecutar y una lista donde almancenar a los estudiantes de tal manera que luego usando stream imprimimos el mensaje.
 
 <img width="961" height="1150" alt="image" src="https://github.com/user-attachments/assets/db01218c-8f72-4c4a-98cc-6bbc52939ddc" />
+<img width="881" height="398" alt="image" src="https://github.com/user-attachments/assets/1c4a6e48-05ab-4e3c-8a4c-6bd739e2682d" />
 
 ### Reto 2:
 ***Evidencia***
@@ -33,6 +34,9 @@ En la imagen se observa el reto 1 finalizado, para ello lo que hicimos fue crear
 En las imágenes podemos ver el resultado de la ejecución de git log --oneline, de tal forma que vemos cada commit realizado para llegar al cumplimiento del reto. Cada uno de nosotros trabajó en una subrama diferente y fuimos haciendo merge conforme avanzabamos en los pasos.
 
 Al final, tuvimos que solucionar varios conflictos de merge quitando los caracteres que se generaban y limpiado la carpeta .idea que nos generaba conflicto a la hora de hacer el push.
+
+<img width="1194" height="1080" alt="image" src="https://github.com/user-attachments/assets/307da53e-2a37-4add-b271-edf9d5fde772" />
+<img width="1183" height="381" alt="image" src="https://github.com/user-attachments/assets/2a7a57a7-7a03-4591-a143-2237570ab2e6" />
 
 ### Reto 3:
 ***Evidencia***
@@ -46,6 +50,8 @@ En la segunda foto observamos el resultado del otro programa que tocaba realizar
 
 Ahora bien, en la última foto, podemos ver el compendio de la unión de los dos códigos realizados en la rama principal, se nos presentaron conflictos de merge los cuales solucionamos de forma manual y al igual que en el reto anterior, borrando la carpeta .idea para poder realizar el commit y el push.
 
+<img width="746" height="575" alt="image" src="https://github.com/user-attachments/assets/22b21341-b38e-4cc9-8970-ebb18590c18c" />
+
 ### Reto 4:
 ***Evidencia***
 
@@ -53,12 +59,17 @@ Ahora bien, en la última foto, podemos ver el compendio de la unión de los dos
 
 En la imagen podemos evidenciar el resultado de imprimir el HashMap y el HashTahble bajo las indicaciones dadas, manteniendo como prioridad los valores del HashTable en caso de duplicados. De igual forma, vemos como las claves de cada una de las estructuras ahora se escriben con mayúscula gracias a la función que creamos usando stream para pasar solo las claves de mayúscula a minúscula.
 
+<img width="936" height="859" alt="image" src="https://github.com/user-attachments/assets/6bedb142-fabd-4a2d-bc4a-a20b0ed0b256" />
+<img width="1289" height="709" alt="image" src="https://github.com/user-attachments/assets/7e389586-b17e-4d5f-bcba-9682f3f9c8b0" />
+
 ### Reto 5:
 ***Evidencia***
 
 ![Captura](images/Reto5.png)
 
-En la imagen vemos cual es el resultado final que e obtuvo al generar ambos "ejercitos" basados en ciertas como condiciones como que elimine los múltiplos de 3 del HashMap y los múltiplos de 5 del TreeMap, de igual forma luego vemos la unión de ambos "ejercitos" para la batalla organizados de forma ascendente. 
+En la imagen vemos cual es el resultado final que e obtuvo al generar ambos "ejercitos" basados en ciertas como condiciones como que elimine los múltiplos de 3 del HashMap y los múltiplos de 5 del TreeMap, de igual forma luego vemos la unión de ambos "ejercitos" para la batalla organizados de forma ascendente.
+
+<img width="721" height="1038" alt="image" src="https://github.com/user-attachments/assets/b8244e02-cbd6-499b-9690-57b5efa18248" />
 
 ### Reto 6:
 ***Evidencia***
@@ -66,6 +77,8 @@ En la imagen vemos cual es el resultado final que e obtuvo al generar ambos "eje
 ![Captura](images/reto6.png)
 
 En la imagen podemos ver el resultado de la ejecución de los comandos de forma correcta haciendo uso de un swtich para alternar entre cada comando. De igual forma se utilizo la pista del profesro para poder utiizar el run() y crear una función que monstrara cada uno de los String necesarios según el caso.
+
+<img width="1207" height="997" alt="image" src="https://github.com/user-attachments/assets/4cc16c61-0dcb-4e97-8b0a-ed5ab50ade0c" />
 
 ---
 ## Respuesta Preguntas
