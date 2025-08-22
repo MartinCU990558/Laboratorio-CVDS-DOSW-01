@@ -1,4 +1,5 @@
 package reto5;
+
 import java.util.HashSet;
 import java.util.Random;
 import java.util.TreeSet;
@@ -18,6 +19,17 @@ public class SetBattle {
         return numeros;
     }
 
+    private static TreeSet randomNumbersOrdered(int amount) {
+        TreeSet<Integer> numeros = new TreeSet<>();
+        Random random = new Random();
+
+        while (numeros.size() < amount) {
+            int num = random.nextInt(51);
+            numeros.add(num);
+        }
+
+        return numeros;
+    }
 
     public static HashSet generateHashSet() {
         HashSet<Integer> numberHashSet = randomNumbers(20);
@@ -26,6 +38,21 @@ public class SetBattle {
                 .collect(Collectors.toCollection(HashSet::new));
     }
 
+    // DANIEL
+    public static TreeSet generateTreeSet() {
+        TreeSet<Integer> numberTreeSet = randomNumbersOrdered(20);
+        return numberTreeSet.stream()
+                .filter(n -> n % 5 != 0)
+                .collect(Collectors.toCollection(TreeSet::new));
+    }
 
+    // AMBOS
+    public static TreeSet unifySets(HashSet hash, TreeSet tree) {
+        TreeSet<Integer> union = new TreeSet<>();
+        union.addAll(hash);
+        union.addAll(tree);
+        return union;
+    }
 }
+
 
