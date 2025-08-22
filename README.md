@@ -17,11 +17,38 @@ Realizamos tres clases (Estudiante, Mensaje y Reto1) y, apoyándonos en herramie
 
 ## Reto 2:  Carrera en paralelo
 
-Creamos los metodos correspondientes (calcularMaximo, calcularMinimo y analizar)
+Creamos los metodos correspondientes (calcularMaximo, calcularMinimo y analizar) utilizando nuevas funciones como el if ternario para hacer una comparativa utilizando menos código.
+<img width="1870" height="981" alt="image" src="https://github.com/user-attachments/assets/ec24963b-ef85-4c35-852b-279285870726" />
+Funcionamiento del código
+<img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/9043dee4-e9c2-41dc-bee4-ba3fb89ce255" />
+
+
+## Reto 3: El eco misterioso
+
+En este programa se trabajan tres formas distintas de modificar un mensaje. La primera idea es repetir el texto varias veces como si fuera un eco. Después, se toma ese mensaje y se invierte para que se lea al revés. Para lograrlo, el código usa herramientas que permiten construir y manipular cadenas de texto paso a paso. Al final, en el método principal se imprime un ejemplo con la palabra "Saludos", mostrando cómo cambia cuando pasa por estas transformaciones.
+
+<img width="1460" height="805" alt="image" src="https://github.com/user-attachments/assets/e9057d5f-e379-4db2-b97d-5418b9d3dc48" />
+
+Funcionamineto del código
+
+<img width="1866" height="986" alt="image" src="https://github.com/user-attachments/assets/48e20c4c-14d0-4e90-8a7b-9a30b7da6012" />
+
 
 ## Reto 4: El tesoro de las llaves duplicadas
 ![alt text](<Captura de pantalla de 2025-08-21 00-30-44.png>)
 Seguimos la guía paso a paso, utilizando expresiones lambda y streams. Realizamos cada commit y merge de manera ordenada, resolviendo manualmente los conflictos tanto en los archivos con el mismo nombre como en el último merge para crear la función completa.
+
+## Reto 5: Batalla de conjuntos 
+
+Este programa toma dos listas de números y las organiza de una forma especial. Primero, elimina de la primera lista todos los números que sean múltiplos de 3 y de la segunda lista los múltiplos de 5. Después, une los resultados en una sola colección que no repite valores y que además los acomoda en orden. Al final, se muestran los números que lograron “pasar el filtro”, como si fueran los seleccionados que quedan en la arena.
+
+<img width="1817" height="888" alt="image" src="https://github.com/user-attachments/assets/0c900f2f-5343-4fa5-a27c-6a3a4bd0f788" />
+
+Funcionamineto del código
+
+<img width="1879" height="677" alt="image" src="https://github.com/user-attachments/assets/ddad2919-34c5-496b-aa77-6831aed72cc9" />
+
+
 
 ## Reto 6: La maquina de decisones
 ![alt text](<Captura de pantalla de 2025-08-21 20-16-17.png>)
