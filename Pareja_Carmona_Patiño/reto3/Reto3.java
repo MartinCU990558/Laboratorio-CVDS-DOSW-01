@@ -6,5 +6,13 @@ public class Reto3 {
         String resultado = repetirTresVeces.apply("Hello World");
         System.out.println(resultado);
 
+        String mensaje = "Hello World";
+        String resultadoReverso = MsgBuilder.reverseMessage(mensaje);
+        System.out.println(resultadoReverso);
+
+        String msg = "Hello World";
+        String invertedAndRepeatedMessage = MsgBuilder.combineFunctions(msg);
+        System.out.println(invertedAndRepeatedMessage);
+
     }
 }
