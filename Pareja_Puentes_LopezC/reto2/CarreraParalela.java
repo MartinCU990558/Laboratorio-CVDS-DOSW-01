@@ -14,8 +14,16 @@ public class CarreraParalela {
     static int numeroMinimoCantidad(List<Integer> numeros){
         return numeros.stream().min(Integer::compare).get();
     }
-
-
+    static boolean multiplodedos(List<Integer> numeros){
+        int maximo = maximoNumero(numeros);
+        if (maximo % 2 == 0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    
     static Resultados combinacion(List<Integer> numeros) {
         int maximo = maximoNumero(numeros);
         int minimo = numeroMinimoCantidad(numeros);
