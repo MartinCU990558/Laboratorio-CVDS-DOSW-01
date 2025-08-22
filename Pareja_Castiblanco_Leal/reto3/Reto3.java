@@ -1,4 +1,4 @@
-package Pareja_Castiblanco_Leal.reto3;
+package reto3;
 
 import java.util.function.Function;
 import java.util.stream.IntStream;

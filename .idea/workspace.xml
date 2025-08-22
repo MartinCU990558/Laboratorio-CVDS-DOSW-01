@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6d6c327-359d-4306-bcbb-c83fc64f228b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto1/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto1/Estudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto1/Mensaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto1/Mensaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto2/CarreraParalela.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto2/CarreraParalela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto3/Reto3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto3/Reto3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto4/Reto4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto4/Reto4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto6/Reto6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pareja_Castiblanco_Leal/reto6/Reto6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +40,7 @@
   "keyToString": {
     "Application.Reto4.executor": "Run",
     "Application.Reto5.executor": "Run",
+    "Application.Reto6.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "feature/CastiblancoJulian__LealJuan__2025-2",
@@ -42,7 +48,7 @@
     "last_opened_file_path": "C:/Users/juan.lcruz/Desktop/Laboratorio-CVDS-DOSW-01"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Reto5">
+  <component name="RunManager" selected="Application.Reto6">
     <configuration name="Reto4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pareja_Castiblanco_Leal.reto4.Reto4" />
       <module name="Laboratorio-CVDS-DOSW-01" />
@@ -69,8 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reto6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reto6.Reto6" />
+      <module name="Laboratorio-CVDS-DOSW-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reto6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reto6" />
         <item itemvalue="Application.Reto5" />
         <item itemvalue="Application.Reto4" />
       </list>

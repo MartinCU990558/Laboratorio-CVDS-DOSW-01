@@ -1,4 +1,4 @@
-package Pareja_Castiblanco_Leal.reto1;
+package reto1;
 
 public class Estudiante{
     private String name;

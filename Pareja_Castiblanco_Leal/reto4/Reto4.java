@@ -1,4 +1,4 @@
-package Pareja_Castiblanco_Leal.reto4;
+package reto4;
 
 import java.util.HashMap;
 import java.util.Hashtable;

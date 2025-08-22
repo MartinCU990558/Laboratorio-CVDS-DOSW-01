@@ -1,4 +1,4 @@
-package Pareja_Castiblanco_Leal.reto2;
+package reto2;
 
 import java.util.ArrayList;
 import java.util.List;

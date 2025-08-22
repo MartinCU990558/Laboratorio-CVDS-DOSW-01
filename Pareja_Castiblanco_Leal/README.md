@@ -61,6 +61,10 @@ En la imagen vemos cual es el resultado final que e obtuvo al generar ambos "eje
 ### Reto 6:
 ***Evidencia***
 
+![Captura](images/reto6.png)
+
+En la imagen podemos ver el resultado de la ejecución de los comandos de forma correcta haciendo uso de un swtich para alternar entre cada comando. De igual forma se utilizo la pista del profesro para poder utiizar el run() y crear una función que monstrara cada uno de los String necesarios según el caso.
+
 ---
 ## Respuesta Preguntas
 
