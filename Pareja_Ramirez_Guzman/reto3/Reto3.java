@@ -1,22 +1,35 @@
-import java.util.stream.*;
+import java.util.function.Function;
+import java.util.stream.IntStream;
+
 public class Reto3 {
 
-    public static String ecoConBuilder(String mensaje) {
-        String resultado = IntStream.range(0, 3)
-                .mapToObj(i -> mensaje)
-                .collect(Collectors.joining(" "));
+    public static String ecoBuffer(String mensaje) {
+        StringBuffer sb = new StringBuffer(mensaje);
+        return sb.reverse().toString();
+    }
 
-        StringBuilder sb = new StringBuilder();
-        sb.append(resultado);
+    public static String ecoMisterioso(String mensaje) {
+        Function<String, String> repetirTresVeces = msg ->
+                IntStream.range(0, 3)
+                        .mapToObj(i -> msg)
+                        .reduce((a, b) -> a + " " + b)
+                        .get();
 
-        return sb.toString();
+        String repetido = repetirTresVeces.apply(mensaje);
+
+
+        StringBuffer sb = new StringBuffer(repetido);
+        return sb.reverse().toString();
     }
 
     public static void main(String[] args) {
-        java.util.function.Function<String, String> funcionBuilder = Reto3::ecoConBuilder;
+        Function<String, String> ecoConBuffer = Reto3::ecoBuffer;
 
-        String mensaje = "Soy el tercer reto";
-        System.out.println("Eco con Builder: " + funcionBuilder.apply(mensaje));
+        System.out.println("Eco Buffer: " + ecoConBuffer.apply("Soy el reto 3"));
+
+        Function<String, String> ecoFinal = Reto3::ecoMisterioso;
+
+        System.out.println("Eco Misterioso: " + ecoFinal.apply("Soy el reto 3"));
     }
 }
 
