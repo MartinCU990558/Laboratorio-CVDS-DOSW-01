@@ -17,7 +17,7 @@ public class Main {
 
         Hashtable<String, Integer> hashTable = new Hashtable<>();
         hashTable.put("plata", 8);
-        hashTable.put("rubí", 4);
+        hashTable.put("rubi", 4);
         hashTable.put("oro", 12);
         hashTable.put("esmeralda", 6);
 
