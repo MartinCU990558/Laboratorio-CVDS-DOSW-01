@@ -39,7 +39,7 @@ public class CarreraParalela {
         datos[2] = hallarMinimoYNumeroTotalDeDatos(numeros)[1];
         datos[3] = (encontrarNumMayor(numeros) % 2 == 0) ? 1 : 0;
         datos[4] = (2 % encontrarNumMayor(numeros) == 0) ? 1 : 0;
-        datos[5] = numeros.size() % 2 != 0 ? 1 : 0;
+        datos[5] = (numeros.size() % 2 == 0) ? 1 : 0;
         return datos;
 
     }
