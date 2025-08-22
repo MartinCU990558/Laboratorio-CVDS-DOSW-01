@@ -23,11 +23,19 @@ public class Reto4 {
         combinateMap.putAll(hashTable);
         return combinateMap;
     }
-
     public static void imprimirOrdenado(Map<String, Integer> mapa) {
         mapa.entrySet().stream()
                 .sorted(Map.Entry.comparingByKey())
                 .forEach(e -> System.out.println("Clave: " + e.getKey() + " | Valor: " + e.getValue()));
+    }
+
+
+    public static Map<String, Integer> convertToMayus(Map<String, Integer> mapa) {
+        Map<String, Integer> mapMayus = new HashMap<>();
+        for (Map.Entry<String, Integer> e : mapa.entrySet()) {
+            mapMayus.put(e.getKey().toUpperCase(), e.getValue());
+        }
+        return mapMayus;
     }
 
 }
