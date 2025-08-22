@@ -26,4 +26,3 @@ Creamos la rama feature/reto_numero_1_ChavarroDiego_FiquitivaAna_2025-2 a partir
 
 ---
 
-
