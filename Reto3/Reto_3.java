@@ -19,4 +19,16 @@ public class Reto_3 {
         return sbf.reverse().toString();
     }
 
+    public static String ecoMensaje(String mensaje) {
+        String repetido = IntStream.range(0, 3).mapToObj(i -> mensaje).collect(Collectors.joining(" "));
+
+        StringBuilder sb = new StringBuilder(repetido);
+        StringBuffer sbf = new StringBuffer(sb.toString());
+        return sbf.reverse().toString();
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Entrada: Saludos ");
+        System.out.println("Salida:  " + ecoMensaje("Saludos"));
+    }
 }
