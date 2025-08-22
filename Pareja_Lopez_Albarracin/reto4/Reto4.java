@@ -18,6 +18,13 @@ public class Reto4 {
     for (Map.Entry<String, Integer> par : list) {
         map.putIfAbsent(par.getKey(), par.getValue());
     }
-    return map;
+        return map;
+
+    }
+
+    public static Map<String, Integer> combinateStructures(Map<String, Integer> hashMap, Map<String, Integer> hashTable) {
+        Map<String, Integer> combinateMap = new HashMap<>(hashMap);
+        combinateMap.putAll(hashTable);
+        return combinateMap;
     }
 }
