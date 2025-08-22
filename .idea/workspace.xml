@@ -25,6 +25,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Reto1.executor": "Run",
@@ -35,8 +36,20 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "reto__numero__4__LopezJulian__AlbarracinSebastian__2025-2",
     "kotlin-language-version-configured": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Reto1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reto3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reto5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Sebastian__Albarracin__Reto4&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+>>>>>>> Sebastian_Albarracin_Reto4
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
