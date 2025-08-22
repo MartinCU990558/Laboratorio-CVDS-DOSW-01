@@ -20,4 +20,10 @@ public class MsgBuilder {
         StringBuffer sb = new StringBuffer(msg);
         return sb.reverse().toString();
     }
+
+    public static String combineFunctions(String msg) {
+        String repeatedMessage = buildMessage(msg);
+        String invertedMessage = reverseMessage(repeatedMessage);
+        return invertedMessage;
+    }
 }
