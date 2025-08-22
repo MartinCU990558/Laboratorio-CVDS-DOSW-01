@@ -29,7 +29,7 @@ Creamos la rama feature/reto_numero_1_ChavarroDiego_FiquitivaAna_2025-2 a partir
 
 **Evidencia:**
 
-![Captura](reto4_solucion.png)
+![Captura](reto4_solucion.jpg)
 
 Este reto se centro en la colaboración y resolución de conflictos al fusionar dos implementaciones de mapas, una usando `HashMap` y otra usando `Hashtable`. 
 
