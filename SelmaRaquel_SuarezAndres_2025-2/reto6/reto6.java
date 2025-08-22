@@ -1,13 +1,13 @@
-package SelmaRquel_SuarezAndres_2025.reto3;
+package SelmaRquel_SuarezAndres_2025.reto6;
 
 import java.util.*;
 
-public class Reto6 {
+public class reto6 {
 
     private final Map<String, Runnable> comandos = new HashMap<>();
 
-    public Reto6() {
-        // Registrar acciones con lambdas
+    public reto6() {
+
         registrar("SALUDAR", () -> System.out.println("La máquina dice: ¡Saludos, viajero del tiempo y del código!"));
         registrar("DESPEDIR", () -> System.out.println("La máquina dice: Que los bits te acompañen, hasta la próxima misión."));
         registrar("CANTAR", () -> System.out.println("La máquina canta: 01010101"));
@@ -22,3 +22,23 @@ public class Reto6 {
     private void registrar(String clave, Runnable accion) {
         comandos.put(clave, accion);
     }
+
+    public void ejecutarComando(String cmd) {
+
+        switch (cmd) {
+            case "SALUDAR": case "DESPEDIR": case "CANTAR": case "DANZAR":
+            case "BROMEAR": case "GRITAR": case "SUSURRAR": case "ANALIZAR":
+                Optional.ofNullable(comandos.get(cmd)).ifPresent(Runnable::run);
+                break;
+            default:
+                System.out.println("Comando no reconocido: " + cmd);
+        }
+    }
+
+    public static void main(String[] args) {
+        reto6 m = new reto6();
+
+        List.of("SALUDAR","BROMEAR","ANALIZAR","DANZAR","DESPEDIR","GRITAR","SUSURRAR","CANTAR")
+                .forEach(m::ejecutarComando);
+    }
+}
