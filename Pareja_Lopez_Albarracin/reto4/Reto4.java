@@ -19,7 +19,6 @@ public class Reto4 {
         map.putIfAbsent(par.getKey(), par.getValue());
     }
         return map;
-
     }
 
     public static Map<String, Integer> combinateStructures(Map<String, Integer> hashMap, Map<String, Integer> hashTable) {
