@@ -39,4 +39,37 @@ public class Reto4 {
         return combinado;
     }
 
+    public HashMap<String, Integer> convertirClavesAMayusculas(HashMap<String, Integer> combinadoToUpperCase){
+        return combinadoToUpperCase.entrySet()
+                .stream()
+                .collect(Collectors.toMap(
+                        e -> e.getKey().toUpperCase(),
+                        Map.Entry::getValue,
+                        (v1, v2) -> v1,
+                        HashMap::new
+                ));
+
+
+    }
+
+    public HashMap<String, Integer> organizarClavesAscendente(HashMap<String, Integer> combinadoToUpperCase) {
+        return combinadoToUpperCase.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByKey())
+                .collect(Collectors.toMap(
+                        Map.Entry::getKey,
+                        Map.Entry::getValue,
+                        (v1, v2) -> v1,
+                        LinkedHashMap::new
+                ));
+    }
+
+    public HashMap<String, Integer> superHashMap(Hashtable<String, Integer> tabla, HashMap<String, Integer> mapa) {
+        HashMap<String, Integer> combinado = combinarHasTableYHashMap(tabla, mapa);
+        HashMap<String, Integer> combinadoToUpperCase = convertirClavesAMayusculas(combinado);
+        HashMap<String, Integer> hashMapFinal = organizarClavesAscendente(combinadoToUpperCase);
+
+        return hashMapFinal;
+    }
+
 }
