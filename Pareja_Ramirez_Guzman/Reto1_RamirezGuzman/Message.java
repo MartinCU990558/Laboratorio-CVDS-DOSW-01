@@ -1,4 +1,4 @@
-package Pareja_Ramirez_Guzman.Reto1 - RamirezGuzman;
+package Pareja_Ramirez_Guzman.Reto1_RamirezGuzman;
 
 /**
  * Corresponde al objeto mensaje.
