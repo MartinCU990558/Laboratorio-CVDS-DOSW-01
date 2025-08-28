@@ -7,24 +7,80 @@ feature/RamirezJulian_GuzmanDeisy_2025-2
 
 ## Retos Completados
 
+- Se decidió dividir el trabajo de los retos por a parte, dado
+que era complejo realizar las contribuciones en simultáneo como
+lo pidió el profesor. 
+
 ### Reto 1: 
-Se creó la rama independiente 'feature/Ramirez_Guzman_reto1' para 
-trabajar en el reto y, a la vez, evitar posibles conflictos con 
-los demás grupos.
+Para la solución del reto #1, se trabajó a partir de una lista
+de estudiantes constituida por el objeto estudiante, donde cada
+uno cuenta con su nombre, edad, correo y semestre.
+Del mismo modo se generó una lista de mensajes para así poder 
+darlos a conocer a través del texto de presentación como lo sugería 
+el enunciado.
 ![Evidencia Reto 1](RamirezGuzmanAssets/image-reto1.png)
 
 ### Reto 2:
-Se implementó una labor similar con el reto numero dos. Usando
-una rama independiente para solucionar el problema propuesto.
+Para satisfacer la solicitud del enunciado del reto 2, se creó la clase
+'NumberClassifier'. Aquella que cumple la función de (precisamente) clasificar
+los números pertenecientes a las listas a analizar. Dicha clase contiene los métodos
+(soportados por la API Stream de Java) que permitirán encontrar el valor máximo y mínimo 
+de los arreglos en conjunto a su condición de paridad, tal y como lo solicitó el inciso
+número dos.
 ![Evidencia Reto 2](RamirezGuzmanAssets/image-reto2.png)
 
+### Reto 3:
+
+En este reto se crearon dos métodos principales para cumplir con los requisitos:
+
+Método con StringBuilder
+
+Se creó un método que recibe un mensaje y lo repite 3 veces concatenado con espacios.
+Para lograrlo, se implementó un StringBuilder en conjunto con stream(), generando las repeticiones mediante IntStream.range y uniendo el resultado con Collectors.joining(" ").
+
+Método con StringBuffer
+
+Se creó un método que recibe un mensaje y lo invierte.
+Se implementó StringBuffer aprovechando el método reverse(), lo que permitió cumplir con la parte de seguridad en hilos.
+
+Método combinado
+
+Ambos métodos usaron el mismo nombre, lo que generó un conflicto en el merge.
+Se resolvió el conflicto creando una versión final que primero repite el mensaje 3 veces con StringBuilder y luego aplica la inversión con StringBuffer.
+Uso de lambda y streams
+Se implementó una función lambda para invocar los métodos de forma compacta.
+Se utilizó stream() para manejar las repeticiones, garantizando una solución declarativa y eficiente.
+![img.png](img.png)
+
 ### Reto 4:
-Mismo caso de rama independiente. 
+Se crearon las dos estructuras de los dos mapas del tesoro distintos (HashMap y HashTable). 
+Se insertaron los elementos de cada mapa (aportados por la entrada expuesta en el inciso) para
+después realizar la fusión entre estos y sobreescribiendo los valores según el caso.
 ![Evidencia Reto 4](RamirezGuzmanAssets/image-reto4.png)
 
+### Reto 5:
+En este reto se crearon dos métodos principales que representan a cada estudiante:
+
+HashSet (Estudiante A)
+Se creó un método que genera 10 números aleatorios sin orden.
+Se implementó un filtro con stream().filter() para eliminar los múltiplos de 3.
+
+TreeSet (Estudiante B)
+Se creó un método que genera 10 números aleatorios en orden ascendente.
+Se implementó un filtro con stream().filter() para eliminar los múltiplos de 5.
+
+Unión de conjuntos
+
+Se creó una colección final con TreeSet que unió los dos conjuntos en una sola estructura ordenada.
+Esta unión eliminó automáticamente los duplicados.
+
+Impresión con lambda
+
+Se utilizó forEach con una función lambda para mostrar los resultados en pantalla, siguiendo el formato pedido.
+
 ### Reto 6:
-Ejerciendo una rama independiente (de nuevo) para el reto se
-concretó la solución requerida.
+Con la ayuda del switch case y las expresiones lambda, se consiguió definir cada uno de los casos
+asociados al comportamiento de la máquina del reto numero seis. 
 ![Evidencia Reto 6](RamirezGuzmanAssets/image-reto6.png)
 
 ### NOTA EN RELACIÓN A LOS AJUSTES POSTERIORES A LA ENTREGA:
